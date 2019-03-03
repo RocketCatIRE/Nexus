@@ -299,7 +299,7 @@ nex.rooms = {
       "22":{"dir":"east",},
       "23":{"dir":"south",},
       "18":{"dir":"west",},
-      "3619":{"dir":"northwest","door"="1"},
+      "3619":{"dir":"northwest","door":"1"},
          }
    },
    "20" : {"area":"2","title":"A dingy boardinghouse","environment":"5","exits": {      
@@ -1760,7 +1760,7 @@ nex.rooms = {
          }
    },
    "317" : {"area":"6","title":"Beneath the edifices of the refineries","environment":"2","exits": {      
-      "1498" tgarea="21":{"dir":"north",},
+      "1498" :{"tgarea":"21","dir":"north",},
       "313":{"dir":"east",},
       "318":{"dir":"northwest",},
          }
@@ -1788,7 +1788,7 @@ nex.rooms = {
    },
    "309" : {"area":"6","title":"A sleek hangar","environment":"26","exits": {      
       "307":{"dir":"north",},
-      "4088":{"dir":"south","door"="1"},
+      "4088":{"dir":"south","door":"1"},
          }
    },
    "308" : {"area":"6","title":"A hangar by the desert","environment":"26","exits": {      
@@ -1848,11 +1848,11 @@ nex.rooms = {
    },
    "328" : {"area":"6","title":"Entrance to the junkyard","environment":"47","exits": {      
       "327":{"dir":"east",},
-      "329":{"dir":"west","door"="1"},
+      "329":{"dir":"west","door":"1"},
          }
    },
    "329" : {"area":"6","title":"A cluttered junkyard","environment":"48","exits": {      
-      "328":{"dir":"east","door"="1"},
+      "328":{"dir":"east","door":"1"},
       "330":{"dir":"south",},
       "331":{"dir":"southwest",},
          }
@@ -2061,7 +2061,7 @@ nex.rooms = {
       "4096":{"dir":"northeast",},
       "1479":{"dir":"east",},
       "370":{"dir":"southwest",},
-      "372":{"dir":"west","door"="1"},
+      "372":{"dir":"west","door":"1"},
          }
    },
    "370" : {"area":"8","title":"Approaching the Lower City","environment":"5","exits": {      
@@ -2074,12 +2074,12 @@ nex.rooms = {
          }
    },
    "372" : {"area":"8","title":"A maintenance airlock","environment":"5","exits": {      
-      "371":{"dir":"east","door"="1"},
-      "373":{"dir":"west","door"="1"},
+      "371":{"dir":"east","door":"1"},
+      "373":{"dir":"west","door":"1"},
          }
    },
    "373" : {"area":"8","title":"Traversing the ocean floor","environment":"6","exits": {      
-      "372":{"dir":"east","door"="1"},
+      "372":{"dir":"east","door":"1"},
       "374":{"dir":"west",},
          }
    },
@@ -2244,7 +2244,7 @@ nex.rooms = {
    "408" : {"area":"4","title":"Market District","environment":"2","exits": {      
       "419":{"dir":"northeast",},
       "302":{"dir":"east",},
-      "6790":{"dir":"southwest","door"="1"},
+      "6790":{"dir":"southwest","door":"1"},
       "407":{"dir":"northwest",},
          }
    },
@@ -2483,12 +2483,12 @@ nex.rooms = {
          }
    },
    "3703" : {"area":"4","title":"Recessed doorway of a Zenith Ventures building","environment":"5","exits": {      
-      "3702":{"dir":"north","door"="1"},
+      "3702":{"dir":"north","door":"1"},
       "301":{"dir":"south",},
          }
    },
    "3702" : {"area":"4","title":"A dimly lit front office","environment":"5","exits": {      
-      "3703":{"dir":"south","door"="1"},
+      "3703":{"dir":"south","door":"1"},
       "3704":{"dir":"down",},
          }
    },
@@ -2589,14 +2589,14 @@ nex.rooms = {
          }
    },
    "492" : {"area":"24","title":"The Shakedown Cantina","environment":"62","exits": {      
-      "493":{"dir":"north","door"="1"},
+      "493":{"dir":"north","door":"1"},
       "499":{"dir":"southeast",},
       "497":{"dir":"southwest",},
          }
    },
    "493" : {"area":"24","title":"The outskirts of town, outside the Shakedown Cantina","environment":"10","exits": {      
       "494":{"dir":"northeast",},
-      "492":{"dir":"south","door"="1"},
+      "492":{"dir":"south","door":"1"},
          }
    },
    "499" : {"area":"24","title":"A dark corner","environment":"62","exits": {      
@@ -2613,7 +2613,7 @@ nex.rooms = {
    "497" : {"area":"24","title":"A smoky kitchen","environment":"62","exits": {      
       "492":{"dir":"northeast",},
       "498":{"dir":"east",},
-      "5281":{"dir":"west","door"="1"},
+      "5281":{"dir":"west","door":"1"},
          }
    },
    "494" : {"area":"24","title":"A cold, desolate planet","environment":"10","exits": {      
@@ -2654,7 +2654,7 @@ nex.rooms = {
    },
    "515" : {"area":"10","title":"Before a lofty set of double doors","environment":"4","exits": {      
       "514":{"dir":"north",},
-      "516":{"dir":"south","door"="1"},
+      "516":{"dir":"south","door":"1"},
          }
    },
    "520" : {"area":"10","title":"In a crowded, barside dining room","environment":"4","exits": {      
@@ -2664,7 +2664,7 @@ nex.rooms = {
          }
    },
    "516" : {"area":"10","title":"A proud, stone-shelved library","environment":"4","exits": {      
-      "515":{"dir":"north","door"="1"},
+      "515":{"dir":"north","door":"1"},
       "519":{"dir":"south",},
       "518":{"dir":"southwest",},
       "517":{"dir":"up",},
@@ -2680,7 +2680,7 @@ nex.rooms = {
       "519":{"dir":"east",},
          }
    },
-   "517" : {"area":"10","title":"The Hall of Records and Deeds","environment":"4" important="1","exits": {      
+   "517" : {"area":"10","title":"The Hall of Records and Deeds","environment":"4", "important":"1","exits": {      
       "516":{"dir":"down",},
          }
    },
@@ -2747,12 +2747,12 @@ nex.rooms = {
          }
    },
    "529" : {"area":"10","title":"Before a colorful sliding door","environment":"4","exits": {      
-      "533":{"dir":"east","door"="1"},
+      "533":{"dir":"east","door":"1"},
       "527":{"dir":"southwest",},
          }
    },
    "530" : {"area":"10","title":"Before a colorful sliding door","environment":"4","exits": {      
-      "531":{"dir":"east","door"="1"},
+      "531":{"dir":"east","door":"1"},
       "511":{"dir":"south",},
       "527":{"dir":"northwest",},
          }
@@ -2763,7 +2763,7 @@ nex.rooms = {
          }
    },
    "533" : {"area":"10","title":"A brightly colored living room","environment":"4","exits": {      
-      "529":{"dir":"west","door"="1"},
+      "529":{"dir":"west","door":"1"},
       "534":{"dir":"up",},
          }
    },
@@ -2772,7 +2772,7 @@ nex.rooms = {
          }
    },
    "531" : {"area":"10","title":"A loudly carpeted living room","environment":"4","exits": {      
-      "530":{"dir":"west","door"="1"},
+      "530":{"dir":"west","door":"1"},
       "532":{"dir":"up",},
          }
    },
@@ -2804,7 +2804,7 @@ nex.rooms = {
          }
    },
    "504" : {"area":"10","title":"Outskirts of town, near a derelict speeder lot","environment":"2","exits": {      
-      "2164" tgarea="33":{"dir":"east",},
+      "2164" :{"tgarea":"33","dir":"east",},
       "505":{"dir":"west",},
          }
    },
@@ -2831,14 +2831,14 @@ nex.rooms = {
          }
    },
    "2304" : {"area":"11","title":"A long, straight service tunnel","environment":"4","exits": {      
-      "543":{"dir":"north","door"="1"},
+      "543":{"dir":"north","door":"1"},
       "2305":{"dir":"up",},
          }
    },
    "543" : {"area":"11","title":"A long bank of ramshackle lifts","environment":"4","exits": {      
       "541":{"dir":"north",},
       "528":{"dir":"northeast",},
-      "2304":{"dir":"south","door"="1"},
+      "2304":{"dir":"south","door":"1"},
          }
    },
    "541" : {"area":"11","title":"A rough-walled atrium","environment":"4","exits": {      
@@ -2849,7 +2849,7 @@ nex.rooms = {
    },
    "544" : {"area":"11","title":"A confining back-alley junction","environment":"4","exits": {      
       "545":{"dir":"north",},
-      "547":{"dir":"east","door"="1"},
+      "547":{"dir":"east","door":"1"},
       "546":{"dir":"south",},
       "548":{"dir":"west",},
          }
@@ -2857,13 +2857,13 @@ nex.rooms = {
    "545" : {"area":"11","title":"A dim, cramped back passage","environment":"4","exits": {      
       "558":{"dir":"north",},
       "544":{"dir":"south",},
-      "571":{"dir":"west","door"="1"},
+      "571":{"dir":"west","door":"1"},
          }
    },
    "546" : {"area":"11","title":"A dim, cramped back passage","environment":"4","exits": {      
       "544":{"dir":"north",},
       "565":{"dir":"south",},
-      "570":{"dir":"west","door"="1"},
+      "570":{"dir":"west","door":"1"},
          }
    },
    "548" : {"area":"11","title":"A dim, cramped back passage","environment":"5","exits": {      
@@ -2880,7 +2880,7 @@ nex.rooms = {
          }
    },
    "571" : {"area":"11","title":"Whittler's Imports and Foodstuffs","environment":"5","exits": {      
-      "545":{"dir":"east","door"="1"},
+      "545":{"dir":"east","door":"1"},
       "551":{"dir":"west",},
          }
    },
@@ -2914,13 +2914,13 @@ nex.rooms = {
    "565" : {"area":"11","title":"At the mouth of a cramped alleyway","environment":"4","exits": {      
       "546":{"dir":"north",},
       "572":{"dir":"east",},
-      "8032":{"dir":"southeast","door"="1"},
+      "8032":{"dir":"southeast","door":"1"},
       "566":{"dir":"south",},
       "568":{"dir":"west",},
          }
    },
    "570" : {"area":"11","title":"Garon's Calibrations","environment":"67","exits": {      
-      "546":{"dir":"east","door"="1"},
+      "546":{"dir":"east","door":"1"},
       "550":{"dir":"west",},
          }
    },
@@ -2948,7 +2948,7 @@ nex.rooms = {
    },
    "563" : {"area":"11","title":"A bank of graffitied lifts","environment":"4","exits": {      
       "566":{"dir":"north",},
-      "2292":{"dir":"east","door"="1"},
+      "2292":{"dir":"east","door":"1"},
       "567":{"dir":"northwest",},
          }
    },
@@ -3001,7 +3001,7 @@ nex.rooms = {
    },
    "547" : {"area":"11","title":"Within a shabby, rock-walled rental office","environment":"5","exits": {      
       "555":{"dir":"east",},
-      "544":{"dir":"west","door"="1"},
+      "544":{"dir":"west","door":"1"},
          }
    },
    "555" : {"area":"11","title":"A tall, winding residence tube","environment":"4","exits": {      
@@ -3012,9 +3012,9 @@ nex.rooms = {
          }
    },
    "557" : {"area":"11","title":"A tall, winding residence tube","environment":"4","exits": {      
-      "579":{"dir":"east","door"="1"},
+      "579":{"dir":"east","door":"1"},
       "555":{"dir":"south",},
-      "574":{"dir":"west","door"="1"},
+      "574":{"dir":"west","door":"1"},
       "573":{"dir":"northwest",},
       "578":{"dir":"up",},
          }
@@ -3025,19 +3025,19 @@ nex.rooms = {
    },
    "556" : {"area":"11","title":"A tall, winding residence tube","environment":"4","exits": {      
       "555":{"dir":"north",},
-      "581":{"dir":"east","door"="1"},
+      "581":{"dir":"east","door":"1"},
       "3644":{"dir":"south",},
       "572":{"dir":"southwest",},
-      "575":{"dir":"west","door"="1"},
+      "575":{"dir":"west","door":"1"},
       "576":{"dir":"up",},
          }
    },
    "579" : {"area":"11","title":"A small Hab with a single viewport","environment":"4","exits": {      
-      "557":{"dir":"west","door"="1"},
+      "557":{"dir":"west","door":"1"},
          }
    },
    "574" : {"area":"11","title":"An asteroid-walled, one-room Hab","environment":"4","exits": {      
-      "557":{"dir":"east","door"="1"},
+      "557":{"dir":"east","door":"1"},
          }
    },
    "573" : {"area":"11","title":"A tightly-curved, metal-walled hallway","environment":"4","exits": {      
@@ -3051,7 +3051,7 @@ nex.rooms = {
          }
    },
    "581" : {"area":"11","title":"A small Hab with a single viewport","environment":"4","exits": {      
-      "556":{"dir":"west","door"="1"},
+      "556":{"dir":"west","door":"1"},
          }
    },
    "572" : {"area":"11","title":"A tightly-curved, metal-walled hallway.","environment":"4","exits": {      
@@ -3060,7 +3060,7 @@ nex.rooms = {
          }
    },
    "575" : {"area":"11","title":"An asteroid-walled, one-room Hab","environment":"4","exits": {      
-      "556":{"dir":"east","door"="1"},
+      "556":{"dir":"east","door":"1"},
          }
    },
    "576" : {"area":"11","title":"A grate-floored, metal-railed catwalk","environment":"4","exits": {      
@@ -3070,30 +3070,30 @@ nex.rooms = {
    },
    "577" : {"area":"11","title":"On a catwalk, before a powered set of doors","environment":"4","exits": {      
       "578":{"dir":"north",},
-      "583":{"dir":"east","door"="1"},
+      "583":{"dir":"east","door":"1"},
       "576":{"dir":"south",},
-      "7278":{"dir":"west","door"="1"},
+      "7278":{"dir":"west","door":"1"},
          }
    },
    "583" : {"area":"11","title":"A narrow sitting room with an observation window","environment":"4","exits": {      
-      "584":{"dir":"north","door"="1"},
-      "582":{"dir":"south","door"="1"},
-      "577":{"dir":"west","door"="1"},
+      "584":{"dir":"north","door":"1"},
+      "582":{"dir":"south","door":"1"},
+      "577":{"dir":"west","door":"1"},
          }
    },
    "584" : {"area":"11","title":"A small, molded-plastic bathroom","environment":"71","exits": {      
-      "583":{"dir":"south","door"="1"},
+      "583":{"dir":"south","door":"1"},
          }
    },
    "582" : {"area":"11","title":"A bunk-lined bedroom with a small kitchenette","environment":"4","exits": {      
-      "583":{"dir":"north","door"="1"},
+      "583":{"dir":"north","door":"1"},
          }
    },
    "587" : {"area":"11","title":"A broad, sloping hallway","environment":"4","exits": {      
       "569":{"dir":"east",},
       "789":{"dir":"south",},
       "588":{"dir":"west",},
-      "3613":{"dir":"northwest","door"="1"},
+      "3613":{"dir":"northwest","door":"1"},
          }
    },
    "628" : {"area":"11","title":"A clean, well-ordered doctor's office","environment":"17","exits": {      
@@ -3104,19 +3104,19 @@ nex.rooms = {
    },
    "588" : {"area":"11","title":"At the spacious entrance to Bikman Circle","environment":"4","exits": {      
       "587":{"dir":"east",},
-      "590":{"dir":"southwest","door"="1"},
+      "590":{"dir":"southwest","door":"1"},
       "591":{"dir":"west",},
-      "589":{"dir":"northwest","door"="1"},
+      "589":{"dir":"northwest","door":"1"},
          }
    },
    "590" : {"area":"11","title":"A small, sparsely-populated shuttle dock","environment":"26","exits": {      
-      "588":{"dir":"northeast","door"="1"},
-      "593":{"dir":"west","door"="1"},
+      "588":{"dir":"northeast","door":"1"},
+      "593":{"dir":"west","door":"1"},
          }
    },
    "589" : {"area":"11","title":"Bikman Circle's public shuttle dock","environment":"26","exits": {      
-      "588":{"dir":"southeast","door"="1"},
-      "592":{"dir":"west","door"="1"},
+      "588":{"dir":"southeast","door":"1"},
+      "592":{"dir":"west","door":"1"},
          }
    },
    "591" : {"area":"11","title":"A stone-surfaced pathway beneath a clear dome","environment":"4","exits": {      
@@ -3129,7 +3129,7 @@ nex.rooms = {
    "593" : {"area":"11","title":"By a row of steaming food carts","environment":"4","exits": {      
       "4008":{"dir":"north",},
       "591":{"dir":"northeast",},
-      "590":{"dir":"east","door"="1"},
+      "590":{"dir":"east","door":"1"},
       "596":{"dir":"southwest",},
       "6523":{"dir":"west",},
          }
@@ -3141,7 +3141,7 @@ nex.rooms = {
          }
    },
    "592" : {"area":"11","title":"Near a row of private, spacious dwellings","environment":"4","exits": {      
-      "589":{"dir":"east","door"="1"},
+      "589":{"dir":"east","door":"1"},
       "591":{"dir":"southeast",},
       "595":{"dir":"northwest",},
          }
@@ -3156,7 +3156,7 @@ nex.rooms = {
       "598":{"dir":"northeast",},
       "594":{"dir":"east",},
       "599":{"dir":"southeast",},
-      "6521":{"dir":"in","door"="1"},
+      "6521":{"dir":"in","door":"1"},
          }
    },
    "598" : {"area":"11","title":"Near ascending layers of vine-twined balconies","environment":"4","exits": {      
@@ -3192,7 +3192,7 @@ nex.rooms = {
          }
    },
    "604" : {"area":"11","title":"A loud, pulse-lit dance floor","environment":"4","exits": {      
-      "608":{"dir":"east","door"="1"},
+      "608":{"dir":"east","door":"1"},
       "603":{"dir":"south",},
          }
    },
@@ -3202,27 +3202,27 @@ nex.rooms = {
          }
    },
    "608" : {"area":"11","title":"In a sound proof private room","environment":"4","exits": {      
-      "604":{"dir":"west","door"="1"},
+      "604":{"dir":"west","door":"1"},
          }
    },
    "606" : {"area":"11","title":"A high-stakes gambling den","environment":"4","exits": {      
       "605":{"dir":"north",},
-      "607":{"dir":"east","door"="1"},
+      "607":{"dir":"east","door":"1"},
          }
    },
    "607" : {"area":"11","title":"A soundproofed private room","environment":"4","exits": {      
-      "606":{"dir":"west","door"="1"},
+      "606":{"dir":"west","door":"1"},
          }
    },
    "609" : {"area":"12","title":"Before the Hercule front office","environment":"23","exits": {      
-      "610":{"dir":"north","door"="1"},
+      "610":{"dir":"north","door":"1"},
       "611":{"dir":"east",},
       "612":{"dir":"west",},
          }
    },
    "610" : {"area":"12","title":"Main office of the Hercule Mining tower","environment":"15","exits": {      
       "694":{"dir":"east",},
-      "609":{"dir":"south","door"="1"},
+      "609":{"dir":"south","door":"1"},
       "5151":{"dir":"west",},
          }
    },
@@ -3260,7 +3260,7 @@ nex.rooms = {
    },
    "617" : {"area":"12","title":"Navigating the upper deck","environment":"23","exits": {      
       "616":{"dir":"north",},
-      "769":{"dir":"southeast","door"="1"},
+      "769":{"dir":"southeast","door":"1"},
       "618":{"dir":"southwest",},
          }
    },
@@ -3293,11 +3293,11 @@ nex.rooms = {
    "623" : {"area":"12","title":"Busy thoroughfare on the upper deck","environment":"23","exits": {      
       "625":{"dir":"north",},
       "621":{"dir":"southeast",},
-      "624":{"dir":"southwest","door"="1"},
+      "624":{"dir":"southwest","door":"1"},
          }
    },
    "624" : {"area":"12","title":"A sleek office","environment":"5","exits": {      
-      "623":{"dir":"northeast","door"="1"},
+      "623":{"dir":"northeast","door":"1"},
          }
    },
    "625" : {"area":"12","title":"Lofty upper deck, before a company bar","environment":"23","exits": {      
@@ -3358,7 +3358,7 @@ nex.rooms = {
          }
    },
    "640" : {"area":"12","title":"Heavy-duty catwalk around the staffing deck","environment":"23","exits": {      
-      "5105":{"dir":"northeast","door"="1"},
+      "5105":{"dir":"northeast","door":"1"},
       "639":{"dir":"south",},
       "641":{"dir":"northwest",},
          }
@@ -3585,7 +3585,7 @@ nex.rooms = {
    "677" : {"area":"13","title":"Devastator Square","environment":"2","exits": {      
       "675":{"dir":"north",},
       "1538":{"dir":"northeast",},
-      "6417":{"dir":"east","door"="1"},
+      "6417":{"dir":"east","door":"1"},
       "1065":{"dir":"southeast",},
       "1064":{"dir":"south",},
       "678":{"dir":"southwest",},
@@ -3675,7 +3675,7 @@ nex.rooms = {
    },
    "707" : {"area":"14","title":"Near the Oldtown lift platform","environment":"42","exits": {      
       "706":{"dir":"north",},
-      "2319" tgarea="11":{"dir":"south",},
+      "2319" :{"tgarea":"11","dir":"south",},
          }
    },
    "708" : {"area":"14","title":"Traversing a partially collapsed residence tube","environment":"42","exits": {      
@@ -3699,7 +3699,7 @@ nex.rooms = {
          }
    },
    "712" : {"area":"14","title":"A chilly, low-ceilinged side street","environment":"42","exits": {      
-      "3723":{"dir":"northeast","door"="1"},
+      "3723":{"dir":"northeast","door":"1"},
       "713":{"dir":"southeast",},
       "728":{"dir":"south",},
       "710":{"dir":"northwest",},
@@ -3940,12 +3940,12 @@ nex.rooms = {
    },
    "757" : {"area":"14","title":"Before the glittering ruins of The Crater Casino","environment":"42","exits": {      
       "756":{"dir":"north",},
-      "758":{"dir":"east","door"="1"},
+      "758":{"dir":"east","door":"1"},
          }
    },
    "758" : {"area":"14","title":"A waterlogged foyer lit by flickering neon","environment":"5","exits": {      
       "759":{"dir":"east",},
-      "757":{"dir":"west","door"="1"},
+      "757":{"dir":"west","door":"1"},
       "763":{"dir":"up",},
          }
    },
@@ -3997,7 +3997,7 @@ nex.rooms = {
          }
    },
    "769" : {"area":"12","title":"A gaudy executive office","environment":"15","exits": {      
-      "617":{"dir":"northwest","door"="1"},
+      "617":{"dir":"northwest","door":"1"},
          }
    },
    "770" : {"area":"12","title":"Bodean public pavilion","environment":"5","exits": {      
@@ -4016,15 +4016,15 @@ nex.rooms = {
    "772" : {"area":"15","title":"Techdustry central hub","environment":"4","exits": {      
       "776":{"dir":"north",},
       "773":{"dir":"northeast",},
-      "779":{"dir":"south","door"="1"},
+      "779":{"dir":"south","door":"1"},
       "780":{"dir":"southwest",},
-      "778":{"dir":"west","door"="1"},
+      "778":{"dir":"west","door":"1"},
       "783":{"dir":"up",},
          }
    },
    "776" : {"area":"15","title":"Atrium of the Visitor Center","environment":"5","exits": {      
       "833":{"dir":"north",},
-      "777":{"dir":"east","door"="1"},
+      "777":{"dir":"east","door":"1"},
       "772":{"dir":"south",},
       "692":{"dir":"west",},
          }
@@ -4039,19 +4039,19 @@ nex.rooms = {
          }
    },
    "779" : {"area":"15","title":"Tanmop Technologies Toh","environment":"15","exits": {      
-      "772":{"dir":"north","door"="1"},
+      "772":{"dir":"north","door":"1"},
          }
    },
    "780" : {"area":"15","title":"Wide walkway through the Techdustry district","environment":"4","exits": {      
       "772":{"dir":"northeast",},
       "4179":{"dir":"southeast",},
       "953":{"dir":"south",},
-      "781":{"dir":"southwest","door"="1"},
+      "781":{"dir":"southwest","door":"1"},
       "4180":{"dir":"northwest",},
          }
    },
    "778" : {"area":"15","title":"Wrocyn Weaponry Toh","environment":"15","exits": {      
-      "772":{"dir":"east","door"="1"},
+      "772":{"dir":"east","door":"1"},
          }
    },
    "783" : {"area":"15","title":"Glass-domed walkway above the Techdustry district","environment":"4","exits": {      
@@ -4060,7 +4060,7 @@ nex.rooms = {
          }
    },
    "781" : {"area":"15","title":"Pryfyx Armaments Toh","environment":"15","exits": {      
-      "780":{"dir":"northeast","door"="1"},
+      "780":{"dir":"northeast","door":"1"},
       "3616":{"dir":"up",},
          }
    },
@@ -4076,7 +4076,7 @@ nex.rooms = {
    },
    "777" : {"area":"15","title":"Illuminated walkway towards the Biloxan starport","environment":"4","exits": {      
       "774":{"dir":"east",},
-      "776":{"dir":"west","door"="1"},
+      "776":{"dir":"west","door":"1"},
          }
    },
    "784" : {"area":"15","title":"Glass-domed walkway overlooking the Kashitir jungle","environment":"4","exits": {      
@@ -4086,12 +4086,12 @@ nex.rooms = {
    },
    "785" : {"area":"15","title":"A verdant Glass-domed walkway","environment":"4","exits": {      
       "784":{"dir":"east",},
-      "787":{"dir":"south","door"="1"},
+      "787":{"dir":"south","door":"1"},
       "786":{"dir":"down",},
          }
    },
    "787" : {"area":"15","title":"A breezy, open-air terrace","environment":"4","exits": {      
-      "785":{"dir":"north","door"="1"},
+      "785":{"dir":"north","door":"1"},
          }
    },
    "786" : {"area":"15","title":"Grand overlook over Corwin's Flood","environment":"4","exits": {      
@@ -4272,7 +4272,7 @@ nex.rooms = {
       "817":{"dir":"southeast",},
          }
    },
-   "817" : {"area":"16","title":"A commemorative display of the First Interaction","environment":"12" important="1","exits": {      
+   "817" : {"area":"16","title":"A commemorative display of the First Interaction","environment":"12", "important":"1","exits": {      
       "818":{"dir":"east",},
       "816":{"dir":"northwest",},
          }
@@ -4427,7 +4427,7 @@ nex.rooms = {
    },
    "874" : {"area":"15","title":"Tohs along Govan Lane","environment":"4","exits": {      
       "873":{"dir":"south",},
-      "3747":{"dir":"southwest","door"="1"},
+      "3747":{"dir":"southwest","door":"1"},
       "875":{"dir":"northwest",},
          }
    },
@@ -4450,7 +4450,7 @@ nex.rooms = {
    },
    "878" : {"area":"15","title":"Streets along a dome-encased park","environment":"12","exits": {      
       "877":{"dir":"north",},
-      "6789":{"dir":"east","door"="1"},
+      "6789":{"dir":"east","door":"1"},
       "871":{"dir":"south",},
          }
    },
@@ -4542,7 +4542,7 @@ nex.rooms = {
    },
    "894" : {"area":"15","title":"Outside Haxley's Casino","environment":"4","exits": {      
       "893":{"dir":"east",},
-      "944":{"dir":"in","door"="1"},
+      "944":{"dir":"in","door":"1"},
          }
    },
    "1040" : {"area":"17","title":"Within a sparse grove of trees, by a black metal fence","environment":"8","exits": {      
@@ -4603,7 +4603,7 @@ nex.rooms = {
          }
    },
    "682" : {"area":"15","title":"Monument before the Elgan Collective","environment":"4","exits": {      
-      "683":{"dir":"north","door"="1"},
+      "683":{"dir":"north","door":"1"},
       "632":{"dir":"south",},
          }
    },
@@ -4612,14 +4612,14 @@ nex.rooms = {
          }
    },
    "1069" : {"area":"18","title":"The beginning of Ishbi Canyon, near heavy blast doors","environment":"31","exits": {      
-      "1070":{"dir":"north","door"="1"},
+      "1070":{"dir":"north","door":"1"},
       "1068":{"dir":"south",},
       "1105":{"dir":"west",},
          }
    },
    "1070" : {"area":"18","title":"Before an immense, heavy blast door","environment":"4","exits": {      
       "1071":{"dir":"northeast",},
-      "1069":{"dir":"south","door"="1"},
+      "1069":{"dir":"south","door":"1"},
       "1072":{"dir":"northwest",},
          }
    },
@@ -4644,7 +4644,7 @@ nex.rooms = {
          }
    },
    "915" : {"area":"12","title":"Western end of the Ibix tower","environment":"5","exits": {      
-      "916":{"dir":"north","door"="1"},
+      "916":{"dir":"north","door":"1"},
       "918":{"dir":"east",},
       "913":{"dir":"south",},
       "929":{"dir":"west",},
@@ -4652,7 +4652,7 @@ nex.rooms = {
    },
    "916" : {"area":"12","title":"Hallway of accolades","environment":"5","exits": {      
       "917":{"dir":"northeast",},
-      "915":{"dir":"south","door"="1"},
+      "915":{"dir":"south","door":"1"},
          }
    },
    "917" : {"area":"12","title":"Antechamber before the Ibix executive office","environment":"5","exits": {      
@@ -4738,7 +4738,7 @@ nex.rooms = {
    },
    "933" : {"area":"12","title":"Access to the maintenance strata","environment":"15","exits": {      
       "932":{"dir":"southeast",},
-      "5118":{"dir":"south","door"="1"},
+      "5118":{"dir":"south","door":"1"},
          }
    },
    "934" : {"area":"12","title":"Bridge of black formglass","environment":"5","exits": {      
@@ -4764,7 +4764,7 @@ nex.rooms = {
          }
    },
    "938" : {"area":"12","title":"Spacious confines of the Ibix IT department","environment":"15","exits": {      
-      "8435":{"dir":"north","door"="1"},
+      "8435":{"dir":"north","door":"1"},
       "937":{"dir":"northwest",},
          }
    },
@@ -4808,7 +4808,7 @@ nex.rooms = {
    },
    "952" : {"area":"15","title":"City gates before the Locorin swamps","environment":"23","exits": {      
       "951":{"dir":"west",},
-      "4139" tgarea="76":{"dir":"out",},
+      "4139" :{"tgarea":"76","dir":"out",},
          }
    },
    "953" : {"area":"15","title":"Dead end by a spiraling metal staircase","environment":"4","exits": {      
@@ -4833,23 +4833,23 @@ nex.rooms = {
    },
    "957" : {"area":"15","title":"City gates towards the Kashitir jungle","environment":"23","exits": {      
       "956":{"dir":"north",},
-      "895" tgarea="19":{"dir":"out","door"="1"},
+      "895" :{"tgarea":"19","dir":"out","door":"1"},
          }
    },
    "944" : {"area":"15","title":"Main floor of Haxley's Casino","environment":"5","exits": {      
       "945":{"dir":"north",},
       "4101":{"dir":"south",},
-      "946":{"dir":"west","door"="1"},
-      "894":{"dir":"out","door"="1"},
+      "946":{"dir":"west","door":"1"},
+      "894":{"dir":"out","door":"1"},
          }
    },
    "945" : {"area":"15","title":"An exotic night club","environment":"5","exits": {      
       "944":{"dir":"south",},
-      "1496":{"dir":"west","door"="1"},
+      "1496":{"dir":"west","door":"1"},
          }
    },
    "946" : {"area":"15","title":"Backroom of the casino","environment":"5","exits": {      
-      "944":{"dir":"east","door"="1"},
+      "944":{"dir":"east","door":"1"},
          }
    },
    "947" : {"area":"15","title":"Main dance floor of the club","environment":"5","exits": {      
@@ -4863,7 +4863,7 @@ nex.rooms = {
    },
    "683" : {"area":"15","title":"Grand foyer of the Seat of the Elgan Collective","environment":"5","exits": {      
       "684":{"dir":"northeast",},
-      "682":{"dir":"south","door"="1"},
+      "682":{"dir":"south","door":"1"},
       "685":{"dir":"northwest",},
          }
    },
@@ -4896,12 +4896,12 @@ nex.rooms = {
          }
    },
    "958" : {"area":"15","title":"Underground entrance to a fortified vault","environment":"4","exits": {      
-      "959":{"dir":"east","door"="1"},
+      "959":{"dir":"east","door":"1"},
          }
    },
    "959" : {"area":"15","title":"Undeground walkway by rows of bunks","environment":"4","exits": {      
       "960":{"dir":"southeast",},
-      "958":{"dir":"west","door"="1"},
+      "958":{"dir":"west","door":"1"},
          }
    },
    "960" : {"area":"15","title":"Common rooms of the Elgan Underground","environment":"4","exits": {      
@@ -4930,7 +4930,7 @@ nex.rooms = {
          }
    },
    "966" : {"area":"17","title":"A busy, bench-lined lobby","environment":"5","exits": {      
-      "981":{"dir":"east","door"="1"},
+      "981":{"dir":"east","door":"1"},
       "965":{"dir":"southwest",},
       "963":{"dir":"west",},
          }
@@ -4938,7 +4938,7 @@ nex.rooms = {
    "965" : {"area":"17","title":"A busy, bench-lined lobby","environment":"5","exits": {      
       "963":{"dir":"north",},
       "966":{"dir":"northeast",},
-      "968":{"dir":"south","door"="1"},
+      "968":{"dir":"south","door":"1"},
          }
    },
    "967" : {"area":"17","title":"Whittler's Hollow Transport Station: Teleports","environment":"39","exits": {      
@@ -4948,7 +4948,7 @@ nex.rooms = {
    "981" : {"area":"17","title":"A wide, grey road outside a transport terminal","environment":"29","exits": {      
       "982":{"dir":"northeast",},
       "1041":{"dir":"south",},
-      "966":{"dir":"west","door"="1"},
+      "966":{"dir":"west","door":"1"},
          }
    },
    "982" : {"area":"17","title":"A wide grey road","environment":"29","exits": {      
@@ -5042,7 +5042,7 @@ nex.rooms = {
          }
    },
    "999" : {"area":"17","title":"Wandering among a stand of tall trees","environment":"8","exits": {      
-      "968":{"dir":"north","door"="1"},
+      "968":{"dir":"north","door":"1"},
       "1040":{"dir":"northeast",},
       "969":{"dir":"east",},
       "972":{"dir":"southeast",},
@@ -5053,8 +5053,8 @@ nex.rooms = {
          }
    },
    "968" : {"area":"17","title":"A small, shady public park","environment":"12","exits": {      
-      "965":{"dir":"north","door"="1"},
-      "999":{"dir":"south","door"="1"},
+      "965":{"dir":"north","door":"1"},
+      "999":{"dir":"south","door":"1"},
          }
    },
    "1013" : {"area":"17","title":"Wandering among a stand of tall trees","environment":"8","exits": {      
@@ -5336,7 +5336,7 @@ nex.rooms = {
          }
    },
    "1032" : {"area":"17","title":"A well-drained field of dark earth","environment":"28","exits": {      
-      "1033":{"dir":"north","door"="1"},
+      "1033":{"dir":"north","door":"1"},
       "1029":{"dir":"east",},
       "1015":{"dir":"southeast",},
       "1016":{"dir":"south",},
@@ -5354,7 +5354,7 @@ nex.rooms = {
          }
    },
    "1033" : {"area":"17","title":"A crate-filled warehouse of goods waiting for shipment.","environment":"5","exits": {      
-      "1032":{"dir":"south","door"="1"},
+      "1032":{"dir":"south","door":"1"},
          }
    },
    "1034" : {"area":"17","title":"A crate-filled, fresh-smelling warehouse","environment":"5","exits": {      
@@ -5472,12 +5472,12 @@ nex.rooms = {
    },
    "1054" : {"area":"17","title":"Standing before a large metal door","environment":"8","exits": {      
       "1053":{"dir":"north",},
-      "1055":{"dir":"south","door"="1"},
+      "1055":{"dir":"south","door":"1"},
          }
    },
    "1055" : {"area":"17","title":"Just inside a boxy, cavernous building","environment":"5","exits": {      
-      "1054":{"dir":"north","door"="1"},
-      "1060":{"dir":"south","door"="1"},
+      "1054":{"dir":"north","door":"1"},
+      "1060":{"dir":"south","door":"1"},
       "1056":{"dir":"up",},
          }
    },
@@ -5499,18 +5499,18 @@ nex.rooms = {
    },
    "1058" : {"area":"17","title":"An observation post over the gravity generator","environment":"5","exits": {      
       "1057":{"dir":"northeast",},
-      "1063":{"dir":"south","door"="1"},
+      "1063":{"dir":"south","door":"1"},
       "1059":{"dir":"northwest",},
          }
    },
    "1060" : {"area":"17","title":"Before an immense, humming generator","environment":"5","exits": {      
-      "1055":{"dir":"north","door"="1"},
+      "1055":{"dir":"north","door":"1"},
       "1061":{"dir":"east",},
       "1062":{"dir":"west",},
          }
    },
    "1063" : {"area":"17","title":"A small employee break room","environment":"5","exits": {      
-      "1058":{"dir":"north","door"="1"},
+      "1058":{"dir":"north","door":"1"},
          }
    },
    "1061" : {"area":"17","title":"Near the secondary control panel","environment":"5","exits": {      
@@ -5658,17 +5658,17 @@ nex.rooms = {
          }
    },
    "1095" : {"area":"18","title":"A long, dimly lit hotel hallway","environment":"5","exits": {      
-      "1097":{"dir":"northeast","door"="1"},
+      "1097":{"dir":"northeast","door":"1"},
       "1094":{"dir":"south",},
-      "1098":{"dir":"northwest","door"="1"},
+      "1098":{"dir":"northwest","door":"1"},
          }
    },
    "1097" : {"area":"18","title":"A sparsely furnished hotel room","environment":"5","exits": {      
-      "1095":{"dir":"southwest","door"="1"},
+      "1095":{"dir":"southwest","door":"1"},
          }
    },
    "1098" : {"area":"18","title":"A large hotel room with a view of the main drag","environment":"5","exits": {      
-      "1095":{"dir":"southeast","door"="1"},
+      "1095":{"dir":"southeast","door":"1"},
          }
    },
    "1096" : {"area":"18","title":"On a spacious balcony overlooking the main drag","environment":"5","exits": {      
@@ -5709,7 +5709,7 @@ nex.rooms = {
    },
    "1105" : {"area":"18","title":"Enlil Brothers Weaponry","environment":"5","exits": {      
       "1069":{"dir":"east",},
-      "3719":{"dir":"west","door"="1"},
+      "3719":{"dir":"west","door":"1"},
          }
    },
    "1106" : {"area":"18","title":"A broad, dusty canyon road","environment":"31","exits": {      
@@ -5798,17 +5798,17 @@ nex.rooms = {
          }
    },
    "1123" : {"area":"18","title":"A long, dimly lit hotel hallway","environment":"5","exits": {      
-      "1124":{"dir":"northeast","door"="1"},
-      "1125":{"dir":"east","door"="1"},
+      "1124":{"dir":"northeast","door":"1"},
+      "1125":{"dir":"east","door":"1"},
       "1122":{"dir":"south",},
          }
    },
    "1124" : {"area":"18","title":"A small, cheap hotel room","environment":"5","exits": {      
-      "1123":{"dir":"southwest","door"="1"},
+      "1123":{"dir":"southwest","door":"1"},
          }
    },
    "1125" : {"area":"18","title":"A narrow, shoddy hotel room","environment":"5","exits": {      
-      "1123":{"dir":"west","door"="1"},
+      "1123":{"dir":"west","door":"1"},
          }
    },
    "1126" : {"area":"18","title":"A dusty road winding through a deep, narrow canyon","environment":"31","exits": {      
@@ -5881,7 +5881,7 @@ nex.rooms = {
    "1139" : {"area":"18","title":"An open upstairs hallway above the factory floor","environment":"32","exits": {      
       "1140":{"dir":"north",},
       "1141":{"dir":"south",},
-      "1142":{"dir":"west","door"="1"},
+      "1142":{"dir":"west","door":"1"},
       "1136":{"dir":"down",},
          }
    },
@@ -5896,7 +5896,7 @@ nex.rooms = {
          }
    },
    "1142" : {"area":"18","title":"The Overseer's office, above the factory","environment":"15","exits": {      
-      "1139":{"dir":"east","door"="1"},
+      "1139":{"dir":"east","door":"1"},
          }
    },
    "1144" : {"area":"18","title":"An open upstairs hallway above the factory floor","environment":"32","exits": {      
@@ -5948,11 +5948,11 @@ nex.rooms = {
    },
    "838" : {"area":"16","title":"A sparsely-decorated secretarial office","environment":"15","exits": {      
       "837":{"dir":"north",},
-      "839":{"dir":"south","door"="1"},
+      "839":{"dir":"south","door":"1"},
          }
    },
    "839" : {"area":"16","title":"The Chamber of the Tajhan","environment":"15","exits": {      
-      "838":{"dir":"north","door"="1"},
+      "838":{"dir":"north","door":"1"},
          }
    },
    "840" : {"area":"16","title":"Following the curve of the dome","environment":"4","exits": {      
@@ -6678,7 +6678,7 @@ nex.rooms = {
    "1243" : {"area":"16","title":"The front steps of Oculus Unlimited","environment":"4","exits": {      
       "1242":{"dir":"east",},
       "1244":{"dir":"southwest",},
-      "1259":{"dir":"west","door"="1"},
+      "1259":{"dir":"west","door":"1"},
       "1245":{"dir":"northwest",},
          }
    },
@@ -6719,7 +6719,7 @@ nex.rooms = {
    },
    "1251" : {"area":"16","title":"Beneath an overhang outside the SensaTech building","environment":"4","exits": {      
       "1252":{"dir":"northeast",},
-      "1286":{"dir":"east","door"="1"},
+      "1286":{"dir":"east","door":"1"},
       "1253":{"dir":"southeast",},
       "1242":{"dir":"west",},
          }
@@ -6760,7 +6760,7 @@ nex.rooms = {
          }
    },
    "1259" : {"area":"16","title":"The Oculus Unlimited front lobby","environment":"5","exits": {      
-      "1243":{"dir":"east","door"="1"},
+      "1243":{"dir":"east","door":"1"},
       "1261":{"dir":"southwest",},
       "1260":{"dir":"northwest",},
          }
@@ -6902,7 +6902,7 @@ nex.rooms = {
    "1286" : {"area":"16","title":"The SensaTech front lobby","environment":"5","exits": {      
       "1287":{"dir":"northeast",},
       "1291":{"dir":"southeast",},
-      "1251":{"dir":"west","door"="1"},
+      "1251":{"dir":"west","door":"1"},
          }
    },
    "1287" : {"area":"16","title":"A conference room","environment":"5","exits": {      
@@ -6948,13 +6948,13 @@ nex.rooms = {
          }
    },
    "1295" : {"area":"16","title":"A maintenance and security office","environment":"5","exits": {      
-      "1304":{"dir":"north","door"="1"},
-      "1296":{"dir":"southwest","door"="1"},
+      "1304":{"dir":"north","door":"1"},
+      "1296":{"dir":"southwest","door":"1"},
       "1294":{"dir":"west",},
          }
    },
    "1296" : {"area":"16","title":"A shelf-lined storage and equipment room","environment":"5","exits": {      
-      "1295":{"dir":"northeast","door"="1"},
+      "1295":{"dir":"northeast","door":"1"},
       "1297":{"dir":"west",},
          }
    },
@@ -6989,14 +6989,14 @@ nex.rooms = {
          }
    },
    "1303" : {"area":"16","title":"A hallway through SensaTech Research and Development","environment":"5","exits": {      
-      "1304":{"dir":"southeast","door"="1"},
+      "1304":{"dir":"southeast","door":"1"},
       "1294":{"dir":"south",},
       "1302":{"dir":"southwest",},
          }
    },
    "1304" : {"area":"16","title":"A cramped closet filled with cleaning supplies","environment":"5","exits": {      
-      "1295":{"dir":"south","door"="1"},
-      "1303":{"dir":"northwest","door"="1"},
+      "1295":{"dir":"south","door":"1"},
+      "1303":{"dir":"northwest","door":"1"},
          }
    },
    "1305" : {"area":"16","title":"An airy, brightly painted lift lobby","environment":"5","exits": {      
@@ -7048,7 +7048,7 @@ nex.rooms = {
    },
    "895" : {"area":"19","title":"Before the gates of Biloxan","environment":"19","exits": {      
       "1495":{"dir":"southeast",},
-      "957" tgarea="15":{"dir":"in","door"="1"},
+      "957" :{"tgarea":"15","dir":"in","door":"1"},
          }
    },
    "1315" : {"area":"20","title":"Cosmina Avenue","environment":"4","exits": {      
@@ -7218,7 +7218,7 @@ nex.rooms = {
    "1381" : {"area":"20","title":"Formglass Avenue North","environment":"29","exits": {      
       "1409":{"dir":"east",},
       "1380":{"dir":"south",},
-      "6795":{"dir":"northwest","door"="1"},
+      "6795":{"dir":"northwest","door":"1"},
          }
    },
    "1382" : {"area":"20","title":"Formglass Avenue South","environment":"29","exits": {      
@@ -7456,7 +7456,7 @@ nex.rooms = {
       "1423":{"dir":"southeast",},
       "1425":{"dir":"southwest",},
       "1413":{"dir":"northwest",},
-      "9056":{"dir":"down","door"="1"},
+      "9056":{"dir":"down","door":"1"},
          }
    },
    "1423" : {"area":"20","title":"A crowded warren of market stalls","environment":"4","exits": {      
@@ -7490,11 +7490,11 @@ nex.rooms = {
    },
    "1429" : {"area":"20","title":"At the lower front desk of Nebula Arms","environment":"4","exits": {      
       "1427":{"dir":"northeast",},
-      "1473":{"dir":"south","door"="1"},
+      "1473":{"dir":"south","door":"1"},
          }
    },
    "1430" : {"area":"20","title":"A tactically fortified lobby","environment":"4","exits": {      
-      "1474":{"dir":"south","door"="1"},
+      "1474":{"dir":"south","door":"1"},
       "1431":{"dir":"west",},
          }
    },
@@ -7720,12 +7720,12 @@ nex.rooms = {
          }
    },
    "1474" : {"area":"20","title":"A cramped service stairwell","environment":"4","exits": {      
-      "1430":{"dir":"north","door"="1"},
+      "1430":{"dir":"north","door":"1"},
       "1473":{"dir":"down",},
          }
    },
    "1473" : {"area":"20","title":"A cramped service stairwell","environment":"4","exits": {      
-      "1429":{"dir":"north","door"="1"},
+      "1429":{"dir":"north","door":"1"},
       "1474":{"dir":"up",},
          }
    },
@@ -7845,7 +7845,7 @@ nex.rooms = {
       "9009":{"dir":"northeast",},
       "1358":{"dir":"east",},
       "1478":{"dir":"southeast",},
-      "6695":{"dir":"south","door"="1"},
+      "6695":{"dir":"south","door":"1"},
       "1357":{"dir":"southwest",},
       "1356":{"dir":"west",},
       "1359":{"dir":"up",},
@@ -7865,7 +7865,7 @@ nex.rooms = {
          }
    },
    "1356" : {"area":"16","title":"House of Crezan","environment":"5","exits": {      
-      "3716":{"dir":"north","door"="1"},
+      "3716":{"dir":"north","door":"1"},
       "1354":{"dir":"east",},
          }
    },
@@ -7907,7 +7907,7 @@ nex.rooms = {
          }
    },
    "1480" : {"area":"8","title":"A bank of sleek, formglass lifts off the plaza","environment":"4","exits": {      
-      "6689":{"dir":"east","door"="1"},
+      "6689":{"dir":"east","door":"1"},
       "377":{"dir":"west",},
          }
    },
@@ -7977,7 +7977,7 @@ nex.rooms = {
    },
    "1498" : {"area":"21","title":"A sand-scudded road through the desert","environment":"7","exits": {      
       "1499":{"dir":"north",},
-      "317" tgarea="6":{"dir":"south",},
+      "317" :{"tgarea":"6","dir":"south",},
          }
    },
    "1499" : {"area":"21","title":"A sand-scudded road through the desert","environment":"7","exits": {      
@@ -8009,11 +8009,11 @@ nex.rooms = {
    },
    "1504" : {"area":"21","title":"A sandy plain outside a small sandstone house","environment":"7","exits": {      
       "1503":{"dir":"east",},
-      "1505":{"dir":"northwest","door"="1"},
+      "1505":{"dir":"northwest","door":"1"},
          }
    },
    "1505" : {"area":"21","title":"Inside a small, sandstone-walled house","environment":"5","exits": {      
-      "1504":{"dir":"southeast","door"="1"},
+      "1504":{"dir":"southeast","door":"1"},
       "1506":{"dir":"south",},
          }
    },
@@ -8147,7 +8147,7 @@ nex.rooms = {
    },
    "1533" : {"area":"8","title":"Aqueous Virtue","environment":"62","exits": {      
       "377":{"dir":"south",},
-      "3633":{"dir":"northwest","door"="1"},
+      "3633":{"dir":"northwest","door":"1"},
          }
    },
    "1536" : {"area":"16","title":"A small, poster-decorated doctor's office","environment":"17","exits": {      
@@ -8185,7 +8185,7 @@ nex.rooms = {
    "1554" : {"area":"13","title":"Junction of corridors","environment":"46","exits": {      
       "1563":{"dir":"north",},
       "1555":{"dir":"east",},
-      "3684":{"dir":"south","door"="1"},
+      "3684":{"dir":"south","door":"1"},
       "1553":{"dir":"southwest",},
          }
    },
@@ -8251,7 +8251,7 @@ nex.rooms = {
    "1569" : {"area":"22","title":"Inside the gates of Agog","environment":"2","exits": {      
       "1604":{"dir":"east",},
       "1571":{"dir":"southwest",},
-      "2170" tgarea="33":{"dir":"west",},
+      "2170" :{"tgarea":"33","dir":"west",},
       "1570":{"dir":"northwest",},
          }
    },
@@ -8275,7 +8275,7 @@ nex.rooms = {
       "1572":{"dir":"south",},
          }
    },
-   "1574" : {"area":"22","title":"A large library at the heart of the Great Pyramid","environment":"5" important="1","exits": {      
+   "1574" : {"area":"22","title":"A large library at the heart of the Great Pyramid","environment":"5", "important":"1","exits": {      
       "1639":{"dir":"north",},
       "1631":{"dir":"south",},
          }
@@ -8644,7 +8644,7 @@ nex.rooms = {
       "1583":{"dir":"northeast",},
       "1665":{"dir":"southeast",},
       "1639":{"dir":"southwest",},
-      "6783":{"dir":"northwest","door"="1"},
+      "6783":{"dir":"northwest","door":"1"},
          }
    },
    "1641" : {"area":"22","title":"At the base of the Great Pyramid","environment":"2","exits": {      
@@ -8781,14 +8781,14 @@ nex.rooms = {
          }
    },
    "1666" : {"area":"22","title":"An intersection between two dining establishments","environment":"2","exits": {      
-      "1667":{"dir":"northeast","door"="1"},
+      "1667":{"dir":"northeast","door":"1"},
       "1665":{"dir":"southwest",},
       "1668":{"dir":"northwest",},
          }
    },
    "1667" : {"area":"22","title":"The Fried Rockhopper","environment":"62","exits": {      
       "1671":{"dir":"north",},
-      "1666":{"dir":"southwest","door"="1"},
+      "1666":{"dir":"southwest","door":"1"},
          }
    },
    "1668" : {"area":"22","title":"Akalum","environment":"62","exits": {      
@@ -8808,7 +8808,7 @@ nex.rooms = {
          }
    },
    "1671" : {"area":"22","title":"A wildly painted, open-plan kitchen","environment":"5","exits": {      
-      "3623":{"dir":"east","door"="1"},
+      "3623":{"dir":"east","door":"1"},
       "1667":{"dir":"south",},
          }
    },
@@ -8817,7 +8817,7 @@ nex.rooms = {
       "1708":{"dir":"south",},
          }
    },
-   "1673" : {"area":"22","title":"The Walk of Heroes","environment":"4" important="1","exits": {      
+   "1673" : {"area":"22","title":"The Walk of Heroes","environment":"4", "important":"1","exits": {      
       "1646":{"dir":"north",},
       "1674":{"dir":"southeast",},
          }
@@ -8892,7 +8892,7 @@ nex.rooms = {
       "1688":{"dir":"down",},
          }
    },
-   "1689" : {"area":"22","title":"The Hall of Elders","environment":"5" important="1","exits": {      
+   "1689" : {"area":"22","title":"The Hall of Elders","environment":"5", "important":"1","exits": {      
       "1637":{"dir":"north",},
       "1643":{"dir":"east",},
       "1633":{"dir":"south",},
@@ -8944,7 +8944,7 @@ nex.rooms = {
          }
    },
    "1727" : {"area":"30","title":"A broad, tree-lined avenue","environment":"4","exits": {      
-      "6811":{"dir":"northeast","door"="1"},
+      "6811":{"dir":"northeast","door":"1"},
       "1728":{"dir":"southeast",},
       "1726":{"dir":"northwest",},
          }
@@ -8985,7 +8985,7 @@ nex.rooms = {
    "1719" : {"area":"30","title":"A holographic plaza","environment":"4","exits": {      
       "1723":{"dir":"northeast",},
       "1718":{"dir":"south",},
-      "3770":{"dir":"southwest","door"="1"},
+      "3770":{"dir":"southwest","door":"1"},
       "1720":{"dir":"northwest",},
          }
    },
@@ -9152,7 +9152,7 @@ nex.rooms = {
          }
    },
    "1758" : {"area":"23","title":"An elegantly appointed street","environment":"2","exits": {      
-      "6825":{"dir":"north","door"="1"},
+      "6825":{"dir":"north","door":"1"},
       "1737":{"dir":"southeast",},
       "1759":{"dir":"west",},
          }
@@ -9428,7 +9428,7 @@ nex.rooms = {
       "1908":{"dir":"north",},
       "1909":{"dir":"northeast",},
       "1910":{"dir":"east",},
-      "1870" tgarea="30":{"dir":"southwest",},
+      "1870" :{"tgarea":"30","dir":"southwest",},
       "5513":{"dir":"northwest",},
          }
    },
@@ -9458,12 +9458,12 @@ nex.rooms = {
       "1909":{"dir":"southwest",},
       "1908":{"dir":"west",},
       "1912":{"dir":"down",},
-      "1954" hidden="1":{"dir":"in","door"="1"},
+      "1954" :{"hidden":"1","dir":"in","door":"1"},
          }
    },
    "1948" : {"area":"103","title":"Maintenance stairwell","environment":"4","exits": {      
       "1949":{"dir":"up",},
-      "1923":{"dir":"out","door"="1"},
+      "1923":{"dir":"out","door":"1"},
          }
    },
    "1949" : {"area":"103","title":"A viewport on the landing","environment":"4","exits": {      
@@ -9492,13 +9492,13 @@ nex.rooms = {
          }
    },
    "1954" : {"area":"103","title":"A maintenance access stairway","environment":"4","exits": {      
-      "1955":{"dir":"up","door"="1"},
+      "1955":{"dir":"up","door":"1"},
       "1953":{"dir":"down",},
-      "1911":{"dir":"out","door"="1"},
+      "1911":{"dir":"out","door":"1"},
          }
    },
    "1955" : {"area":"103","title":"A private landing outside management offices","environment":"4","exits": {      
-      "1954":{"dir":"down","door"="1"},
+      "1954":{"dir":"down","door":"1"},
          }
    },
    "4009" : {"area":"103","title":"One World Armory","environment":"4","exits": {      
@@ -9567,7 +9567,7 @@ nex.rooms = {
    "1923" : {"area":"103","title":"A jetpack maintenance kiosk","environment":"4","exits": {      
       "1920":{"dir":"north",},
       "1922":{"dir":"west",},
-      "1948":{"dir":"in","door"="1"},
+      "1948":{"dir":"in","door":"1"},
          }
    },
    "1877" : {"area":"30","title":"Through the skyscraper canopy","environment":"4","exits": {      
@@ -9638,7 +9638,7 @@ nex.rooms = {
          }
    },
    "1870" : {"area":"30","title":"Approach to the Arcoplex","environment":"4","exits": {      
-      "1907" tgarea="103":{"dir":"northeast",},
+      "1907" :{"tgarea":"103","dir":"northeast",},
       "1872":{"dir":"south",},
       "1869":{"dir":"west",},
          }
@@ -9690,21 +9690,21 @@ nex.rooms = {
    },
    "3656" : {"area":"30","title":"Parking cube of the FiltraTech development lab","environment":"5","exits": {      
       "1823":{"dir":"south",},
-      "3658":{"dir":"west","door"="1"},
+      "3658":{"dir":"west","door":"1"},
          }
    },
    "3658" : {"area":"30","title":"A sterile, brightly lit reception area","environment":"15","exits": {      
-      "3657":{"dir":"north","door"="1"},
-      "3656":{"dir":"east","door"="1"},
+      "3657":{"dir":"north","door":"1"},
+      "3656":{"dir":"east","door":"1"},
          }
    },
    "3657" : {"area":"30","title":"Wandering among immense air purification canisters","environment":"5","exits": {      
-      "3659":{"dir":"east","door"="1"},
-      "3658":{"dir":"south","door"="1"},
+      "3659":{"dir":"east","door":"1"},
+      "3658":{"dir":"south","door":"1"},
          }
    },
    "3659" : {"area":"30","title":"A FiltraTech R&amp;D Facility","environment":"5","exits": {      
-      "3657":{"dir":"west","door"="1"},
+      "3657":{"dir":"west","door":"1"},
          }
    },
    "1827" : {"area":"30","title":"Outside the corporate headquarters of Tiravoa Shipworks","environment":"4","exits": {      
@@ -9766,7 +9766,7 @@ nex.rooms = {
    "1844" : {"area":"30","title":"Cantilevered plaza outside Antinomy Anomalistics","environment":"4","exits": {      
       "1843":{"dir":"north",},
       "1845":{"dir":"east",},
-      "3655":{"dir":"northwest","door"="1"},
+      "3655":{"dir":"northwest","door":"1"},
       "1964":{"dir":"down",},
          }
    },
@@ -9783,14 +9783,14 @@ nex.rooms = {
    },
    "1845" : {"area":"30","title":"Tree-lined terrace outside Evergreen Dynamics","environment":"4","exits": {      
       "1841":{"dir":"north",},
-      "9720":{"dir":"south","door"="1"},
+      "9720":{"dir":"south","door":"1"},
       "1844":{"dir":"west",},
       "1961":{"dir":"up",},
          }
    },
    "3655" : {"area":"30","title":"The visitor's lobby of Antinomy Anomalistics","environment":"5","exits": {      
-      "3652":{"dir":"north","door"="1"},
-      "1844":{"dir":"southeast","door"="1"},
+      "3652":{"dir":"north","door":"1"},
+      "1844":{"dir":"southeast","door":"1"},
          }
    },
    "1841" : {"area":"30","title":"Intersecting skybridges","environment":"4","exits": {      
@@ -9833,9 +9833,9 @@ nex.rooms = {
          }
    },
    "3652" : {"area":"30","title":"A humming, well-ventilated server room","environment":"5","exits": {      
-      "3655":{"dir":"south","door"="1"},
-      "3653":{"dir":"up","door"="1"},
-      "3651":{"dir":"down","door"="1"},
+      "3655":{"dir":"south","door":"1"},
+      "3653":{"dir":"up","door":"1"},
+      "3651":{"dir":"down","door":"1"},
          }
    },
    "1964" : {"area":"30","title":"A sequence of descending walkways","environment":"4","exits": {      
@@ -9849,17 +9849,17 @@ nex.rooms = {
          }
    },
    "3651" : {"area":"30","title":"A laddered ventilation shaft","environment":"5","exits": {      
-      "3652":{"dir":"up","door"="1"},
-      "3650":{"dir":"down","door"="1"},
+      "3652":{"dir":"up","door":"1"},
+      "3650":{"dir":"down","door":"1"},
          }
    },
    "3653" : {"area":"30","title":"A maintenance stairwell ascending a tall skyscraper","environment":"5","exits": {      
-      "3654":{"dir":"up","door"="1"},
-      "3652":{"dir":"down","door"="1"},
+      "3654":{"dir":"up","door":"1"},
+      "3652":{"dir":"down","door":"1"},
          }
    },
    "3654" : {"area":"30","title":"The office of the Head Archivist","environment":"5","exits": {      
-      "3653":{"dir":"down","door"="1"},
+      "3653":{"dir":"down","door":"1"},
          }
    },
    "1962" : {"area":"30","title":"Abyssal vantage point in the business district","environment":"4","exits": {      
@@ -9875,7 +9875,7 @@ nex.rooms = {
          }
    },
    "1786" : {"area":"30","title":"A suspended plaza","environment":"4","exits": {      
-      "8601":{"dir":"east","door"="1"},
+      "8601":{"dir":"east","door":"1"},
       "1787":{"dir":"south",},
       "1878":{"dir":"northwest",},
          }
@@ -9901,14 +9901,14 @@ nex.rooms = {
          }
    },
    "1805" : {"area":"30","title":"Fuchsia-lit exterior of a club called Malice","environment":"4","exits": {      
-      "4171":{"dir":"north","door"="1"},
+      "4171":{"dir":"north","door":"1"},
       "1807":{"dir":"southeast",},
       "1806":{"dir":"southwest",},
       "1804":{"dir":"west",},
          }
    },
    "4171" : {"area":"30","title":"The churning, neon-lit interior of Malice","environment":"62","exits": {      
-      "1805":{"dir":"south","door"="1"},
+      "1805":{"dir":"south","door":"1"},
       "4172":{"dir":"up",},
          }
    },
@@ -9927,7 +9927,7 @@ nex.rooms = {
    },
    "3784" : {"area":"30","title":"Kurnikov Accounting","environment":"4","exits": {      
       "1808":{"dir":"south",},
-      "3783" tgarea="70":{"dir":"down","door"="1"},
+      "3783" :{"tgarea":"70","dir":"down","door":"1"},
          }
    },
    "1809" : {"area":"30","title":"Beneath a gnarl of utility connections","environment":"4","exits": {      
@@ -9936,17 +9936,17 @@ nex.rooms = {
          }
    },
    "3783" : {"area":"70","title":"A dank stairwell descending into darkness","environment":"46","exits": {      
-      "3784" tgarea="30":{"dir":"up","door"="1"},
+      "3784" :{"tgarea":"30","dir":"up","door":"1"},
       "3782":{"dir":"down",},
          }
    },
    "1810" : {"area":"30","title":"Alleyway of ghost signs","environment":"4","exits": {      
       "1809":{"dir":"north",},
-      "1972" tgarea="102":{"dir":"down",},
+      "1972" :{"tgarea":"102","dir":"down",},
          }
    },
    "1972" : {"area":"102","title":"Dark descent into the Dregs","environment":"69","exits": {      
-      "1810" tgarea="30":{"dir":"up",},
+      "1810" :{"tgarea":"30","dir":"up",},
       "1856":{"dir":"down",},
          }
    },
@@ -10007,12 +10007,12 @@ nex.rooms = {
          }
    },
    "4173" : {"area":"30","title":"A humming, sound-proofed VIP balcony","environment":"62","exits": {      
-      "4174":{"dir":"south","door"="1"},
+      "4174":{"dir":"south","door":"1"},
       "4172":{"dir":"down",},
          }
    },
    "4174" : {"area":"30","title":"A shadowed back entrance to Malice","environment":"62","exits": {      
-      "4173":{"dir":"north","door"="1"},
+      "4173":{"dir":"north","door":"1"},
       "1793":{"dir":"south",},
          }
    },
@@ -10087,12 +10087,12 @@ nex.rooms = {
    },
    "1859" : {"area":"102","title":"An inauspicious alleyway","environment":"69","exits": {      
       "1857":{"dir":"north",},
-      "1858":{"dir":"northwest","door"="1"},
+      "1858":{"dir":"northwest","door":"1"},
          }
    },
    "1858" : {"area":"102","title":"A drone bandit's workshop","environment":"69","exits": {      
-      "1857" hidden="1":{"dir":"east",},
-      "1859":{"dir":"southeast","door"="1"},
+      "1857" :{"hidden":"1","dir":"east",},
+      "1859":{"dir":"southeast","door":"1"},
          }
    },
    "1861" : {"area":"102","title":"A squat amid the Dregs","environment":"69","exits": {      
@@ -10125,14 +10125,14 @@ nex.rooms = {
          }
    },
    "1866" : {"area":"102","title":"Rubble-strewn streets of ancient syncrete","environment":"69","exits": {      
-      "1867":{"dir":"north","door"="1"},
+      "1867":{"dir":"north","door":"1"},
       "1868":{"dir":"east",},
       "1865":{"dir":"northwest",},
          }
    },
    "1867" : {"area":"102","title":"A slicer den","environment":"69","exits": {      
-      "1868" hidden="1":{"dir":"southeast",},
-      "1866":{"dir":"south","door"="1"},
+      "1868" :{"hidden":"1","dir":"southeast",},
+      "1866":{"dir":"south","door":"1"},
          }
    },
    "1868" : {"area":"102","title":"A dead-end alley","environment":"69","exits": {      
@@ -10147,7 +10147,7 @@ nex.rooms = {
          }
    },
    "1811" : {"area":"30","title":"Laneway passing a small bakery","environment":"4","exits": {      
-      "8399":{"dir":"northeast","door"="1"},
+      "8399":{"dir":"northeast","door":"1"},
       "1813":{"dir":"southeast",},
       "1812":{"dir":"south",},
          }
@@ -10155,7 +10155,7 @@ nex.rooms = {
    "1815" : {"area":"30","title":"Glittering avenue","environment":"4","exits": {      
       "1813":{"dir":"north",},
       "1816":{"dir":"east",},
-      "3687":{"dir":"south","door"="1"},
+      "3687":{"dir":"south","door":"1"},
       "1818":{"dir":"southwest",},
       "1812":{"dir":"northwest",},
          }
@@ -10183,12 +10183,12 @@ nex.rooms = {
          }
    },
    "3687" : {"area":"30","title":"Cramped front entryway of Eckin Outreach Intergalactic","environment":"5","exits": {      
-      "1815":{"dir":"north","door"="1"},
+      "1815":{"dir":"north","door":"1"},
       "3688":{"dir":"east",},
          }
    },
    "1899" : {"area":"30","title":"Sub-city entrance to the Arcoplex","environment":"4","exits": {      
-      "1922" tgarea="103":{"dir":"northeast",},
+      "1922" :{"tgarea":"103","dir":"northeast",},
       "1900":{"dir":"south",},
          }
    },
@@ -10634,7 +10634,7 @@ nex.rooms = {
    },
    "2164" : {"area":"33","title":"An old road outside the village of Uryet","environment":"29","exits": {      
       "2163":{"dir":"east",},
-      "504" tgarea="10":{"dir":"west",},
+      "504" :{"tgarea":"10","dir":"west",},
          }
    },
    "2165" : {"area":"33","title":"Traveling through twisted badlands on a wide road","environment":"29","exits": {      
@@ -10665,7 +10665,7 @@ nex.rooms = {
          }
    },
    "2170" : {"area":"33","title":"Just outside the capital city of Agog","environment":"29","exits": {      
-      "1569" tgarea="22":{"dir":"east",},
+      "1569" :{"tgarea":"22","dir":"east",},
       "2169":{"dir":"southwest",},
          }
    },
@@ -10674,7 +10674,7 @@ nex.rooms = {
          }
    },
    "2174" : {"area":"34","title":"A large, open-walled plaza","environment":"9","exits": {      
-      "6776":{"dir":"north","door"="1"},
+      "6776":{"dir":"north","door":"1"},
       "2192":{"dir":"northeast",},
       "2188":{"dir":"west",},
       "3963":{"dir":"down",},
@@ -10691,7 +10691,7 @@ nex.rooms = {
          }
    },
    "2175" : {"area":"34","title":"Passing rows of powered doors down a shabby hallway","environment":"9","exits": {      
-      "2176":{"dir":"north","door"="1"},
+      "2176":{"dir":"north","door":"1"},
       "2207":{"dir":"east",},
       "2173":{"dir":"south",},
       "2177":{"dir":"west",},
@@ -10700,7 +10700,7 @@ nex.rooms = {
    "2188" : {"area":"34","title":"A large plaza outside a medical facility","environment":"9","exits": {      
       "2190":{"dir":"north",},
       "2174":{"dir":"east",},
-      "2240":{"dir":"south","door"="1"},
+      "2240":{"dir":"south","door":"1"},
       "2187":{"dir":"west",},
          }
    },
@@ -10710,7 +10710,7 @@ nex.rooms = {
          }
    },
    "2186" : {"area":"34","title":"A dimly lit corridor before an ancient door","environment":"9","exits": {      
-      "2228":{"dir":"northeast","door"="1"},
+      "2228":{"dir":"northeast","door":"1"},
       "2187":{"dir":"southeast",},
       "2185":{"dir":"northwest",},
          }
@@ -10721,7 +10721,7 @@ nex.rooms = {
          }
    },
    "2184" : {"area":"34","title":"A dimly lit corridor before an ancient door","environment":"9","exits": {      
-      "2229":{"dir":"northeast","door"="1"},
+      "2229":{"dir":"northeast","door":"1"},
       "2185":{"dir":"southeast",},
       "2183":{"dir":"northwest",},
          }
@@ -10745,14 +10745,14 @@ nex.rooms = {
          }
    },
    "2180" : {"area":"34","title":"A bright corridor decorated with masks and costumes","environment":"9","exits": {      
-      "2179":{"dir":"northeast","door"="1"},
+      "2179":{"dir":"northeast","door":"1"},
       "2181":{"dir":"southwest",},
          }
    },
    "2179" : {"area":"34","title":"Before the doors of the Adraka Theater","environment":"9","exits": {      
       "2178":{"dir":"northeast",},
-      "2233":{"dir":"southeast","door"="1"},
-      "2180":{"dir":"southwest","door"="1"},
+      "2233":{"dir":"southeast","door":"1"},
+      "2180":{"dir":"southwest","door":"1"},
          }
    },
    "2178" : {"area":"34","title":"A bright corridor decorated with masks and costumes","environment":"9","exits": {      
@@ -10761,13 +10761,13 @@ nex.rooms = {
          }
    },
    "2177" : {"area":"34","title":"Passing rows of powered doors down a shabby hallway","environment":"9","exits": {      
-      "2209":{"dir":"north","door"="1"},
+      "2209":{"dir":"north","door":"1"},
       "2175":{"dir":"east",},
       "2178":{"dir":"southwest",},
          }
    },
    "2176" : {"area":"34","title":"A communal dining hall, lined with low tables","environment":"9","exits": {      
-      "2175":{"dir":"south","door"="1"},
+      "2175":{"dir":"south","door":"1"},
          }
    },
    "2189" : {"area":"34","title":"The Bridge, near an ancient lift platform","environment":"18","exits": {      
@@ -10822,7 +10822,7 @@ nex.rooms = {
    },
    "2199" : {"area":"34","title":"A glassed-in viewing platform overlooking the forest","environment":"9","exits": {      
       "2200":{"dir":"north",},
-      "2217":{"dir":"east","door"="1"},
+      "2217":{"dir":"east","door":"1"},
       "2198":{"dir":"south",},
          }
    },
@@ -10832,100 +10832,100 @@ nex.rooms = {
          }
    },
    "2201" : {"area":"34","title":"A worn, crowded residence corridor","environment":"9","exits": {      
-      "3999":{"dir":"north","door"="1"},
-      "2215":{"dir":"northeast","door"="1"},
-      "4005":{"dir":"east","door"="1"},
+      "3999":{"dir":"north","door":"1"},
+      "2215":{"dir":"northeast","door":"1"},
+      "4005":{"dir":"east","door":"1"},
       "2200":{"dir":"southeast",},
       "2202":{"dir":"west",},
          }
    },
    "2202" : {"area":"34","title":"A worn, crowded residence corridor","environment":"9","exits": {      
-      "4000":{"dir":"north","door"="1"},
+      "4000":{"dir":"north","door":"1"},
       "2201":{"dir":"east",},
-      "2214":{"dir":"southwest","door"="1"},
+      "2214":{"dir":"southwest","door":"1"},
       "2203":{"dir":"northwest",},
          }
    },
    "2203" : {"area":"34","title":"A worn, crowded residence corridor","environment":"9","exits": {      
-      "4001":{"dir":"north","door"="1"},
-      "2213":{"dir":"northeast","door"="1"},
+      "4001":{"dir":"north","door":"1"},
+      "2213":{"dir":"northeast","door":"1"},
       "2202":{"dir":"southeast",},
       "2204":{"dir":"west",},
          }
    },
    "2204" : {"area":"34","title":"A worn, crowded residence corridor","environment":"9","exits": {      
-      "4002":{"dir":"north","door"="1"},
+      "4002":{"dir":"north","door":"1"},
       "2203":{"dir":"east",},
-      "2212":{"dir":"southwest","door"="1"},
+      "2212":{"dir":"southwest","door":"1"},
       "2205":{"dir":"northwest",},
          }
    },
    "2205" : {"area":"34","title":"A worn, crowded residence corridor","environment":"9","exits": {      
-      "4003":{"dir":"north","door"="1"},
-      "2211":{"dir":"northeast","door"="1"},
+      "4003":{"dir":"north","door":"1"},
+      "2211":{"dir":"northeast","door":"1"},
       "2204":{"dir":"southeast",},
       "2206":{"dir":"west",},
          }
    },
    "2206" : {"area":"34","title":"A worn, crowded residence corridor","environment":"9","exits": {      
-      "4004":{"dir":"north","door"="1"},
+      "4004":{"dir":"north","door":"1"},
       "2205":{"dir":"east",},
-      "2210":{"dir":"southwest","door"="1"},
+      "2210":{"dir":"southwest","door":"1"},
       "2207":{"dir":"northwest",},
          }
    },
    "2207" : {"area":"34","title":"Passing rows of powered doors down a shabby hallway","environment":"9","exits": {      
-      "2208":{"dir":"north","door"="1"},
+      "2208":{"dir":"north","door":"1"},
       "2206":{"dir":"southeast",},
       "2175":{"dir":"west",},
          }
    },
    "2208" : {"area":"34","title":"A crowded barracks hall","environment":"9","exits": {      
-      "2207":{"dir":"south","door"="1"},
+      "2207":{"dir":"south","door":"1"},
          }
    },
    "2209" : {"area":"34","title":"A spartan meditation chamber","environment":"9","exits": {      
-      "2177":{"dir":"south","door"="1"},
+      "2177":{"dir":"south","door":"1"},
          }
    },
    "2210" : {"area":"34","title":"An orderly administration office","environment":"9","exits": {      
-      "2206":{"dir":"northeast","door"="1"},
+      "2206":{"dir":"northeast","door":"1"},
          }
    },
    "2211" : {"area":"34","title":"An officer's private stateroom","environment":"43","exits": {      
-      "2205":{"dir":"southwest","door"="1"},
+      "2205":{"dir":"southwest","door":"1"},
          }
    },
    "2212" : {"area":"34","title":"A creche filled with Jin children","environment":"9","exits": {      
-      "2204":{"dir":"northeast","door"="1"},
+      "2204":{"dir":"northeast","door":"1"},
          }
    },
    "2213" : {"area":"34","title":"A cramped school room ringed with cushions","environment":"43","exits": {      
-      "2203":{"dir":"southwest","door"="1"},
+      "2203":{"dir":"southwest","door":"1"},
          }
    },
    "2214" : {"area":"34","title":"A quiet stateroom","environment":"43","exits": {      
-      "2202":{"dir":"northeast","door"="1"},
+      "2202":{"dir":"northeast","door":"1"},
          }
    },
    "2215" : {"area":"34","title":"A quiet stateroom","environment":"43","exits": {      
-      "2201":{"dir":"southwest","door"="1"},
+      "2201":{"dir":"southwest","door":"1"},
          }
    },
    "2216" : {"area":"34","title":"A depleted supply and salvage cargo hold","environment":"13","exits": {      
       "2259":{"dir":"southeast",},
-      "2217":{"dir":"south","door"="1"},
+      "2217":{"dir":"south","door":"1"},
          }
    },
    "2217" : {"area":"34","title":"A passageway through rows of orderly supplies","environment":"13","exits": {      
-      "2216":{"dir":"north","door"="1"},
+      "2216":{"dir":"north","door":"1"},
       "2261":{"dir":"east",},
-      "2218":{"dir":"south","door"="1"},
-      "2199":{"dir":"west","door"="1"},
+      "2218":{"dir":"south","door":"1"},
+      "2199":{"dir":"west","door":"1"},
          }
    },
    "2218" : {"area":"34","title":"A supply warehouse and marketplace","environment":"13","exits": {      
-      "2217":{"dir":"north","door"="1"},
+      "2217":{"dir":"north","door":"1"},
       "2260":{"dir":"northeast",},
          }
    },
@@ -10980,13 +10980,13 @@ nex.rooms = {
    "2228" : {"area":"34","title":"A quiet passage through the Temple of T'rath","environment":"9","exits": {      
       "2231":{"dir":"north",},
       "2232":{"dir":"northeast",},
-      "2186":{"dir":"southwest","door"="1"},
+      "2186":{"dir":"southwest","door":"1"},
          }
    },
    "2229" : {"area":"34","title":"A quiet passage through the Temple of T'rath","environment":"9","exits": {      
       "2230":{"dir":"northeast",},
       "2231":{"dir":"east",},
-      "2184":{"dir":"southwest","door"="1"},
+      "2184":{"dir":"southwest","door":"1"},
          }
    },
    "2230" : {"area":"34","title":"The Chamber of the Second Eye","environment":"9","exits": {      
@@ -11011,7 +11011,7 @@ nex.rooms = {
       "2234":{"dir":"northeast",},
       "2238":{"dir":"southeast",},
       "2235":{"dir":"southwest",},
-      "2179":{"dir":"northwest","door"="1"},
+      "2179":{"dir":"northwest","door":"1"},
          }
    },
    "2234" : {"area":"34","title":"Rows of elevated seats looking over the stage","environment":"9","exits": {      
@@ -11043,12 +11043,12 @@ nex.rooms = {
          }
    },
    "2241" : {"area":"34","title":"A brightly lit surgery","environment":"27","exits": {      
-      "2240":{"dir":"west","door"="1"},
+      "2240":{"dir":"west","door":"1"},
          }
    },
    "2240" : {"area":"34","title":"An orderly triage center","environment":"27","exits": {      
-      "2188":{"dir":"north","door"="1"},
-      "2241":{"dir":"east","door"="1"},
+      "2188":{"dir":"north","door":"1"},
+      "2241":{"dir":"east","door":"1"},
       "2239":{"dir":"west",},
          }
    },
@@ -11290,24 +11290,24 @@ nex.rooms = {
          }
    },
    "2259" : {"area":"34","title":"A cavernous hangar","environment":"26","exits": {      
-      "2261":{"dir":"south","door"="1"},
+      "2261":{"dir":"south","door":"1"},
       "2216":{"dir":"northwest",},
          }
    },
    "2260" : {"area":"34","title":"A cavernous hangar","environment":"26","exits": {      
-      "2261":{"dir":"north","door"="1"},
+      "2261":{"dir":"north","door":"1"},
       "2218":{"dir":"southwest",},
          }
    },
    "2261" : {"area":"34","title":"A corridor through a cavernous hangar","environment":"26","exits": {      
-      "2259":{"dir":"north","door"="1"},
-      "2191":{"dir":"east","door"="1"},
-      "2260":{"dir":"south","door"="1"},
+      "2259":{"dir":"north","door":"1"},
+      "2191":{"dir":"east","door":"1"},
+      "2260":{"dir":"south","door":"1"},
       "2217":{"dir":"west",},
          }
    },
    "2191" : {"area":"34","title":"A sparsely crewed shuttle dock and teleport platform","environment":"26","exits": {      
-      "2261":{"dir":"west","door"="1"},
+      "2261":{"dir":"west","door":"1"},
          }
    },
    "1232" : {"area":"86","title":"A row of supply sheds at the edge of the spire.","environment":"28","exits": {      
@@ -11321,7 +11321,7 @@ nex.rooms = {
          }
    },
    "2292" : {"area":"11","title":"A tight-walled service hallway","environment":"4","exits": {      
-      "563":{"dir":"west","door"="1"},
+      "563":{"dir":"west","door":"1"},
       "2293":{"dir":"down",},
          }
    },
@@ -11367,7 +11367,7 @@ nex.rooms = {
    },
    "2301" : {"area":"11","title":"A wide point in the twisting tunnels","environment":"4","exits": {      
       "2300":{"dir":"north",},
-      "9124":{"dir":"east","door"="1"},
+      "9124":{"dir":"east","door":"1"},
       "2302":{"dir":"down",},
          }
    },
@@ -11390,7 +11390,7 @@ nex.rooms = {
    "542" : {"area":"11","title":"A long bank of ramshackle lifts","environment":"4","exits": {      
       "528":{"dir":"southeast",},
       "541":{"dir":"south",},
-      "2306":{"dir":"west","door"="1"},
+      "2306":{"dir":"west","door":"1"},
          }
    },
    "1475" : {"area":"20","title":"A firing range","environment":"4","exits": {      
@@ -11398,7 +11398,7 @@ nex.rooms = {
          }
    },
    "2306" : {"area":"11","title":"A long service tunnel","environment":"4","exits": {      
-      "542":{"dir":"east","door"="1"},
+      "542":{"dir":"east","door":"1"},
       "2307":{"dir":"down",},
          }
    },
@@ -11438,13 +11438,13 @@ nex.rooms = {
          }
    },
    "2316" : {"area":"11","title":"Near an immense, triple-sealed metal blast door","environment":"42","exits": {      
-      "2317":{"dir":"north","door"="1"},
+      "2317":{"dir":"north","door":"1"},
       "2315":{"dir":"southeast",},
          }
    },
    "2317" : {"area":"11","title":"A wide, abandoned tram tunnel","environment":"42","exits": {      
       "2318":{"dir":"north",},
-      "2316":{"dir":"south","door"="1"},
+      "2316":{"dir":"south","door":"1"},
          }
    },
    "2318" : {"area":"11","title":"Passing a twisted tangle of de-railed tram cars","environment":"42","exits": {      
@@ -11453,7 +11453,7 @@ nex.rooms = {
          }
    },
    "2319" : {"area":"11","title":"A defaced, underground tram station","environment":"42","exits": {      
-      "707" tgarea="14":{"dir":"north",},
+      "707" :{"tgarea":"14","dir":"north",},
       "2318":{"dir":"south",},
          }
    },
@@ -11562,7 +11562,7 @@ nex.rooms = {
          }
    },
    "2338" : {"area":"7","title":"Overlooking Song City","environment":"12","exits": {      
-      "3877" tgarea="73":{"dir":"northeast",},
+      "3877" :{"tgarea":"73","dir":"northeast",},
       "2337":{"dir":"west",},
          }
    },
@@ -11861,21 +11861,21 @@ nex.rooms = {
    },
    "2460" : {"area":"38","title":"Among the cells","environment":"46","exits": {      
       "2459":{"dir":"north",},
-      "2461":{"dir":"east","door"="1"},
-      "2463":{"dir":"south","door"="1"},
-      "2462":{"dir":"west","door"="1"},
+      "2461":{"dir":"east","door":"1"},
+      "2463":{"dir":"south","door":"1"},
+      "2462":{"dir":"west","door":"1"},
          }
    },
    "2461" : {"area":"38","title":"A dank, lacquer-walled cell","environment":"46","exits": {      
-      "2460":{"dir":"west","door"="1"},
+      "2460":{"dir":"west","door":"1"},
          }
    },
    "2463" : {"area":"38","title":"A dank, lacquer-walled cell","environment":"46","exits": {      
-      "2460":{"dir":"north","door"="1"},
+      "2460":{"dir":"north","door":"1"},
          }
    },
    "2462" : {"area":"38","title":"A dank, lacquer-walled cell","environment":"46","exits": {      
-      "2460":{"dir":"east","door"="1"},
+      "2460":{"dir":"east","door":"1"},
          }
    },
    "2464" : {"area":"38","title":"A massive hangar filled with fighter craft","environment":"46","exits": {      
@@ -11958,7 +11958,7 @@ nex.rooms = {
          }
    },
    "2475" : {"area":"38","title":"On a long ladder embedded in the sunloft","environment":"46","exits": {      
-      "9252":{"dir":"west","door"="1"},
+      "9252":{"dir":"west","door":"1"},
       "2476":{"dir":"up",},
       "2481":{"dir":"down",},
          }
@@ -12048,7 +12048,7 @@ nex.rooms = {
          }
    },
    "2496" : {"area":"39","title":"A wide, filth-tracked passageway","environment":"46","exits": {      
-      "9251":{"dir":"north","door"="1"},
+      "9251":{"dir":"north","door":"1"},
       "2495":{"dir":"northeast",},
       "2497":{"dir":"south",},
          }
@@ -12099,33 +12099,33 @@ nex.rooms = {
          }
    },
    "2506" : {"area":"39","title":"A cavernous, subterranean residential area","environment":"46","exits": {      
-      "2507":{"dir":"north","door"="1"},
+      "2507":{"dir":"north","door":"1"},
       "2509":{"dir":"east",},
-      "2508":{"dir":"south","door"="1"},
+      "2508":{"dir":"south","door":"1"},
       "2503":{"dir":"west",},
          }
    },
    "2507" : {"area":"39","title":"A damp hovel","environment":"46","exits": {      
-      "2506":{"dir":"south","door"="1"},
+      "2506":{"dir":"south","door":"1"},
          }
    },
    "2508" : {"area":"39","title":"A run-down hovel","environment":"46","exits": {      
-      "2506":{"dir":"north","door"="1"},
+      "2506":{"dir":"north","door":"1"},
          }
    },
    "2509" : {"area":"39","title":"A cavernous, subterranean residential area","environment":"46","exits": {      
-      "2510":{"dir":"north","door"="1"},
+      "2510":{"dir":"north","door":"1"},
       "2512":{"dir":"northeast",},
-      "2511":{"dir":"south","door"="1"},
+      "2511":{"dir":"south","door":"1"},
       "2506":{"dir":"west",},
          }
    },
    "2510" : {"area":"39","title":"A poor and humble dwelling","environment":"46","exits": {      
-      "2509":{"dir":"south","door"="1"},
+      "2509":{"dir":"south","door":"1"},
          }
    },
    "2511" : {"area":"39","title":"An overcrowded home filled with exhausted workers","environment":"46","exits": {      
-      "2509":{"dir":"north","door"="1"},
+      "2509":{"dir":"north","door":"1"},
          }
    },
    "2512" : {"area":"39","title":"An intersection between two buildings","environment":"46","exits": {      
@@ -12140,12 +12140,12 @@ nex.rooms = {
          }
    },
    "2514" : {"area":"39","title":"&quot;The Hole in the Wall&quot; Cantina","environment":"62","exits": {      
-      "2515":{"dir":"east","door"="1"},
+      "2515":{"dir":"east","door":"1"},
       "2512":{"dir":"northwest",},
          }
    },
    "2515" : {"area":"39","title":"A sleazy backroom","environment":"46","exits": {      
-      "2514":{"dir":"west","door"="1"},
+      "2514":{"dir":"west","door":"1"},
          }
    },
    "2517" : {"area":"40","title":"A walkway between massive hover engines","environment":"44","exits": {      
@@ -12154,7 +12154,7 @@ nex.rooms = {
          }
    },
    "2518" : {"area":"40","title":"In a cavernous engine room","environment":"44","exits": {      
-      "2536":{"dir":"north","door"="1"},
+      "2536":{"dir":"north","door":"1"},
       "2521":{"dir":"east",},
       "2517":{"dir":"south",},
       "2520":{"dir":"west",},
@@ -12255,7 +12255,7 @@ nex.rooms = {
          }
    },
    "2536" : {"area":"40","title":"A syncrete-floored hallway","environment":"5","exits": {      
-      "2518":{"dir":"south","door"="1"},
+      "2518":{"dir":"south","door":"1"},
       "2537":{"dir":"west",},
          }
    },
@@ -12265,24 +12265,24 @@ nex.rooms = {
          }
    },
    "2538" : {"area":"40","title":"A syncrete-floored hallway","environment":"5","exits": {      
-      "8718":{"dir":"northeast","door"="1"},
+      "8718":{"dir":"northeast","door":"1"},
       "2537":{"dir":"southeast",},
       "2539":{"dir":"west",},
          }
    },
    "2539" : {"area":"40","title":"Near some rattletrap old lifts","environment":"5","exits": {      
-      "2540":{"dir":"north","door"="1"},
+      "2540":{"dir":"north","door":"1"},
       "2538":{"dir":"east",},
       "2541":{"dir":"south",},
          }
    },
    "2540" : {"area":"40","title":"An engineer's office","environment":"5","exits": {      
-      "2539":{"dir":"south","door"="1"},
+      "2539":{"dir":"south","door":"1"},
          }
    },
    "2541" : {"area":"40","title":"At the base of a long staircase","environment":"5","exits": {      
       "2539":{"dir":"north",},
-      "3931" tgarea="73":{"dir":"up",},
+      "3931" :{"tgarea":"73","dir":"up",},
          }
    },
    "2545" : {"area":"40","title":"On a sturdy paristeel ladder","environment":"44","exits": {      
@@ -13105,14 +13105,14 @@ nex.rooms = {
          }
    },
    "2682" : {"area":"42","title":"A spike-walled, blockaded courtyard","environment":"4","exits": {      
-      "2683":{"dir":"northeast","door"="1"},
+      "2683":{"dir":"northeast","door":"1"},
       "2681":{"dir":"south",},
          }
    },
    "2683" : {"area":"42","title":"A fortified, rad-shielded bunker and research lab","environment":"27","exits": {      
       "6210":{"dir":"north",},
       "2684":{"dir":"east",},
-      "2682":{"dir":"southwest","door"="1"},
+      "2682":{"dir":"southwest","door":"1"},
          }
    },
    "2684" : {"area":"42","title":"A small weapons stockroom and teleportation bay","environment":"5","exits": {      
@@ -13249,7 +13249,7 @@ nex.rooms = {
          }
    },
    "2731" : {"area":"43","title":"A deep pool at the bottom of a churning waterfall","environment":"50","exits": {      
-      "2732" hidden="1":{"dir":"north",},
+      "2732" :{"hidden":"1","dir":"north",},
       "2724":{"dir":"west",},
       "2728":{"dir":"up",},
          }
@@ -13506,7 +13506,7 @@ nex.rooms = {
    },
    "2754" : {"area":"43","title":"A quiet forest at the base of the mountains","environment":"8","exits": {      
       "2753":{"dir":"southeast",},
-      "2755" tgarea="44":{"dir":"northwest",},
+      "2755" :{"tgarea":"44","dir":"northwest",},
          }
    },
    "2719" : {"area":"43","title":"A steep canyon slope covered in gravel","environment":"31","exits": {      
@@ -13520,7 +13520,7 @@ nex.rooms = {
          }
    },
    "2755" : {"area":"44","title":"A gradually sloping road near the Siva forest","environment":"4","exits": {      
-      "2754" tgarea="43":{"dir":"southeast",},
+      "2754" :{"tgarea":"43","dir":"southeast",},
       "2756":{"dir":"northwest",},
          }
    },
@@ -13657,7 +13657,7 @@ nex.rooms = {
    },
    "2781" : {"area":"44","title":"A wide, gradually sloping road outside the city","environment":"4","exits": {      
       "2768":{"dir":"southeast",},
-      "2824" tgarea="45":{"dir":"northwest",},
+      "2824" :{"tgarea":"45","dir":"northwest",},
          }
    },
    "2782" : {"area":"44","title":"A courtyard flanked by imposing barracks buildings","environment":"4","exits": {      
@@ -13681,37 +13681,37 @@ nex.rooms = {
    },
    "2826" : {"area":"45","title":"The urban canyons of Vertenalith, between towering skyscrapers","environment":"2","exits": {      
       "633":{"dir":"north",},
-      "2856":{"dir":"northeast","door"="1"},
+      "2856":{"dir":"northeast","door":"1"},
       "2825":{"dir":"southeast",},
       "2823":{"dir":"west",},
          }
    },
    "2825" : {"area":"45","title":"A broad road passing between towering forests of skyscrapers","environment":"2","exits": {      
-      "6715":{"dir":"northeast","door"="1"},
+      "6715":{"dir":"northeast","door":"1"},
       "2824":{"dir":"southeast",},
-      "2852":{"dir":"west","door"="1"},
+      "2852":{"dir":"west","door":"1"},
       "2826":{"dir":"northwest",},
          }
    },
    "2824" : {"area":"45","title":"A road sloping down towards the outskirts of Vertenalith","environment":"2","exits": {      
-      "2781" tgarea="44":{"dir":"southeast",},
+      "2781" :{"tgarea":"44","dir":"southeast",},
       "2825":{"dir":"northwest",},
          }
    },
    "2823" : {"area":"45","title":"A road passing between industrial complexes","environment":"2","exits": {      
-      "2822":{"dir":"north","door"="1"},
+      "2822":{"dir":"north","door":"1"},
       "2826":{"dir":"east",},
-      "2821":{"dir":"south","door"="1"},
+      "2821":{"dir":"south","door":"1"},
       "2818":{"dir":"southwest",},
          }
    },
    "2822" : {"area":"45","title":"The Tacyx PDT industrial complex","environment":"39","exits": {      
-      "2823":{"dir":"south","door"="1"},
+      "2823":{"dir":"south","door":"1"},
       "2819":{"dir":"west",},
          }
    },
    "2821" : {"area":"45","title":"Microsun Defense Factory Park","environment":"32","exits": {      
-      "2823":{"dir":"north","door"="1"},
+      "2823":{"dir":"north","door":"1"},
       "2820":{"dir":"east",},
          }
    },
@@ -13726,11 +13726,11 @@ nex.rooms = {
    },
    "2818" : {"area":"45","title":"Plaza outside the Navarch's Claw skyscraper","environment":"2","exits": {      
       "2823":{"dir":"northeast",},
-      "2817":{"dir":"west","door"="1"},
+      "2817":{"dir":"west","door":"1"},
          }
    },
    "2817" : {"area":"45","title":"The entryway to the Navarch's Claw","environment":"5","exits": {      
-      "2818":{"dir":"east","door"="1"},
+      "2818":{"dir":"east","door":"1"},
       "2815":{"dir":"south",},
       "2814":{"dir":"southwest",},
       "2816":{"dir":"west",},
@@ -13788,7 +13788,7 @@ nex.rooms = {
          }
    },
    "2807" : {"area":"45","title":"A spiraling maintenance ramp","environment":"5","exits": {      
-      "2827":{"dir":"north","door"="1"},
+      "2827":{"dir":"north","door":"1"},
       "2808":{"dir":"down",},
          }
    },
@@ -13796,15 +13796,15 @@ nex.rooms = {
       "2829":{"dir":"north",},
       "2830":{"dir":"northeast",},
       "2828":{"dir":"east",},
-      "2807":{"dir":"south","door"="1"},
-      "2832":{"dir":"west","door"="1"},
+      "2807":{"dir":"south","door":"1"},
+      "2832":{"dir":"west","door":"1"},
          }
    },
    "2829" : {"area":"45","title":"A velvet-draped press hall with a large podium","environment":"5","exits": {      
       "2831":{"dir":"east",},
       "2830":{"dir":"southeast",},
       "2827":{"dir":"south",},
-      "2833":{"dir":"west","door"="1"},
+      "2833":{"dir":"west","door":"1"},
          }
    },
    "2828" : {"area":"45","title":"A waiting room near the skybridge door","environment":"5","exits": {      
@@ -13829,18 +13829,18 @@ nex.rooms = {
          }
    },
    "2832" : {"area":"45","title":"A long, bridgelike balcony","environment":"5","exits": {      
-      "2827":{"dir":"east","door"="1"},
-      "2834":{"dir":"northwest","door"="1"},
+      "2827":{"dir":"east","door":"1"},
+      "2834":{"dir":"northwest","door":"1"},
          }
    },
    "2833" : {"area":"45","title":"A long, bridgelike balcony","environment":"5","exits": {      
-      "2829":{"dir":"east","door"="1"},
-      "2834":{"dir":"southwest","door"="1"},
+      "2829":{"dir":"east","door":"1"},
+      "2834":{"dir":"southwest","door":"1"},
          }
    },
    "2834" : {"area":"45","title":"The Offices of the Navarch","environment":"5","exits": {      
-      "2833":{"dir":"northeast","door"="1"},
-      "2832":{"dir":"southeast","door"="1"},
+      "2833":{"dir":"northeast","door":"1"},
+      "2832":{"dir":"southeast","door":"1"},
          }
    },
    "2835" : {"area":"45","title":"A skybridge high over the urban canyons","environment":"5","exits": {      
@@ -13941,7 +13941,7 @@ nex.rooms = {
          }
    },
    "2852" : {"area":"45","title":"The lobby of Sweptwing Towers","environment":"5","exits": {      
-      "2825":{"dir":"east","door"="1"},
+      "2825":{"dir":"east","door":"1"},
       "2851":{"dir":"south",},
       "2855":{"dir":"southwest",},
       "2853":{"dir":"west",},
@@ -13970,7 +13970,7 @@ nex.rooms = {
       "2857":{"dir":"north",},
       "2860":{"dir":"northeast",},
       "2858":{"dir":"east",},
-      "2826":{"dir":"southwest","door"="1"},
+      "2826":{"dir":"southwest","door":"1"},
          }
    },
    "2857" : {"area":"45","title":"A shop-lined hallway around a central lift bank","environment":"5","exits": {      
@@ -14195,7 +14195,7 @@ nex.rooms = {
    "633" : {"area":"45","title":"A cramped alleyway","environment":"5","exits": {      
       "1539":{"dir":"north",},
       "2826":{"dir":"south",},
-      "3624":{"dir":"west","door"="1"},
+      "3624":{"dir":"west","door":"1"},
          }
    },
    "1539" : {"area":"45","title":"A cramped alleyway","environment":"5","exits": {      
@@ -14244,13 +14244,13 @@ nex.rooms = {
          }
    },
    "1549" : {"area":"47","title":"Planetary transports in a quiet docking bay on the Starlily","environment":"9","exits": {      
-      "2919":{"dir":"north","door"="1"},
+      "2919":{"dir":"north","door":"1"},
       "1664":{"dir":"southeast",},
       "2903":{"dir":"southwest",},
          }
    },
    "1664" : {"area":"47","title":"Starlily Customs and Insurance","environment":"9","exits": {      
-      "2918":{"dir":"east","door"="1"},
+      "2918":{"dir":"east","door":"1"},
       "1550":{"dir":"southwest",},
       "1548":{"dir":"west",},
       "1549":{"dir":"northwest",},
@@ -14258,7 +14258,7 @@ nex.rooms = {
    },
    "1550" : {"area":"47","title":"The Starlily's shifting docking bay","environment":"9","exits": {      
       "1664":{"dir":"northeast",},
-      "2917":{"dir":"south","door"="1"},
+      "2917":{"dir":"south","door":"1"},
       "2903":{"dir":"northwest",},
          }
    },
@@ -14266,7 +14266,7 @@ nex.rooms = {
       "1549":{"dir":"northeast",},
       "1548":{"dir":"east",},
       "1550":{"dir":"southeast",},
-      "2920":{"dir":"west","door"="1"},
+      "2920":{"dir":"west","door":"1"},
          }
    },
    "2914" : {"area":"47","title":"An overgrown, vine-hung corridor","environment":"12","exits": {      
@@ -14275,15 +14275,15 @@ nex.rooms = {
          }
    },
    "2906" : {"area":"47","title":"A solar petal viewing platform","environment":"9","exits": {      
-      "2923":{"dir":"northeast","door"="1"},
-      "2924":{"dir":"southwest","door"="1"},
+      "2923":{"dir":"northeast","door":"1"},
+      "2924":{"dir":"southwest","door":"1"},
       "2916":{"dir":"northwest",},
          }
    },
    "2907" : {"area":"47","title":"Among offworlder lodging","environment":"9","exits": {      
       "2915":{"dir":"northeast",},
-      "2926":{"dir":"southeast","door"="1"},
-      "2925":{"dir":"northwest","door"="1"},
+      "2926":{"dir":"southeast","door":"1"},
+      "2925":{"dir":"northwest","door":"1"},
          }
    },
    "2913" : {"area":"47","title":"A verdant garden corridor","environment":"12","exits": {      
@@ -14292,27 +14292,27 @@ nex.rooms = {
          }
    },
    "2911" : {"area":"47","title":"Floating in the starry void, near a vast space station","environment":"11","exits": {      
-      "2917":{"dir":"north","door"="1"},
-      "2924":{"dir":"northeast","door"="1"},
-      "2926":{"dir":"northwest","door"="1"},
+      "2917":{"dir":"north","door":"1"},
+      "2924":{"dir":"northeast","door":"1"},
+      "2926":{"dir":"northwest","door":"1"},
          }
    },
    "2908" : {"area":"47","title":"Floating in the starry void, near a vast space station","environment":"11","exits": {      
-      "2923":{"dir":"southwest","door"="1"},
-      "2918":{"dir":"west","door"="1"},
-      "2927":{"dir":"northwest","door"="1"},
+      "2923":{"dir":"southwest","door":"1"},
+      "2918":{"dir":"west","door":"1"},
+      "2927":{"dir":"northwest","door":"1"},
          }
    },
    "2909" : {"area":"47","title":"Floating in the starry void, near a vast space station","environment":"11","exits": {      
-      "2922":{"dir":"northeast","door"="1"},
-      "2920":{"dir":"east","door"="1"},
-      "2925":{"dir":"southeast","door"="1"},
+      "2922":{"dir":"northeast","door":"1"},
+      "2920":{"dir":"east","door":"1"},
+      "2925":{"dir":"southeast","door":"1"},
          }
    },
    "2910" : {"area":"47","title":"Floating in the starry void, near a vast space station","environment":"11","exits": {      
-      "2928":{"dir":"southeast","door"="1"},
-      "2919":{"dir":"south","door"="1"},
-      "2921":{"dir":"southwest","door"="1"},
+      "2928":{"dir":"southeast","door":"1"},
+      "2919":{"dir":"south","door":"1"},
+      "2921":{"dir":"southwest","door":"1"},
          }
    },
    "2912" : {"area":"13","title":"A short-range teleportation station","environment":"36","exits": {      
@@ -14321,15 +14321,15 @@ nex.rooms = {
          }
    },
    "2904" : {"area":"47","title":"Club Ekho","environment":"9","exits": {      
-      "2921":{"dir":"northeast","door"="1"},
+      "2921":{"dir":"northeast","door":"1"},
       "2913":{"dir":"southeast",},
-      "2922":{"dir":"southwest","door"="1"},
+      "2922":{"dir":"southwest","door":"1"},
          }
    },
    "2905" : {"area":"47","title":"A well-stocked medical facility and first-aid station","environment":"27","exits": {      
-      "2927":{"dir":"southeast","door"="1"},
+      "2927":{"dir":"southeast","door":"1"},
       "2914":{"dir":"southwest",},
-      "2928":{"dir":"northwest","door"="1"},
+      "2928":{"dir":"northwest","door":"1"},
          }
    },
    "2915" : {"area":"47","title":"A living-wood corridor bustling with commerce","environment":"12","exits": {      
@@ -14343,63 +14343,63 @@ nex.rooms = {
          }
    },
    "2920" : {"area":"47","title":"A wide, flexible airlock","environment":"9","exits": {      
-      "2903":{"dir":"east","door"="1"},
-      "2909":{"dir":"west","door"="1"},
+      "2903":{"dir":"east","door":"1"},
+      "2909":{"dir":"west","door":"1"},
          }
    },
    "2918" : {"area":"47","title":"A wide, flexible airlock","environment":"9","exits": {      
-      "2908":{"dir":"east","door"="1"},
-      "1664":{"dir":"west","door"="1"},
+      "2908":{"dir":"east","door":"1"},
+      "1664":{"dir":"west","door":"1"},
          }
    },
    "2919" : {"area":"47","title":"A wide, flexible airlock","environment":"9","exits": {      
-      "2910":{"dir":"north","door"="1"},
-      "1549":{"dir":"south","door"="1"},
+      "2910":{"dir":"north","door":"1"},
+      "1549":{"dir":"south","door":"1"},
          }
    },
    "2917" : {"area":"47","title":"A wide, flexible airlock","environment":"9","exits": {      
-      "1550":{"dir":"north","door"="1"},
-      "2911":{"dir":"south","door"="1"},
+      "1550":{"dir":"north","door":"1"},
+      "2911":{"dir":"south","door":"1"},
          }
    },
    "2921" : {"area":"47","title":"A small, cramped airlock","environment":"9","exits": {      
-      "2910":{"dir":"northeast","door"="1"},
-      "2904":{"dir":"southwest","door"="1"},
+      "2910":{"dir":"northeast","door":"1"},
+      "2904":{"dir":"southwest","door":"1"},
          }
    },
    "2922" : {"area":"47","title":"A small, cramped airlock","environment":"9","exits": {      
-      "2904":{"dir":"northeast","door"="1"},
-      "2909":{"dir":"southwest","door"="1"},
+      "2904":{"dir":"northeast","door":"1"},
+      "2909":{"dir":"southwest","door":"1"},
          }
    },
    "2923" : {"area":"47","title":"A small, double-walled airlock","environment":"9","exits": {      
-      "2908":{"dir":"northeast","door"="1"},
-      "2906":{"dir":"southwest","door"="1"},
+      "2908":{"dir":"northeast","door":"1"},
+      "2906":{"dir":"southwest","door":"1"},
          }
    },
    "2924" : {"area":"47","title":"A small, double-walled airlock","environment":"9","exits": {      
-      "2906":{"dir":"northeast","door"="1"},
-      "2911":{"dir":"southwest","door"="1"},
+      "2906":{"dir":"northeast","door":"1"},
+      "2911":{"dir":"southwest","door":"1"},
          }
    },
    "2926" : {"area":"47","title":"A boxy, caution-striped airlock","environment":"9","exits": {      
-      "2911":{"dir":"southeast","door"="1"},
-      "2907":{"dir":"northwest","door"="1"},
+      "2911":{"dir":"southeast","door":"1"},
+      "2907":{"dir":"northwest","door":"1"},
          }
    },
    "2925" : {"area":"47","title":"A boxy, caution-striped airlock","environment":"9","exits": {      
-      "2907":{"dir":"southeast","door"="1"},
-      "2909":{"dir":"northwest","door"="1"},
+      "2907":{"dir":"southeast","door":"1"},
+      "2909":{"dir":"northwest","door":"1"},
          }
    },
    "2927" : {"area":"47","title":"A tiny maintenance airlock","environment":"9","exits": {      
-      "2908":{"dir":"southeast","door"="1"},
-      "2905":{"dir":"northwest","door"="1"},
+      "2908":{"dir":"southeast","door":"1"},
+      "2905":{"dir":"northwest","door":"1"},
          }
    },
    "2928" : {"area":"47","title":"A tiny maintenance airlock","environment":"9","exits": {      
-      "2905":{"dir":"southeast","door"="1"},
-      "2910":{"dir":"northwest","door"="1"},
+      "2905":{"dir":"southeast","door":"1"},
+      "2910":{"dir":"northwest","door":"1"},
          }
    },
    "4254" : {"area":"81","title":"Deep within the tangled Greenwilds","environment":"8","exits": {      
@@ -14640,7 +14640,7 @@ nex.rooms = {
          }
    },
    "2973" : {"area":"48","title":"Shinpan Avenue, passing a residential skyline","environment":"2","exits": {      
-      "6722":{"dir":"north","door"="1"},
+      "6722":{"dir":"north","door":"1"},
       "2972":{"dir":"east",},
       "2974":{"dir":"west",},
          }
@@ -15212,7 +15212,7 @@ nex.rooms = {
          }
    },
    "3079" : {"area":"50","title":"A road winding past lush jungle trees","environment":"2","exits": {      
-      "3133" tgarea="51":{"dir":"north",},
+      "3133" :{"tgarea":"51","dir":"north",},
       "3078":{"dir":"southwest",},
          }
    },
@@ -15538,7 +15538,7 @@ nex.rooms = {
    },
    "3133" : {"area":"51","title":"A winding path through the jungle","environment":"19","exits": {      
       "3134":{"dir":"north",},
-      "3079" tgarea="50":{"dir":"south",},
+      "3079" :{"tgarea":"50","dir":"south",},
          }
    },
    "3137" : {"area":"51","title":"Among fronds of ferns beneath the jungle canopy","environment":"19","exits": {      
@@ -15792,21 +15792,21 @@ nex.rooms = {
    },
    "1347" : {"area":"20","title":"Rhodium","environment":"4","exits": {      
       "1389":{"dir":"east",},
-      "4082":{"dir":"up","door"="1"},
+      "4082":{"dir":"up","door":"1"},
          }
    },
    "3182" : {"area":"52","title":"Spaceport reception","environment":"39","exits": {      
-      "5665":{"dir":"north","door"="1"},
-      "5667":{"dir":"northeast","door"="1"},
+      "5665":{"dir":"north","door":"1"},
+      "5667":{"dir":"northeast","door":"1"},
       "3183":{"dir":"east",},
       "3185":{"dir":"south",},
       "3181":{"dir":"west",},
-      "5666":{"dir":"northwest","door"="1"},
+      "5666":{"dir":"northwest","door":"1"},
          }
    },
    "3184" : {"area":"52","title":"Landing Area","environment":"39","exits": {      
       "3192":{"dir":"north",},
-      "5665":{"dir":"south","door"="1"},
+      "5665":{"dir":"south","door":"1"},
          }
    },
    "3183" : {"area":"52","title":"Teleportation chamber","environment":"39","exits": {      
@@ -15878,8 +15878,8 @@ nex.rooms = {
    },
    "3226" : {"area":"54","title":"A large central cargo bay","environment":"13","exits": {      
       "3227":{"dir":"east",},
-      "3229":{"dir":"south","door"="1"},
-      "3228":{"dir":"west","door"="1"},
+      "3229":{"dir":"south","door":"1"},
+      "3228":{"dir":"west","door":"1"},
       "3224":{"dir":"up",},
          }
    },
@@ -15888,13 +15888,13 @@ nex.rooms = {
          }
    },
    "3228" : {"area":"54","title":"A cramped airlock","environment":"55","exits": {      
-      "3226":{"dir":"east","door"="1"},
+      "3226":{"dir":"east","door":"1"},
          }
    },
    "3224" : {"area":"54","title":"A catwalk above the cargo bay","environment":"23","exits": {      
       "3225":{"dir":"north",},
-      "3230":{"dir":"southeast","door"="1"},
-      "3231":{"dir":"southwest","door"="1"},
+      "3230":{"dir":"southeast","door":"1"},
+      "3231":{"dir":"southwest","door":"1"},
       "3226":{"dir":"down",},
          }
    },
@@ -15903,15 +15903,15 @@ nex.rooms = {
          }
    },
    "3229" : {"area":"54","title":"A deafening engine room in a large spacecraft","environment":"44","exits": {      
-      "3226":{"dir":"north","door"="1"},
+      "3226":{"dir":"north","door":"1"},
          }
    },
    "3230" : {"area":"54","title":"The medical bay of the Defiant","environment":"27","exits": {      
-      "3224":{"dir":"northwest","door"="1"},
+      "3224":{"dir":"northwest","door":"1"},
          }
    },
    "3231" : {"area":"54","title":"A cluttered tactical command center","environment":"9","exits": {      
-      "3224":{"dir":"northeast","door"="1"},
+      "3224":{"dir":"northeast","door":"1"},
          }
    },
    "6418" : {"area":"30","title":"A tumultuous alley of repair vendors","environment":"5","exits": {      
@@ -15927,16 +15927,16 @@ nex.rooms = {
          }
    },
    "1976" : {"area":"55","title":"An upstairs hallway","environment":"5","exits": {      
-      "1979":{"dir":"east","door"="1"},
-      "1978":{"dir":"south","door"="1"},
+      "1979":{"dir":"east","door":"1"},
+      "1978":{"dir":"south","door":"1"},
          }
    },
    "1979" : {"area":"55","title":"A neat and tidy stateroom","environment":"5","exits": {      
-      "1976":{"dir":"west","door"="1"},
+      "1976":{"dir":"west","door":"1"},
          }
    },
    "1978" : {"area":"55","title":"A neat and tidy stateroom","environment":"5","exits": {      
-      "1976":{"dir":"north","door"="1"},
+      "1976":{"dir":"north","door":"1"},
          }
    },
    "3209" : {"area":"56","title":"Beneath a carport outside a large resort","environment":"4","exits": {      
@@ -16002,28 +16002,28 @@ nex.rooms = {
    },
    "3221" : {"area":"56","title":"A long hallway","environment":"5","exits": {      
       "3220":{"dir":"north",},
-      "3222":{"dir":"east","door"="1"},
-      "3223":{"dir":"west","door"="1"},
+      "3222":{"dir":"east","door":"1"},
+      "3223":{"dir":"west","door":"1"},
          }
    },
    "3222" : {"area":"56","title":"An opulent suite of well-furnished rooms","environment":"5","exits": {      
-      "3221":{"dir":"west","door"="1"},
+      "3221":{"dir":"west","door":"1"},
          }
    },
    "3223" : {"area":"56","title":"The Freetrade Resort manager's office","environment":"5","exits": {      
-      "3221":{"dir":"east","door"="1"},
+      "3221":{"dir":"east","door":"1"},
          }
    },
    "3253" : {"area":"56","title":"A large casino filled with gambling machines and gametables","environment":"5","exits": {      
       "3214":{"dir":"north",},
-      "3254":{"dir":"southeast","door"="1"},
+      "3254":{"dir":"southeast","door":"1"},
       "3256":{"dir":"south",},
       "3255":{"dir":"southwest",},
          }
    },
    "3254" : {"area":"56","title":"A high-stakes gambling area","environment":"5","exits": {      
       "3256":{"dir":"west",},
-      "3253":{"dir":"northwest","door"="1"},
+      "3253":{"dir":"northwest","door":"1"},
          }
    },
    "3255" : {"area":"56","title":"A modern restaurant kitchen","environment":"4","exits": {      
@@ -16038,14 +16038,14 @@ nex.rooms = {
          }
    },
    "3430" : {"area":"69","title":"The Intermission Studio","environment":"15","exits": {      
-      "3273":{"dir":"east","door"="1"},
+      "3273":{"dir":"east","door":"1"},
          }
    },
    "3273" : {"area":"69","title":"Within an oppressively dank forest","environment":"8","exits": {      
       "3268":{"dir":"north",},
       "3274":{"dir":"east",},
       "3278":{"dir":"south",},
-      "3430":{"dir":"west","door"="1"},
+      "3430":{"dir":"west","door":"1"},
          }
    },
    "3268" : {"area":"69","title":"Within an oppressively dank forest","environment":"8","exits": {      
@@ -16280,13 +16280,13 @@ nex.rooms = {
    },
    "3308" : {"area":"58","title":"At the bottom of Solace Docking Silo 1A","environment":"26","exits": {      
       "25967":{"dir":"east",},
-      "5974":{"dir":"south","door"="1"},
-      "3309":{"dir":"southwest","door"="1"},
+      "5974":{"dir":"south","door":"1"},
+      "3309":{"dir":"southwest","door":"1"},
          }
    },
    "3309" : {"area":"58","title":"A sloping, paristeel-paneled access tunnel","environment":"46","exits": {      
       "6013":{"dir":"north",},
-      "3308":{"dir":"northeast","door"="1"},
+      "3308":{"dir":"northeast","door":"1"},
       "3310":{"dir":"down",},
          }
    },
@@ -16330,20 +16330,20 @@ nex.rooms = {
    "3317" : {"area":"58","title":"A winding residential tunnel","environment":"46","exits": {      
       "3316":{"dir":"northeast",},
       "3319":{"dir":"south",},
-      "3318":{"dir":"west","door"="1"},
+      "3318":{"dir":"west","door":"1"},
          }
    },
    "3319" : {"area":"58","title":"A winding residential tunnel","environment":"46","exits": {      
       "3317":{"dir":"north",},
-      "3320":{"dir":"east","door"="1"},
+      "3320":{"dir":"east","door":"1"},
          }
    },
    "3318" : {"area":"58","title":"A cramped living space","environment":"46","exits": {      
-      "3317":{"dir":"east","door"="1"},
+      "3317":{"dir":"east","door":"1"},
          }
    },
    "3320" : {"area":"58","title":"A cramped living space","environment":"46","exits": {      
-      "3319":{"dir":"west","door"="1"},
+      "3319":{"dir":"west","door":"1"},
          }
    },
    "3321" : {"area":"58","title":"A scaffold-reinforced mineshaft","environment":"3","exits": {      
@@ -16440,17 +16440,17 @@ nex.rooms = {
          }
    },
    "3239" : {"area":"59","title":"A secure entryway","environment":"42","exits": {      
-      "3238":{"dir":"east","door"="1"},
+      "3238":{"dir":"east","door":"1"},
       "3243":{"dir":"down",},
          }
    },
    "3238" : {"area":"59","title":"A clear glass vestibule","environment":"42","exits": {      
-      "3199":{"dir":"south","door"="1"},
-      "3239":{"dir":"west","door"="1"},
+      "3199":{"dir":"south","door":"1"},
+      "3239":{"dir":"west","door":"1"},
          }
    },
    "3199" : {"area":"59","title":"Behind besmeared glass","environment":"42","exits": {      
-      "3238":{"dir":"north","door"="1"},
+      "3238":{"dir":"north","door":"1"},
       "3200":{"dir":"east",},
          }
    },
@@ -16499,13 +16499,13 @@ nex.rooms = {
          }
    },
    "3338" : {"area":"50","title":"A private staff area in the spaceport","environment":"5","exits": {      
-      "3339":{"dir":"north","door"="1"},
+      "3339":{"dir":"north","door":"1"},
       "3117":{"dir":"southeast",},
       "3340":{"dir":"west",},
          }
    },
    "3339" : {"area":"50","title":"Spaceport security control suite","environment":"5","exits": {      
-      "3338":{"dir":"south","door"="1"},
+      "3338":{"dir":"south","door":"1"},
          }
    },
    "3337" : {"area":"50","title":"Tarmac flanked by spacecraft hangars","environment":"5","exits": {      
@@ -16734,7 +16734,7 @@ nex.rooms = {
          }
    },
    "3380" : {"area":"60","title":"Beneath the shielded, clear dome of a pop-up bunker","environment":"5","exits": {      
-      "3384":{"dir":"north","door"="1"},
+      "3384":{"dir":"north","door":"1"},
       "3383":{"dir":"south",},
       "3381":{"dir":"southwest",},
          }
@@ -16753,15 +16753,15 @@ nex.rooms = {
          }
    },
    "3384" : {"area":"60","title":"The airlock of a blister-bubble pop-up bunker","environment":"5","exits": {      
-      "3385":{"dir":"northeast","door"="1"},
-      "3380":{"dir":"south","door"="1"},
+      "3385":{"dir":"northeast","door":"1"},
+      "3380":{"dir":"south","door":"1"},
          }
    },
    "3385" : {"area":"60","title":"A meandering path sloping southwest towards a bunker","environment":"56","exits": {      
       "3386":{"dir":"north",},
       "3398":{"dir":"east",},
       "3387":{"dir":"south",},
-      "3384":{"dir":"southwest","door"="1"},
+      "3384":{"dir":"southwest","door":"1"},
          }
    },
    "3386" : {"area":"60","title":"Heated fields littered with scoria","environment":"56","exits": {      
@@ -16960,11 +16960,11 @@ nex.rooms = {
    },
    "3418" : {"area":"60","title":"A spiral staircase of shining transteel","environment":"5","exits": {      
       "3417":{"dir":"northeast",},
-      "3419":{"dir":"up","door"="1"},
+      "3419":{"dir":"up","door":"1"},
          }
    },
    "3419" : {"area":"60","title":"The apex of a watchtower, overlooking the caldera","environment":"5","exits": {      
-      "3418":{"dir":"down","door"="1"},
+      "3418":{"dir":"down","door":"1"},
          }
    },
    "3414" : {"area":"60","title":"A path leading across scoria towards the mines","environment":"56","exits": {      
@@ -17006,17 +17006,17 @@ nex.rooms = {
          }
    },
    "3427" : {"area":"60","title":"A fortified Y'saari mining facility","environment":"5","exits": {      
-      "3428":{"dir":"east","door"="1"},
-      "3429":{"dir":"west","door"="1"},
+      "3428":{"dir":"east","door":"1"},
+      "3429":{"dir":"west","door":"1"},
       "3426":{"dir":"down",},
          }
    },
    "3428" : {"area":"60","title":"A storage chamber filled with broken equipment","environment":"5","exits": {      
-      "3427":{"dir":"west","door"="1"},
+      "3427":{"dir":"west","door":"1"},
          }
    },
    "3429" : {"area":"60","title":"An underground room with a glass ceiling","environment":"5","exits": {      
-      "3427":{"dir":"east","door"="1"},
+      "3427":{"dir":"east","door":"1"},
          }
    },
    "3298" : {"area":"69","title":"A path through the forest","environment":"8","exits": {      
@@ -17122,12 +17122,12 @@ nex.rooms = {
          }
    },
    "3588" : {"area":"65","title":"Ibyssian Way, outside the consulate","environment":"4","exits": {      
-      "3589":{"dir":"west","door"="1"},
+      "3589":{"dir":"west","door":"1"},
       "3587":{"dir":"northwest",},
          }
    },
    "3589" : {"area":"65","title":"The lobby of the Ibyssian Brotherhood consulate","environment":"5","exits": {      
-      "3588":{"dir":"east","door"="1"},
+      "3588":{"dir":"east","door":"1"},
       "3590":{"dir":"up",},
          }
    },
@@ -17147,7 +17147,7 @@ nex.rooms = {
    },
    "3613" : {"area":"11","title":"The headquarters of a small nonprofit organization","environment":"5","exits": {      
       "3614":{"dir":"north",},
-      "587":{"dir":"southeast","door"="1"},
+      "587":{"dir":"southeast","door":"1"},
          }
    },
    "3614" : {"area":"11","title":"Main offices of the Free the Eckin charity headquarters","environment":"5","exits": {      
@@ -17174,49 +17174,49 @@ nex.rooms = {
          }
    },
    "3619" : {"area":"2","title":"The dusty front room of a frontier mining office","environment":"15","exits": {      
-      "19":{"dir":"southeast","door"="1"},
+      "19":{"dir":"southeast","door":"1"},
       "3620":{"dir":"up",},
          }
    },
    "3620" : {"area":"2","title":"The upstairs offices of the Hercule Mining frontier office","environment":"15","exits": {      
-      "3621":{"dir":"north","door"="1"},
+      "3621":{"dir":"north","door":"1"},
       "3619":{"dir":"down",},
          }
    },
    "3621" : {"area":"2","title":"In the cramped office of the Head Surveyor","environment":"15","exits": {      
-      "3620":{"dir":"south","door"="1"},
+      "3620":{"dir":"south","door":"1"},
          }
    },
    "3623" : {"area":"22","title":"A cluttered, splash-painted manager's office","environment":"15","exits": {      
-      "1671":{"dir":"west","door"="1"},
+      "1671":{"dir":"west","door":"1"},
          }
    },
    "3624" : {"area":"45","title":"The Shooting Star Travel Agency","environment":"15","exits": {      
-      "3625":{"dir":"north","door"="1"},
-      "633":{"dir":"east","door"="1"},
+      "3625":{"dir":"north","door":"1"},
+      "633":{"dir":"east","door":"1"},
          }
    },
    "3625" : {"area":"45","title":"A dingy, dim, stinking back hallway","environment":"15","exits": {      
-      "3624":{"dir":"south","door"="1"},
+      "3624":{"dir":"south","door":"1"},
       "3626":{"dir":"down",},
          }
    },
    "3626" : {"area":"45","title":"Among rows of cages and kennels","environment":"15","exits": {      
-      "3627":{"dir":"south","door"="1"},
+      "3627":{"dir":"south","door":"1"},
       "3625":{"dir":"up",},
          }
    },
    "3627" : {"area":"45","title":"A pungent, filthy office","environment":"15","exits": {      
-      "3626":{"dir":"north","door"="1"},
+      "3626":{"dir":"north","door":"1"},
          }
    },
    "3628" : {"area":"55","title":"A dirt road winding past a corporate retreat","environment":"29","exits": {      
-      "3629":{"dir":"north","door"="1"},
+      "3629":{"dir":"north","door":"1"},
       "3304":{"dir":"southwest",},
          }
    },
    "3629" : {"area":"55","title":"The ground floor of a corporate retreat","environment":"5","exits": {      
-      "3628":{"dir":"south","door"="1"},
+      "3628":{"dir":"south","door":"1"},
       "3630":{"dir":"up",},
          }
    },
@@ -17236,7 +17236,7 @@ nex.rooms = {
    },
    "3633" : {"area":"8","title":"A busy, high-tech kitchen","environment":"15","exits": {      
       "3635":{"dir":"east",},
-      "1533":{"dir":"southeast","door"="1"},
+      "1533":{"dir":"southeast","door":"1"},
       "3634":{"dir":"down",},
          }
    },
@@ -17249,13 +17249,13 @@ nex.rooms = {
          }
    },
    "3636" : {"area":"93","title":"Sandbender's Salvage","environment":"9","exits": {      
-      "3637":{"dir":"southeast","door"="1"},
+      "3637":{"dir":"southeast","door":"1"},
       "5236":{"dir":"southwest",},
          }
    },
    "3637" : {"area":"93","title":"A private cargo bay","environment":"13","exits": {      
       "3638":{"dir":"southwest",},
-      "3636":{"dir":"northwest","door"="1"},
+      "3636":{"dir":"northwest","door":"1"},
          }
    },
    "3638" : {"area":"93","title":"A small, metal-walled control room","environment":"9","exits": {      
@@ -17263,12 +17263,12 @@ nex.rooms = {
          }
    },
    "3639" : {"area":"3","title":"A plaza outside a tall old building","environment":"4","exits": {      
-      "3640":{"dir":"south","door"="1"},
+      "3640":{"dir":"south","door":"1"},
       "176":{"dir":"northwest",},
          }
    },
    "3640" : {"area":"3","title":"The back entrance of the Zhukov Personal Defense offices","environment":"5","exits": {      
-      "3639":{"dir":"north","door"="1"},
+      "3639":{"dir":"north","door":"1"},
       "3641":{"dir":"up",},
          }
    },
@@ -17278,12 +17278,12 @@ nex.rooms = {
          }
    },
    "3642" : {"area":"3","title":"A nondescript floor of well-worn offices","environment":"15","exits": {      
-      "3643":{"dir":"south","door"="1"},
+      "3643":{"dir":"south","door":"1"},
       "3641":{"dir":"down",},
          }
    },
    "3643" : {"area":"3","title":"An R&amp;D laboratory for Zhukov Personal Defense","environment":"4","exits": {      
-      "3642":{"dir":"north","door"="1"},
+      "3642":{"dir":"north","door":"1"},
          }
    },
    "3644" : {"area":"11","title":"Inside a shadowy, recessed doorway","environment":"4","exits": {      
@@ -17292,12 +17292,12 @@ nex.rooms = {
          }
    },
    "3645" : {"area":"11","title":"New Horizons Leasing","environment":"5","exits": {      
-      "3646":{"dir":"east","door"="1"},
+      "3646":{"dir":"east","door":"1"},
       "3644":{"dir":"northwest",},
          }
    },
    "3646" : {"area":"11","title":"A cluttered back room","environment":"5","exits": {      
-      "3645":{"dir":"west","door"="1"},
+      "3645":{"dir":"west","door":"1"},
       "3647":{"dir":"up",},
       "3648":{"dir":"down",},
          }
@@ -17334,7 +17334,7 @@ nex.rooms = {
    "1846" : {"area":"30","title":"Enclosed R-glass concourse","environment":"4","exits": {      
       "1847":{"dir":"east",},
       "1849":{"dir":"south",},
-      "4175":{"dir":"southwest","door"="1"},
+      "4175":{"dir":"southwest","door":"1"},
          }
    },
    "1849" : {"area":"30","title":"Passing below a service entrance","environment":"4","exits": {      
@@ -17344,12 +17344,12 @@ nex.rooms = {
          }
    },
    "4175" : {"area":"30","title":"The shared lobby of several medical corporations","environment":"5","exits": {      
-      "4176":{"dir":"north","door"="1"},
-      "1846":{"dir":"northeast","door"="1"},
+      "4176":{"dir":"north","door":"1"},
+      "1846":{"dir":"northeast","door":"1"},
          }
    },
    "4176" : {"area":"30","title":"Austere waiting room of Corporeal Assets, Inc","environment":"5","exits": {      
-      "4175":{"dir":"south","door"="1"},
+      "4175":{"dir":"south","door":"1"},
       "4177":{"dir":"southwest",},
          }
    },
@@ -17362,12 +17362,12 @@ nex.rooms = {
    "1852" : {"area":"30","title":"The derelict Circadian Optics building","environment":"4","exits": {      
       "1849":{"dir":"north",},
       "1853":{"dir":"east",},
-      "7625":{"dir":"northwest","door"="1"},
+      "7625":{"dir":"northwest","door":"1"},
          }
    },
    "1855" : {"area":"30","title":"Deep in the neon canyons of Litharge","environment":"4","exits": {      
       "1853":{"dir":"northeast",},
-      "5629" tgarea="105":{"dir":"southeast",},
+      "5629" :{"tgarea":"105","dir":"southeast",},
       "1854":{"dir":"west",},
       "1964":{"dir":"up",},
          }
@@ -17377,13 +17377,13 @@ nex.rooms = {
          }
    },
    "3661" : {"area":"51","title":"At the bottom of a flight of stairs","environment":"37","exits": {      
-      "3662":{"dir":"north","door"="1"},
+      "3662":{"dir":"north","door":"1"},
       "3660":{"dir":"up",},
          }
    },
    "3662" : {"area":"51","title":"A vast underground chamber","environment":"37","exits": {      
       "3663":{"dir":"north",},
-      "3661":{"dir":"south","door"="1"},
+      "3661":{"dir":"south","door":"1"},
          }
    },
    "3663" : {"area":"51","title":"Among rows of tall shelves","environment":"37","exits": {      
@@ -17391,19 +17391,19 @@ nex.rooms = {
          }
    },
    "3664" : {"area":"67","title":"A small airlock","environment":"55","exits": {      
-      "3665":{"dir":"northeast","door"="1"},
+      "3665":{"dir":"northeast","door":"1"},
          }
    },
    "3665" : {"area":"67","title":"An expansive hangar and docking bay","environment":"26","exits": {      
-      "3666":{"dir":"north","door"="1"},
-      "3671":{"dir":"northeast","door"="1"},
+      "3666":{"dir":"north","door":"1"},
+      "3671":{"dir":"northeast","door":"1"},
       "3668":{"dir":"southeast",},
-      "3664":{"dir":"southwest","door"="1"},
+      "3664":{"dir":"southwest","door":"1"},
          }
    },
    "3666" : {"area":"67","title":"A long white corridor lined with doors","environment":"58","exits": {      
       "3667":{"dir":"north",},
-      "3665":{"dir":"south","door"="1"},
+      "3665":{"dir":"south","door":"1"},
          }
    },
    "3667" : {"area":"67","title":"A long white corridor lined with doors","environment":"58","exits": {      
@@ -17426,7 +17426,7 @@ nex.rooms = {
          }
    },
    "3671" : {"area":"67","title":"At the base of a ladder in a maintenance shaft","environment":"58","exits": {      
-      "3665":{"dir":"southwest","door"="1"},
+      "3665":{"dir":"southwest","door":"1"},
       "3672":{"dir":"up",},
          }
    },
@@ -17446,12 +17446,12 @@ nex.rooms = {
          }
    },
    "3675" : {"area":"67","title":"A long white corridor lined with doors","environment":"55","exits": {      
-      "3676":{"dir":"north","door"="1"},
+      "3676":{"dir":"north","door":"1"},
       "3667":{"dir":"south",},
          }
    },
    "3676" : {"area":"67","title":"A deserted, blue-glowing office","environment":"15","exits": {      
-      "3675":{"dir":"south","door"="1"},
+      "3675":{"dir":"south","door":"1"},
       "3678":{"dir":"northwest",},
       "3677":{"dir":"up",},
          }
@@ -17466,13 +17466,13 @@ nex.rooms = {
          }
    },
    "3679" : {"area":"17","title":"Outside a domed white public building","environment":"5","exits": {      
-      "3680":{"dir":"north","door"="1"},
+      "3680":{"dir":"north","door":"1"},
       "982":{"dir":"south",},
          }
    },
    "3680" : {"area":"17","title":"The center of the Ezra Whittler Museum","environment":"5","exits": {      
       "3681":{"dir":"east",},
-      "3679":{"dir":"south","door"="1"},
+      "3679":{"dir":"south","door":"1"},
       "3682":{"dir":"west",},
          }
    },
@@ -17490,7 +17490,7 @@ nex.rooms = {
          }
    },
    "3684" : {"area":"13","title":"A pharmaceutical supply station","environment":"17","exits": {      
-      "1554":{"dir":"north","door"="1"},
+      "1554":{"dir":"north","door":"1"},
       "3685":{"dir":"southeast",},
          }
    },
@@ -17525,11 +17525,11 @@ nex.rooms = {
    },
    "3690" : {"area":"23","title":"Trendy front entrance of YDV Brewery","environment":"5","exits": {      
       "1764":{"dir":"north",},
-      "3691":{"dir":"south","door"="1"},
+      "3691":{"dir":"south","door":"1"},
          }
    },
    "3691" : {"area":"23","title":"Among the bottling and brewing facilities","environment":"5","exits": {      
-      "3690":{"dir":"north","door"="1"},
+      "3690":{"dir":"north","door":"1"},
       "3693":{"dir":"southwest",},
       "3692":{"dir":"down",},
          }
@@ -17560,41 +17560,41 @@ nex.rooms = {
          }
    },
    "3710" : {"area":"12","title":"A long, gleaming sub-hallway off the IBIX anti-tower","environment":"15","exits": {      
-      "3709":{"dir":"north","door"="1"},
+      "3709":{"dir":"north","door":"1"},
       "912":{"dir":"southeast",},
          }
    },
    "3709" : {"area":"12","title":"Front desk of the LUCENT main offices","environment":"15","exits": {      
-      "3708":{"dir":"north","door"="1"},
-      "3710":{"dir":"south","door"="1"},
+      "3708":{"dir":"north","door":"1"},
+      "3710":{"dir":"south","door":"1"},
          }
    },
    "3708" : {"area":"12","title":"A curving hallway lined with awards and accolades","environment":"15","exits": {      
-      "3711":{"dir":"north","door"="1"},
-      "3707":{"dir":"east","door"="1"},
-      "3709":{"dir":"south","door"="1"},
-      "3706":{"dir":"west","door"="1"},
+      "3711":{"dir":"north","door":"1"},
+      "3707":{"dir":"east","door":"1"},
+      "3709":{"dir":"south","door":"1"},
+      "3706":{"dir":"west","door":"1"},
          }
    },
    "3707" : {"area":"12","title":"The LUCENT engineering department","environment":"15","exits": {      
-      "3708":{"dir":"west","door"="1"},
+      "3708":{"dir":"west","door":"1"},
          }
    },
    "3706" : {"area":"12","title":"A glass-walled showroom of the latest LUCENT tech","environment":"15","exits": {      
-      "3708":{"dir":"east","door"="1"},
+      "3708":{"dir":"east","door":"1"},
          }
    },
    "3711" : {"area":"12","title":"Office of a high-ranking LUCENT executive","environment":"15","exits": {      
-      "3708":{"dir":"south","door"="1"},
+      "3708":{"dir":"south","door":"1"},
          }
    },
    "3712" : {"area":"48","title":"The road outside a tall office building","environment":"2","exits": {      
       "2946":{"dir":"north",},
-      "3713":{"dir":"south","door"="1"},
+      "3713":{"dir":"south","door":"1"},
          }
    },
    "3713" : {"area":"48","title":"Lower floor of the Thill Conglomerate office building","environment":"15","exits": {      
-      "3712":{"dir":"north","door"="1"},
+      "3712":{"dir":"north","door":"1"},
       "3714":{"dir":"up",},
          }
    },
@@ -17608,7 +17608,7 @@ nex.rooms = {
          }
    },
    "3716" : {"area":"16","title":"A large warehouse filled with racks of clothing","environment":"15","exits": {      
-      "1356":{"dir":"south","door"="1"},
+      "1356":{"dir":"south","door":"1"},
       "3717":{"dir":"southwest",},
          }
    },
@@ -17623,7 +17623,7 @@ nex.rooms = {
    },
    "3719" : {"area":"18","title":"A back room filled with crates and boxes of munitions","environment":"15","exits": {      
       "3720":{"dir":"north",},
-      "1105":{"dir":"east","door"="1"},
+      "1105":{"dir":"east","door":"1"},
          }
    },
    "3720" : {"area":"18","title":"At the foot of a clanking metal stairway","environment":"15","exits": {      
@@ -17636,7 +17636,7 @@ nex.rooms = {
          }
    },
    "3723" : {"area":"14","title":"Speedy Sweeney's Health Clinic","environment":"5","exits": {      
-      "712":{"dir":"southwest","door"="1"},
+      "712":{"dir":"southwest","door":"1"},
       "3724":{"dir":"down",},
          }
    },
@@ -17662,40 +17662,40 @@ nex.rooms = {
    },
    "3728" : {"area":"58","title":"The Silverdyne Talent Agency","environment":"46","exits": {      
       "3727":{"dir":"east",},
-      "3729":{"dir":"west","door"="1"},
+      "3729":{"dir":"west","door":"1"},
          }
    },
    "3729" : {"area":"58","title":"A dingy back hallway","environment":"5","exits": {      
-      "3730":{"dir":"north","door"="1"},
-      "3728":{"dir":"east","door"="1"},
-      "3731":{"dir":"south","door"="1"},
+      "3730":{"dir":"north","door":"1"},
+      "3728":{"dir":"east","door":"1"},
+      "3731":{"dir":"south","door":"1"},
          }
    },
    "3730" : {"area":"58","title":"Among slave cages and kennels","environment":"5","exits": {      
-      "3729":{"dir":"south","door"="1"},
+      "3729":{"dir":"south","door":"1"},
          }
    },
    "3731" : {"area":"58","title":"A slaver's office","environment":"5","exits": {      
-      "3729":{"dir":"north","door"="1"},
+      "3729":{"dir":"north","door":"1"},
          }
    },
    "3732" : {"area":"30","title":"A small hex-tiled plaza before the Zinari Embassy","environment":"5","exits": {      
       "1872":{"dir":"north",},
-      "3733":{"dir":"southeast","door"="1"},
+      "3733":{"dir":"southeast","door":"1"},
          }
    },
    "3733" : {"area":"30","title":"The front lobby of the Zinari Embassy","environment":"5","exits": {      
-      "3732":{"dir":"northwest","door"="1"},
+      "3732":{"dir":"northwest","door":"1"},
       "3734":{"dir":"up",},
          }
    },
    "3734" : {"area":"30","title":"A landscape-walled upstairs hall in the embassy","environment":"5","exits": {      
-      "3735":{"dir":"south","door"="1"},
+      "3735":{"dir":"south","door":"1"},
       "3733":{"dir":"down",},
          }
    },
    "3735" : {"area":"30","title":"The personal quarters of the Zinari Ambassador","environment":"5","exits": {      
-      "3734":{"dir":"north","door"="1"},
+      "3734":{"dir":"north","door":"1"},
          }
    },
    "3744" : {"area":"11","title":"A wraparound lift junction above Haven City","environment":"39","exits": {      
@@ -17704,17 +17704,17 @@ nex.rooms = {
    },
    "3748" : {"area":"11","title":"A long skyway stilted above the commercial district","environment":"39","exits": {      
       "3744":{"dir":"east",},
-      "3749":{"dir":"south","door"="1"},
+      "3749":{"dir":"south","door":"1"},
       "3751":{"dir":"west",},
          }
    },
    "3749" : {"area":"11","title":"Recessed doorway before the UAN diplomatic offices","environment":"5","exits": {      
-      "3748":{"dir":"north","door"="1"},
-      "3722":{"dir":"south","door"="1"},
+      "3748":{"dir":"north","door":"1"},
+      "3722":{"dir":"south","door":"1"},
          }
    },
    "3722" : {"area":"11","title":"Broad, low room decorated with strange lumpy furniture","environment":"15","exits": {      
-      "3749":{"dir":"north","door"="1"},
+      "3749":{"dir":"north","door":"1"},
       "3745":{"dir":"east",},
          }
    },
@@ -17732,7 +17732,7 @@ nex.rooms = {
          }
    },
    "3747" : {"area":"15","title":"Bottom floor of the Venture Chemicals toh","environment":"5","exits": {      
-      "874":{"dir":"northeast","door"="1"},
+      "874":{"dir":"northeast","door":"1"},
       "3750":{"dir":"up",},
          }
    },
@@ -17750,7 +17750,7 @@ nex.rooms = {
    },
    "3754" : {"area":"69","title":"Broad hall within a holding facility","environment":"59","exits": {      
       "3755":{"dir":"northeast",},
-      "3264":{"dir":"south","door"="1"},
+      "3264":{"dir":"south","door":"1"},
       "3757":{"dir":"northwest",},
          }
    },
@@ -17760,49 +17760,49 @@ nex.rooms = {
          }
    },
    "3264" : {"area":"69","title":"A narrow passage","environment":"59","exits": {      
-      "3754":{"dir":"north","door"="1"},
-      "5889":{"dir":"east","door"="1"},
+      "3754":{"dir":"north","door":"1"},
+      "5889":{"dir":"east","door":"1"},
       "3265":{"dir":"south",},
-      "3263":{"dir":"west","door"="1"},
+      "3263":{"dir":"west","door":"1"},
          }
    },
    "3757" : {"area":"69","title":"Entrance to the Vendal quarters","environment":"76","exits": {      
       "3754":{"dir":"southeast",},
-      "3758":{"dir":"west","door"="1"},
+      "3758":{"dir":"west","door":"1"},
          }
    },
    "3265" : {"area":"69","title":"A narrow passage","environment":"59","exits": {      
       "3264":{"dir":"north",},
-      "5888":{"dir":"east","door"="1"},
-      "3266":{"dir":"west","door"="1"},
+      "5888":{"dir":"east","door":"1"},
+      "3266":{"dir":"west","door":"1"},
          }
    },
    "3263" : {"area":"69","title":"A dark cell","environment":"59","exits": {      
-      "3264":{"dir":"east","door"="1"},
+      "3264":{"dir":"east","door":"1"},
          }
    },
    "3266" : {"area":"69","title":"A dark cell","environment":"59","exits": {      
-      "3265":{"dir":"east","door"="1"},
+      "3265":{"dir":"east","door":"1"},
          }
    },
    "3758" : {"area":"69","title":"A sweaty, cluttered barracks","environment":"77","exits": {      
-      "3757":{"dir":"east","door"="1"},
-      "3760":{"dir":"south","door"="1"},
-      "3759":{"dir":"west","door"="1"},
+      "3757":{"dir":"east","door":"1"},
+      "3760":{"dir":"south","door":"1"},
+      "3759":{"dir":"west","door":"1"},
       "6908":{"dir":"northwest",},
          }
    },
    "3756" : {"area":"69","title":"Short-range teleport station","environment":"39","exits": {      
-      "6159":{"dir":"northeast","door"="1"},
+      "6159":{"dir":"northeast","door":"1"},
       "3755":{"dir":"south",},
          }
    },
    "3759" : {"area":"69","title":"The Vendal commander's office","environment":"80","exits": {      
-      "3758":{"dir":"east","door"="1"},
+      "3758":{"dir":"east","door":"1"},
          }
    },
    "3760" : {"area":"69","title":"A run-down records room","environment":"76","exits": {      
-      "3758":{"dir":"north","door"="1"},
+      "3758":{"dir":"north","door":"1"},
          }
    },
    "3761" : {"area":"21","title":"A trackless expanse of sand","environment":"7","exits": {      
@@ -17813,12 +17813,12 @@ nex.rooms = {
          }
    },
    "3762" : {"area":"21","title":"Approaching a white-domed science station","environment":"7","exits": {      
-      "3763":{"dir":"southeast","door"="1"},
+      "3763":{"dir":"southeast","door":"1"},
       "3761":{"dir":"west",},
          }
    },
    "3763" : {"area":"21","title":"The center of a white-domed science station","environment":"17","exits": {      
-      "3762":{"dir":"northwest","door"="1"},
+      "3762":{"dir":"northwest","door":"1"},
       "3764":{"dir":"down",},
          }
    },
@@ -17837,26 +17837,26 @@ nex.rooms = {
          }
    },
    "3767" : {"area":"23","title":"The Bizarre Bazaar","environment":"73","exits": {      
-      "3768":{"dir":"east","door"="1"},
+      "3768":{"dir":"east","door":"1"},
       "1756":{"dir":"south",},
          }
    },
    "3768" : {"area":"23","title":"A back room filled with leesa-smoking paraphernalia","environment":"73","exits": {      
-      "3769":{"dir":"south","door"="1"},
-      "3767":{"dir":"west","door"="1"},
+      "3769":{"dir":"south","door":"1"},
+      "3767":{"dir":"west","door":"1"},
          }
    },
    "3769" : {"area":"23","title":"The manager's office","environment":"73","exits": {      
-      "3768":{"dir":"north","door"="1"},
+      "3768":{"dir":"north","door":"1"},
          }
    },
    "3770" : {"area":"30","title":"Approaching the entrance to the Y'saari Embassy","environment":"5","exits": {      
-      "1719":{"dir":"northeast","door"="1"},
-      "3771":{"dir":"northwest","door"="1"},
+      "1719":{"dir":"northeast","door":"1"},
+      "3771":{"dir":"northwest","door":"1"},
          }
    },
    "3771" : {"area":"30","title":"The soaring campus of the Y'saari Embassy","environment":"5","exits": {      
-      "3770":{"dir":"southeast","door"="1"},
+      "3770":{"dir":"southeast","door":"1"},
       "3772":{"dir":"southwest",},
          }
    },
@@ -17882,7 +17882,7 @@ nex.rooms = {
    },
    "3775" : {"area":"30","title":"A steep ramp leading down into muggy blackness","environment":"46","exits": {      
       "1817":{"dir":"east",},
-      "3776" tgarea="70":{"dir":"down",},
+      "3776" :{"tgarea":"70","dir":"down",},
          }
    },
    "5155" : {"area":"70","title":"A snakelike tunnel system winding through the depths","environment":"46","exits": {      
@@ -17893,7 +17893,7 @@ nex.rooms = {
    "5154" : {"area":"70","title":"A snakelike tunnel system winding through the depths","environment":"46","exits": {      
       "5153":{"dir":"southeast",},
       "5155":{"dir":"southwest",},
-      "7198":{"dir":"west","door"="1"},
+      "7198":{"dir":"west","door":"1"},
          }
    },
    "5153" : {"area":"70","title":"A snakelike tunnel system winding through the depths","environment":"46","exits": {      
@@ -17918,12 +17918,12 @@ nex.rooms = {
          }
    },
    "3779" : {"area":"70","title":"Outside a dank, dark, underground warehouse","environment":"46","exits": {      
-      "3780":{"dir":"north","door"="1"},
+      "3780":{"dir":"north","door":"1"},
       "3778":{"dir":"northeast",},
          }
    },
    "3776" : {"area":"70","title":"Descending a ramp into the tunnels of the Subnet","environment":"46","exits": {      
-      "3775" tgarea="30":{"dir":"up",},
+      "3775" :{"tgarea":"30","dir":"up",},
       "3777":{"dir":"down",},
          }
    },
@@ -17943,15 +17943,15 @@ nex.rooms = {
          }
    },
    "3788" : {"area":"11","title":"A surprisingly large Quickmark Pawn","environment":"5","exits": {      
-      "3789":{"dir":"east","door"="1"},
+      "3789":{"dir":"east","door":"1"},
       "3787":{"dir":"west",},
          }
    },
    "3789" : {"area":"11","title":"A hallway of underground pod-offices","environment":"5","exits": {      
-      "3794":{"dir":"north","door"="1"},
+      "3794":{"dir":"north","door":"1"},
       "3790":{"dir":"east",},
-      "3795":{"dir":"south","door"="1"},
-      "3788":{"dir":"west","door"="1"},
+      "3795":{"dir":"south","door":"1"},
+      "3788":{"dir":"west","door":"1"},
          }
    },
    "3790" : {"area":"11","title":"A hallway of underground pod-offices","environment":"5","exits": {      
@@ -17960,33 +17960,33 @@ nex.rooms = {
          }
    },
    "3791" : {"area":"11","title":"A hallway of underground pod-offices","environment":"5","exits": {      
-      "3792":{"dir":"north","door"="1"},
-      "3793":{"dir":"south","door"="1"},
+      "3792":{"dir":"north","door":"1"},
+      "3793":{"dir":"south","door":"1"},
       "3790":{"dir":"west",},
          }
    },
    "3792" : {"area":"11","title":"A warehouse filled with salvage and dubious merchandise","environment":"5","exits": {      
-      "3791":{"dir":"south","door"="1"},
+      "3791":{"dir":"south","door":"1"},
          }
    },
    "3793" : {"area":"11","title":"Office of the Quickmark Pawn Foreman","environment":"5","exits": {      
-      "3791":{"dir":"north","door"="1"},
+      "3791":{"dir":"north","door":"1"},
          }
    },
    "3794" : {"area":"11","title":"An underground surveillance chamber lined with holo monitors","environment":"5","exits": {      
-      "3789":{"dir":"south","door"="1"},
+      "3789":{"dir":"south","door":"1"},
          }
    },
    "3795" : {"area":"11","title":"A long corridor of coffin apartments","environment":"5","exits": {      
-      "3789":{"dir":"north","door"="1"},
+      "3789":{"dir":"north","door":"1"},
          }
    },
    "3812" : {"area":"72","title":"A cramped hangar lined with grungy teleports","environment":"26","exits": {      
-      "3813":{"dir":"west","door"="1"},
+      "3813":{"dir":"west","door":"1"},
          }
    },
    "3813" : {"area":"72","title":"An industrial-sized, sweat-smelly airlock","environment":"55","exits": {      
-      "3812":{"dir":"east","door"="1"},
+      "3812":{"dir":"east","door":"1"},
       "3814":{"dir":"west",},
          }
    },
@@ -18048,12 +18048,12 @@ nex.rooms = {
    },
    "3829" : {"area":"38","title":"Inside a recessed doorway","environment":"46","exits": {      
       "3825":{"dir":"east",},
-      "3826":{"dir":"west","door"="1"},
+      "3826":{"dir":"west","door":"1"},
          }
    },
    "3826" : {"area":"38","title":"Bustling headquarters of the Song Restoration Society","environment":"5","exits": {      
       "3827":{"dir":"north",},
-      "3829":{"dir":"east","door"="1"},
+      "3829":{"dir":"east","door":"1"},
       "3828":{"dir":"south",},
          }
    },
@@ -18158,7 +18158,7 @@ nex.rooms = {
          }
    },
    "3846" : {"area":"73","title":"A spacious entryway halfway up a shining residence spire.","environment":"4","exits": {      
-      "9257":{"dir":"north","door"="1"},
+      "9257":{"dir":"north","door":"1"},
       "3845":{"dir":"southwest",},
          }
    },
@@ -18169,13 +18169,13 @@ nex.rooms = {
    },
    "3848" : {"area":"73","title":"Microlight Nanodry Laundromat","environment":"4","exits": {      
       "3847":{"dir":"northeast",},
-      "3849":{"dir":"up","door"="1"},
+      "3849":{"dir":"up","door":"1"},
          }
    },
    "3849" : {"area":"73","title":"An upstairs hallway walled with fogged glass","environment":"4","exits": {      
       "3851":{"dir":"southeast",},
       "3850":{"dir":"northwest",},
-      "3848":{"dir":"down","door"="1"},
+      "3848":{"dir":"down","door":"1"},
          }
    },
    "3851" : {"area":"73","title":"A shadowy, console-ringed operations center","environment":"4","exits": {      
@@ -18193,7 +18193,7 @@ nex.rooms = {
    },
    "3853" : {"area":"73","title":"The glittering, neon-lit entrance to The Verge","environment":"4","exits": {      
       "3852":{"dir":"north",},
-      "22480":{"dir":"west","door"="1"},
+      "22480":{"dir":"west","door":"1"},
       "3854":{"dir":"up",},
          }
    },
@@ -18271,12 +18271,12 @@ nex.rooms = {
    },
    "3867" : {"area":"73","title":"Leckie's Place","environment":"4","exits": {      
       "3866":{"dir":"east",},
-      "3868":{"dir":"southwest","door"="1"},
+      "3868":{"dir":"southwest","door":"1"},
          }
    },
    "3868" : {"area":"73","title":"Leckie's private office","environment":"4","exits": {      
       "3869":{"dir":"north",},
-      "3867":{"dir":"northeast","door"="1"},
+      "3867":{"dir":"northeast","door":"1"},
       "3870":{"dir":"west",},
          }
    },
@@ -18312,29 +18312,29 @@ nex.rooms = {
          }
    },
    "3880" : {"area":"73","title":"Passing rows upon rows of embassies","environment":"4","exits": {      
-      "9133":{"dir":"north","door"="1"},
+      "9133":{"dir":"north","door":"1"},
       "3878":{"dir":"east",},
          }
    },
    "3952" : {"area":"73","title":"A winding drive outside the Sa'hak-ren embassy","environment":"5","exits": {      
-      "3953":{"dir":"northeast","door"="1"},
+      "3953":{"dir":"northeast","door":"1"},
       "3879":{"dir":"south",},
          }
    },
    "3953" : {"area":"73","title":"A hexagonal courtyard at the heart of the embassy","environment":"5","exits": {      
-      "3956":{"dir":"northeast","door"="1"},
-      "3955":{"dir":"southeast","door"="1"},
-      "3952":{"dir":"southwest","door"="1"},
-      "3954":{"dir":"northwest","door"="1"},
+      "3956":{"dir":"northeast","door":"1"},
+      "3955":{"dir":"southeast","door":"1"},
+      "3952":{"dir":"southwest","door":"1"},
+      "3954":{"dir":"northwest","door":"1"},
          }
    },
    "3956" : {"area":"73","title":"A lobby containing a flesh-textured spiral staircase","environment":"5","exits": {      
-      "3953":{"dir":"southwest","door"="1"},
+      "3953":{"dir":"southwest","door":"1"},
       "3957":{"dir":"up",},
          }
    },
    "3955" : {"area":"73","title":"An organic, faintly glowing communal quarters","environment":"5","exits": {      
-      "3953":{"dir":"northwest","door"="1"},
+      "3953":{"dir":"northwest","door":"1"},
          }
    },
    "3881" : {"area":"73","title":"A pedestrian ramp angling through commercial enterprises","environment":"4","exits": {      
@@ -18378,11 +18378,11 @@ nex.rooms = {
    },
    "3889" : {"area":"73","title":"A small convenience shop","environment":"67","exits": {      
       "3886":{"dir":"southwest",},
-      "8020":{"dir":"up","door"="1"},
+      "8020":{"dir":"up","door":"1"},
          }
    },
    "3887" : {"area":"73","title":"Aegis Technologies","environment":"4","exits": {      
-      "3890":{"dir":"southeast","door"="1"},
+      "3890":{"dir":"southeast","door":"1"},
       "3886":{"dir":"northwest",},
          }
    },
@@ -18393,7 +18393,7 @@ nex.rooms = {
    "3890" : {"area":"73","title":"The back room of Aegis Technologies","environment":"4","exits": {      
       "3892":{"dir":"east",},
       "3891":{"dir":"south",},
-      "3887":{"dir":"northwest","door"="1"},
+      "3887":{"dir":"northwest","door":"1"},
          }
    },
    "3892" : {"area":"73","title":"A firing range for testing weaponry","environment":"4","exits": {      
@@ -18447,7 +18447,7 @@ nex.rooms = {
    },
    "3901" : {"area":"73","title":"Quickmark Pawn","environment":"4","exits": {      
       "3899":{"dir":"south",},
-      "22497":{"dir":"northwest","door"="1"},
+      "22497":{"dir":"northwest","door":"1"},
          }
    },
    "3902" : {"area":"73","title":"Crazy Jerry's Darkstar Parcel Delivery Service","environment":"4","exits": {      
@@ -18476,7 +18476,7 @@ nex.rooms = {
       "3907":{"dir":"north",},
       "3913":{"dir":"east",},
       "3905":{"dir":"south",},
-      "7566":{"dir":"west","door"="1"},
+      "7566":{"dir":"west","door":"1"},
          }
    },
    "3907" : {"area":"73","title":"A sparse neighborhood towards the edge of the island","environment":"4","exits": {      
@@ -18497,11 +18497,11 @@ nex.rooms = {
    },
    "3910" : {"area":"73","title":"A long moving staircase through the darkness","environment":"4","exits": {      
       "3909":{"dir":"up",},
-      "3911" tgarea="38":{"dir":"down",},
+      "3911" :{"tgarea":"38","dir":"down",},
          }
    },
    "3911" : {"area":"38","title":"A long moving staircase through the darkness","environment":"4","exits": {      
-      "3910" tgarea="73":{"dir":"up",},
+      "3910" :{"tgarea":"73","dir":"up",},
       "3912":{"dir":"down",},
          }
    },
@@ -18516,14 +18516,14 @@ nex.rooms = {
          }
    },
    "3914" : {"area":"73","title":"A loading yard neatly filled with rows of cargo trucks","environment":"4","exits": {      
-      "3915":{"dir":"northeast","door"="1"},
+      "3915":{"dir":"northeast","door":"1"},
       "3913":{"dir":"west",},
          }
    },
    "3915" : {"area":"73","title":"The lofty front entrance of a large factory","environment":"4","exits": {      
       "3916":{"dir":"northeast",},
       "3918":{"dir":"southeast",},
-      "3914":{"dir":"southwest","door"="1"},
+      "3914":{"dir":"southwest","door":"1"},
          }
    },
    "3916" : {"area":"73","title":"Among the SmartCore fabrication machines","environment":"4","exits": {      
@@ -18578,11 +18578,11 @@ nex.rooms = {
    },
    "3926" : {"area":"73","title":"A narrow, traffic-choked maintenance stairwell","environment":"4","exits": {      
       "3925":{"dir":"up",},
-      "3927" tgarea="39":{"dir":"down",},
+      "3927" :{"tgarea":"39","dir":"down",},
          }
    },
    "3927" : {"area":"39","title":"A narrow, traffic-choked maintenance stairwell","environment":"4","exits": {      
-      "3926" tgarea="73":{"dir":"up",},
+      "3926" :{"tgarea":"73","dir":"up",},
       "2501":{"dir":"down",},
          }
    },
@@ -18603,11 +18603,11 @@ nex.rooms = {
    },
    "3931" : {"area":"73","title":"A staircase cutting through the island's superstructure","environment":"4","exits": {      
       "3930":{"dir":"up",},
-      "2541" tgarea="40":{"dir":"down",},
+      "2541" :{"tgarea":"40","dir":"down",},
          }
    },
    "3954" : {"area":"73","title":"A pulsing, membrane-walled chamber","environment":"5","exits": {      
-      "3953":{"dir":"southeast","door"="1"},
+      "3953":{"dir":"southeast","door":"1"},
          }
    },
    "3874" : {"area":"73","title":"A smooth series of white terraces","environment":"4","exits": {      
@@ -18627,7 +18627,7 @@ nex.rooms = {
    },
    "3877" : {"area":"73","title":"Approaching the Memory Gardens","environment":"4","exits": {      
       "3876":{"dir":"east",},
-      "2338" tgarea="7":{"dir":"southwest",},
+      "2338" :{"tgarea":"7","dir":"southwest",},
          }
    },
    "4011" : {"area":"73","title":"One World Armory","environment":"4","exits": {      
@@ -18732,31 +18732,31 @@ nex.rooms = {
          }
    },
    "4003" : {"area":"34","title":"A quiet stateroom","environment":"43","exits": {      
-      "2205":{"dir":"south","door"="1"},
+      "2205":{"dir":"south","door":"1"},
          }
    },
    "4002" : {"area":"34","title":"A quiet stateroom","environment":"43","exits": {      
-      "2204":{"dir":"south","door"="1"},
+      "2204":{"dir":"south","door":"1"},
          }
    },
    "4001" : {"area":"34","title":"A quiet stateroom","environment":"43","exits": {      
-      "2203":{"dir":"south","door"="1"},
+      "2203":{"dir":"south","door":"1"},
          }
    },
    "4000" : {"area":"34","title":"A quiet stateroom","environment":"43","exits": {      
-      "2202":{"dir":"south","door"="1"},
+      "2202":{"dir":"south","door":"1"},
          }
    },
    "3999" : {"area":"34","title":"A quiet stateroom","environment":"43","exits": {      
-      "2201":{"dir":"south","door"="1"},
+      "2201":{"dir":"south","door":"1"},
          }
    },
    "4004" : {"area":"34","title":"A quiet stateroom","environment":"43","exits": {      
-      "2206":{"dir":"south","door"="1"},
+      "2206":{"dir":"south","door":"1"},
          }
    },
    "4005" : {"area":"34","title":"A quiet stateroom","environment":"43","exits": {      
-      "2201":{"dir":"west","door"="1"},
+      "2201":{"dir":"west","door":"1"},
          }
    },
    "692" : {"area":"15","title":"A brightly lit skyrail station","environment":"4","exits": {      
@@ -18777,7 +18777,7 @@ nex.rooms = {
          }
    },
    "4088" : {"area":"6","title":"A row of restricted access teleports","environment":"26","exits": {      
-      "309":{"dir":"north","door"="1"},
+      "309":{"dir":"north","door":"1"},
          }
    },
    "4089" : {"area":"6","title":"An alley behind the warehouse","environment":"47","exits": {      
@@ -18795,22 +18795,22 @@ nex.rooms = {
          }
    },
    "4092" : {"area":"8","title":"A hallway winding through the Cabal Tower","environment":"5","exits": {      
-      "4094":{"dir":"north","door"="1"},
-      "4093":{"dir":"northeast","door"="1"},
-      "4095":{"dir":"east","door"="1"},
+      "4094":{"dir":"north","door":"1"},
+      "4093":{"dir":"northeast","door":"1"},
+      "4095":{"dir":"east","door":"1"},
       "390":{"dir":"southwest",},
          }
    },
    "4094" : {"area":"8","title":"A hallway winding past offices and suites","environment":"5","exits": {      
-      "4092":{"dir":"south","door"="1"},
+      "4092":{"dir":"south","door":"1"},
          }
    },
    "4093" : {"area":"8","title":"A deserted office overlooking the ocean","environment":"5","exits": {      
-      "4092":{"dir":"southwest","door"="1"},
+      "4092":{"dir":"southwest","door":"1"},
          }
    },
    "4095" : {"area":"8","title":"A communal dining hall","environment":"5","exits": {      
-      "4092":{"dir":"west","door"="1"},
+      "4092":{"dir":"west","door":"1"},
          }
    },
    "4096" : {"area":"8","title":"Wandering through the pillared lower city","environment":"5","exits": {      
@@ -19034,7 +19034,7 @@ nex.rooms = {
       "4146":{"dir":"southwest",},
       "4147":{"dir":"west",},
       "4140":{"dir":"northwest",},
-      "952" tgarea="15":{"dir":"in",},
+      "952" :{"tgarea":"15","dir":"in",},
          }
    },
    "4141" : {"area":"76","title":"Surrounded by murk","environment":"20","exits": {      
@@ -19240,7 +19240,7 @@ nex.rooms = {
    },
    "3650" : {"area":"30","title":"The loading bay of Antimony Anomalistics","environment":"5","exits": {      
       "1854":{"dir":"south",},
-      "3651":{"dir":"up","door"="1"},
+      "3651":{"dir":"up","door":"1"},
          }
    },
    "4177" : {"area":"30","title":"A wakeful cloning clinic lined with hover-gurneys","environment":"17","exits": {      
@@ -19962,9 +19962,9 @@ nex.rooms = {
          }
    },
    "4398" : {"area":"82","title":"A featureless hallway","environment":"58","exits": {      
-      "4408":{"dir":"north","door"="1"},
-      "4409":{"dir":"southeast","door"="1"},
-      "4407":{"dir":"west","door"="1"},
+      "4408":{"dir":"north","door":"1"},
+      "4409":{"dir":"southeast","door":"1"},
+      "4407":{"dir":"west","door":"1"},
       "4368":{"dir":"northwest",},
          }
    },
@@ -20012,15 +20012,15 @@ nex.rooms = {
          }
    },
    "4407" : {"area":"82","title":"An empty chamber with a single desk","environment":"15","exits": {      
-      "4398":{"dir":"east","door"="1"},
+      "4398":{"dir":"east","door":"1"},
          }
    },
    "4408" : {"area":"82","title":"A crowded storage room","environment":"15","exits": {      
-      "4398":{"dir":"south","door"="1"},
+      "4398":{"dir":"south","door":"1"},
          }
    },
    "4409" : {"area":"82","title":"A surveillance area with shimmering walls","environment":"15","exits": {      
-      "4398":{"dir":"northwest","door"="1"},
+      "4398":{"dir":"northwest","door":"1"},
          }
    },
    "4410" : {"area":"82","title":"Passing rows and rows of organic reconfiguration vats","environment":"17","exits": {      
@@ -22004,11 +22004,11 @@ nex.rooms = {
          }
    },
    "1956" : {"area":"89","title":"Arrizuri transport hub","environment":"26","exits": {      
-      "1957":{"dir":"south","door"="1"},
+      "1957":{"dir":"south","door":"1"},
          }
    },
    "1957" : {"area":"89","title":"Inside the tropical Arrizuri offices","environment":"15","exits": {      
-      "1956":{"dir":"north","door"="1"},
+      "1956":{"dir":"north","door":"1"},
       "1965":{"dir":"southeast",},
       "1958":{"dir":"southwest",},
          }
@@ -22340,14 +22340,14 @@ nex.rooms = {
          }
    },
    "4959" : {"area":"90","title":"Along the colony walk","environment":"75","exits": {      
-      "4960":{"dir":"north","door"="1"},
+      "4960":{"dir":"north","door":"1"},
       "4961":{"dir":"northeast",},
-      "4979":{"dir":"southeast","door"="1"},
+      "4979":{"dir":"southeast","door":"1"},
       "4957":{"dir":"west",},
          }
    },
    "4960" : {"area":"90","title":"A humble home for a family of Jin","environment":"75","exits": {      
-      "4959":{"dir":"south","door"="1"},
+      "4959":{"dir":"south","door":"1"},
          }
    },
    "4961" : {"area":"90","title":"A dead end in the cliffside tunnels","environment":"75","exits": {      
@@ -22366,13 +22366,13 @@ nex.rooms = {
          }
    },
    "4964" : {"area":"90","title":"Along the colony walk","environment":"75","exits": {      
-      "4965":{"dir":"north","door"="1"},
+      "4965":{"dir":"north","door":"1"},
       "4966":{"dir":"southeast",},
       "4963":{"dir":"west",},
          }
    },
    "4965" : {"area":"90","title":"An administrator's office with white stone walls","environment":"75","exits": {      
-      "4964":{"dir":"south","door"="1"},
+      "4964":{"dir":"south","door":"1"},
          }
    },
    "4966" : {"area":"90","title":"A crowded tunnel marketplace","environment":"75","exits": {      
@@ -22470,7 +22470,7 @@ nex.rooms = {
          }
    },
    "4979" : {"area":"90","title":"A round-walled, light-filled Elgan dwelling","environment":"75","exits": {      
-      "4959":{"dir":"northwest","door"="1"},
+      "4959":{"dir":"northwest","door":"1"},
          }
    },
    "4980" : {"area":"90","title":"A partially excavated tunnel in the cliffs","environment":"37","exits": {      
@@ -22777,7 +22777,7 @@ nex.rooms = {
          }
    },
    "5038" : {"area":"91","title":"Cobalt sand dunes outside a Selassian military complex","environment":"7","exits": {      
-      "5040" tgarea="92":{"dir":"east","door"="1"},
+      "5040" :{"tgarea":"92","dir":"east","door":"1"},
       "5037":{"dir":"west",},
          }
    },
@@ -22789,7 +22789,7 @@ nex.rooms = {
       "5041":{"dir":"north",},
       "5049":{"dir":"east",},
       "5045":{"dir":"south",},
-      "5038" tgarea="91":{"dir":"west","door"="1"},
+      "5038" :{"tgarea":"91","dir":"west","door":"1"},
          }
    },
    "5041" : {"area":"92","title":"A broad tarmac full of military vehicles","environment":"81","exits": {      
@@ -22916,12 +22916,12 @@ nex.rooms = {
          }
    },
    "5064" : {"area":"92","title":"Outside a large, well-shielded armory","environment":"76","exits": {      
-      "5065":{"dir":"north","door"="1"},
+      "5065":{"dir":"north","door":"1"},
       "5062":{"dir":"south",},
          }
    },
    "5065" : {"area":"92","title":"Among aisles and crates of military supply","environment":"76","exits": {      
-      "5064":{"dir":"south","door"="1"},
+      "5064":{"dir":"south","door":"1"},
          }
    },
    "5066" : {"area":"92","title":"An unloading yard outside a small commissary","environment":"76","exits": {      
@@ -22942,8 +22942,8 @@ nex.rooms = {
          }
    },
    "5070" : {"area":"92","title":"The Ormrarr's Upper Chamber","environment":"76","exits": {      
-      "5080":{"dir":"north","door"="1"},
-      "5081":{"dir":"south","door"="1"},
+      "5080":{"dir":"north","door":"1"},
+      "5081":{"dir":"south","door":"1"},
       "5060":{"dir":"down",},
          }
    },
@@ -22995,12 +22995,12 @@ nex.rooms = {
          }
    },
    "5080" : {"area":"92","title":"The patrol circuit atop the wall","environment":"76","exits": {      
-      "5070":{"dir":"south","door"="1"},
+      "5070":{"dir":"south","door":"1"},
       "5079":{"dir":"northwest",},
          }
    },
    "5081" : {"area":"92","title":"The patrol circuit atop the wall","environment":"76","exits": {      
-      "5070":{"dir":"north","door"="1"},
+      "5070":{"dir":"north","door":"1"},
       "5077":{"dir":"southwest",},
          }
    },
@@ -23146,18 +23146,18 @@ nex.rooms = {
          }
    },
    "3261" : {"area":"51","title":"A sepulchral hall","environment":"54","exits": {      
-      "3197":{"dir":"east","door"="1"},
+      "3197":{"dir":"east","door":"1"},
       "3258":{"dir":"northwest",},
          }
    },
    "3197" : {"area":"51","title":"An ancient storage chamber","environment":"54","exits": {      
-      "3261" hidden="1":{"dir":"west","door"="1"},
+      "3261" :{"hidden":"1","dir":"west","door":"1"},
          }
    },
    "5105" : {"area":"12","title":"Maintenance tunnel beneath the rails","environment":"3","exits": {      
       "5120":{"dir":"north",},
       "5106":{"dir":"southeast",},
-      "640":{"dir":"southwest","door"="1"},
+      "640":{"dir":"southwest","door":"1"},
          }
    },
    "5106" : {"area":"12","title":"Maintenance tunnel beneath the rails","environment":"3","exits": {      
@@ -23178,14 +23178,14 @@ nex.rooms = {
          }
    },
    "5110" : {"area":"12","title":"Catwalk surrounding a narrow shaft","environment":"23","exits": {      
-      "5111":{"dir":"north","door"="1"},
+      "5111":{"dir":"north","door":"1"},
       "5124":{"dir":"southeast",},
       "5122":{"dir":"southwest",},
          }
    },
    "5111" : {"area":"12","title":"Maintenance tunnel beneath the rails","environment":"3","exits": {      
       "5113":{"dir":"east",},
-      "5110":{"dir":"south","door"="1"},
+      "5110":{"dir":"south","door":"1"},
       "5112":{"dir":"northwest",},
          }
    },
@@ -23201,7 +23201,7 @@ nex.rooms = {
    },
    "5114" : {"area":"12","title":"Maintenance tunnel beneath the rails","environment":"3","exits": {      
       "5115":{"dir":"north",},
-      "5127":{"dir":"east","door"="1"},
+      "5127":{"dir":"east","door":"1"},
       "5113":{"dir":"southwest",},
          }
    },
@@ -23221,7 +23221,7 @@ nex.rooms = {
          }
    },
    "5118" : {"area":"12","title":"Maintenance tunnel beneath the rails","environment":"3","exits": {      
-      "933":{"dir":"north","door"="1"},
+      "933":{"dir":"north","door":"1"},
       "5116":{"dir":"east",},
       "5119":{"dir":"west",},
          }
@@ -23269,7 +23269,7 @@ nex.rooms = {
    },
    "5127" : {"area":"12","title":"Gravix Tower","environment":"58","exits": {      
       "5126":{"dir":"southeast",},
-      "5114":{"dir":"west","door"="1"},
+      "5114":{"dir":"west","door":"1"},
          }
    },
    "5128" : {"area":"12","title":"Gravix Tower","environment":"58","exits": {      
@@ -23387,7 +23387,7 @@ nex.rooms = {
    },
    "3780" : {"area":"70","title":"In a dangerous gang recreation area","environment":"46","exits": {      
       "3781":{"dir":"north",},
-      "3779":{"dir":"south","door"="1"},
+      "3779":{"dir":"south","door":"1"},
          }
    },
    "3781" : {"area":"70","title":"A long underground warehouse filled with tables of drugs","environment":"46","exits": {      
@@ -23504,18 +23504,18 @@ nex.rooms = {
          }
    },
    "5175" : {"area":"70","title":"At the bottom of a cavernous drain","environment":"46","exits": {      
-      "5176":{"dir":"north","door"="1"},
+      "5176":{"dir":"north","door":"1"},
       "5174":{"dir":"up",},
          }
    },
    "5176" : {"area":"70","title":"An incongruous hydroponic garden","environment":"61","exits": {      
-      "5177":{"dir":"northeast","door"="1"},
-      "5175":{"dir":"south","door"="1"},
+      "5177":{"dir":"northeast","door":"1"},
+      "5175":{"dir":"south","door":"1"},
       "5178":{"dir":"northwest",},
          }
    },
    "5177" : {"area":"70","title":"A gleaming laboratory with a view of an abandoned reservoir","environment":"17","exits": {      
-      "5176":{"dir":"southwest","door"="1"},
+      "5176":{"dir":"southwest","door":"1"},
          }
    },
    "5178" : {"area":"70","title":"The cluttered living quarters of an eccentric scientist","environment":"66","exits": {      
@@ -23740,22 +23740,22 @@ nex.rooms = {
    },
    "5217" : {"area":"70","title":"Clinging to a wall honeycombed with dwellings","environment":"46","exits": {      
       "5218":{"dir":"north",},
-      "5219":{"dir":"south","door"="1"},
+      "5219":{"dir":"south","door":"1"},
       "5164":{"dir":"down",},
          }
    },
    "5218" : {"area":"70","title":"Clinging to a wall honeycombed with dwellings","environment":"46","exits": {      
-      "5220":{"dir":"northeast","door"="1"},
+      "5220":{"dir":"northeast","door":"1"},
       "5217":{"dir":"south",},
          }
    },
    "5219" : {"area":"70","title":"A cramped dwelling tucked into the buried strata","environment":"46","exits": {      
-      "5217":{"dir":"north","door"="1"},
+      "5217":{"dir":"north","door":"1"},
          }
    },
    "5220" : {"area":"70","title":"A cramped dwelling tucked into the buried strata","environment":"66","exits": {      
       "5190":{"dir":"south",},
-      "5218":{"dir":"southwest","door"="1"},
+      "5218":{"dir":"southwest","door":"1"},
          }
    },
    "5190" : {"area":"70","title":"A windowed overlook of the drafty cavern","environment":"66","exits": {      
@@ -23872,12 +23872,12 @@ nex.rooms = {
          }
    },
    "5258" : {"area":"97","title":"An alleyway threaded beneath huge boom cables","environment":"47","exits": {      
-      "5259":{"dir":"east","door"="1"},
+      "5259":{"dir":"east","door":"1"},
       "5257":{"dir":"northwest",},
          }
    },
    "5259" : {"area":"97","title":"The Bolthole Cantina","environment":"62","exits": {      
-      "5258":{"dir":"west","door"="1"},
+      "5258":{"dir":"west","door":"1"},
          }
    },
    "5253" : {"area":"96","title":"A hallway lined with empty B.E.A.S.T. suits","environment":"76","exits": {      
@@ -23892,16 +23892,16 @@ nex.rooms = {
    },
    "5255" : {"area":"96","title":"The end of a hallway lined with empty B.E.A.S.T. suits","environment":"76","exits": {      
       "5254":{"dir":"west",},
-      "5260":{"dir":"up","door"="1"},
+      "5260":{"dir":"up","door":"1"},
          }
    },
    "5260" : {"area":"96","title":"A crescent-shaped control room over a training bay","environment":"80","exits": {      
-      "5261":{"dir":"east","door"="1"},
-      "5255":{"dir":"down","door"="1"},
+      "5261":{"dir":"east","door":"1"},
+      "5255":{"dir":"down","door":"1"},
          }
    },
    "5261" : {"area":"96","title":"Atop a set of stairs leading to the control tower","environment":"76","exits": {      
-      "5260":{"dir":"west","door"="1"},
+      "5260":{"dir":"west","door":"1"},
       "5262":{"dir":"down",},
          }
    },
@@ -24001,7 +24001,7 @@ nex.rooms = {
          }
    },
    "5281" : {"area":"24","title":"Outside a cantina on a cold, desolate planet","environment":"47","exits": {      
-      "497":{"dir":"east","door"="1"},
+      "497":{"dir":"east","door":"1"},
       "5282":{"dir":"southwest",},
          }
    },
@@ -24057,7 +24057,7 @@ nex.rooms = {
       "1921":{"dir":"north",},
       "1923":{"dir":"east",},
       "5518":{"dir":"southeast",},
-      "1899" tgarea="30":{"dir":"southwest",},
+      "1899" :{"tgarea":"30","dir":"southwest",},
       "5517":{"dir":"northwest",},
          }
    },
@@ -24632,7 +24632,7 @@ nex.rooms = {
          }
    },
    "5415" : {"area":"34","title":"On a ladder within a narrow maintenance shaft","environment":"9","exits": {      
-      "5410" tgarea="29":{"dir":"up",},
+      "5410" :{"tgarea":"29","dir":"up",},
       "5414":{"dir":"down",},
          }
    },
@@ -24824,7 +24824,7 @@ nex.rooms = {
       "5431":{"dir":"northeast",},
       "5453":{"dir":"southeast",},
       "5454":{"dir":"west",},
-      "5415" tgarea="34":{"dir":"down",},
+      "5415" :{"tgarea":"34","dir":"down",},
          }
    },
    "5431" : {"area":"29","title":"Walkway spanning an abyss","environment":"23","exits": {      
@@ -25233,7 +25233,7 @@ nex.rooms = {
       "5544":{"dir":"southeast",},
          }
    },
-   "5546" : {"area":"104","title":"Breakaway Rescue Station","environment":"9" important="1","exits": {      
+   "5546" : {"area":"104","title":"Breakaway Rescue Station","environment":"9", "important":"1","exits": {      
       "5552":{"dir":"northeast",},
       "5553":{"dir":"southeast",},
       "5554":{"dir":"southwest",},
@@ -25241,33 +25241,33 @@ nex.rooms = {
          }
    },
    "5552" : {"area":"104","title":"Transports to Ascendancy Territory","environment":"9","exits": {      
-      "5422" tgarea="26":{"dir":"north",},
-      "3776" tgarea="70":{"dir":"east",},
-      "5523" tgarea="102":{"dir":"southeast",},
+      "5422" :{"tgarea":"26","dir":"north",},
+      "3776" :{"tgarea":"70","dir":"east",},
+      "5523" :{"tgarea":"102","dir":"southeast",},
       "5546":{"dir":"southwest",},
-      "1907" tgarea="103":{"dir":"northwest",},
+      "1907" :{"tgarea":"103","dir":"northwest",},
          }
    },
    "5553" : {"area":"104","title":"Transports to Scatterhome Territory","environment":"9","exits": {      
-      "5435" tgarea="101":{"dir":"northeast",},
-      "707" tgarea="14":{"dir":"east",},
-      "1321" tgarea="20":{"dir":"south",},
-      "1335" tgarea="11":{"dir":"southwest",},
+      "5435" :{"tgarea":"101","dir":"northeast",},
+      "707" :{"tgarea":"14","dir":"east",},
+      "1321" :{"tgarea":"20","dir":"south",},
+      "1335" :{"tgarea":"11","dir":"southwest",},
       "5546":{"dir":"northwest",},
          }
    },
    "5554" : {"area":"104","title":"Transports to Neutral Territory","environment":"9","exits": {      
       "5546":{"dir":"northeast",},
-      "5584" tgarea="46":{"dir":"south",},
-      "3208" tgarea="95":{"dir":"west",},
+      "5584" :{"tgarea":"46","dir":"south",},
+      "3208" :{"tgarea":"95","dir":"west",},
          }
    },
    "5551" : {"area":"104","title":"Transports to Song Territory","environment":"9","exits": {      
-      "3832" tgarea="73":{"dir":"north",},
-      "5447" tgarea="28":{"dir":"northeast",},
+      "3832" :{"tgarea":"73","dir":"north",},
+      "5447" :{"tgarea":"28","dir":"northeast",},
       "5546":{"dir":"southeast",},
-      "2539" tgarea="40":{"dir":"southwest",},
-      "2571" tgarea="41":{"dir":"west",},
+      "2539" :{"tgarea":"40","dir":"southwest",},
+      "2571" :{"tgarea":"41","dir":"west",},
          }
    },
    "5562" : {"area":"46","title":"A broad boardwalk","environment":"30","exits": {      
@@ -25604,8 +25604,8 @@ nex.rooms = {
    },
    "5621" : {"area":"95","title":"Near a counter staffed with beleaguered insurance agents","environment":"9","exits": {      
       "3207":{"dir":"north",},
-      "5714":{"dir":"northeast","door"="1"},
-      "6531":{"dir":"south","door"="1"},
+      "5714":{"dir":"northeast","door":"1"},
+      "6531":{"dir":"south","door":"1"},
          }
    },
    "5622" : {"area":"98","title":"Rocky badlands outside a ruined city","environment":"45","exits": {      
@@ -25648,7 +25648,7 @@ nex.rooms = {
    },
    "5629" : {"area":"105","title":"A switchbacking alley road leading towards Scrapston","environment":"69","exits": {      
       "5630":{"dir":"southeast",},
-      "1855" tgarea="30":{"dir":"northwest",},
+      "1855" :{"tgarea":"30","dir":"northwest",},
          }
    },
    "5630" : {"area":"105","title":"A syncrete-railed landing above the flooded canals","environment":"69","exits": {      
@@ -25699,7 +25699,7 @@ nex.rooms = {
          }
    },
    "5639" : {"area":"105","title":"Tumbled tenement rooftops looming over the canals","environment":"69","exits": {      
-      "7144":{"dir":"up","door"="1"},
+      "7144":{"dir":"up","door":"1"},
       "5638":{"dir":"down",},
          }
    },
@@ -25807,17 +25807,17 @@ nex.rooms = {
          }
    },
    "5665" : {"area":"52","title":"Secured passageway","environment":"4","exits": {      
-      "3184":{"dir":"north","door"="1"},
-      "3182":{"dir":"south","door"="1"},
+      "3184":{"dir":"north","door":"1"},
+      "3182":{"dir":"south","door":"1"},
          }
    },
    "5666" : {"area":"52","title":"Observation room","environment":"4","exits": {      
-      "3182":{"dir":"southeast","door"="1"},
+      "3182":{"dir":"southeast","door":"1"},
       "5670":{"dir":"up",},
          }
    },
    "5667" : {"area":"52","title":"Observation room","environment":"4","exits": {      
-      "3182":{"dir":"southwest","door"="1"},
+      "3182":{"dir":"southwest","door":"1"},
       "5672":{"dir":"up",},
          }
    },
@@ -25838,22 +25838,22 @@ nex.rooms = {
    },
    "5674" : {"area":"52","title":"Side alley through Groshoul District","environment":"4","exits": {      
       "5673":{"dir":"north",},
-      "5675":{"dir":"east","door"="1"},
-      "5676":{"dir":"west","door"="1"},
+      "5675":{"dir":"east","door":"1"},
+      "5676":{"dir":"west","door":"1"},
          }
    },
    "5675" : {"area":"52","title":"A tidy Nabian home","environment":"5","exits": {      
-      "5674":{"dir":"west","door"="1"},
+      "5674":{"dir":"west","door":"1"},
          }
    },
    "5676" : {"area":"52","title":"A squalid Nabian home","environment":"5","exits": {      
-      "5674":{"dir":"east","door"="1"},
+      "5674":{"dir":"east","door":"1"},
          }
    },
    "5677" : {"area":"52","title":"Main path through Groshoul District","environment":"4","exits": {      
       "3186":{"dir":"east",},
       "5678":{"dir":"southwest",},
-      "5680":{"dir":"northwest","door"="1"},
+      "5680":{"dir":"northwest","door":"1"},
          }
    },
    "5678" : {"area":"52","title":"Main path through Groshoul District","environment":"4","exits": {      
@@ -25864,7 +25864,7 @@ nex.rooms = {
    },
    "5680" : {"area":"52","title":"A large warehouse","environment":"5","exits": {      
       "5682":{"dir":"north",},
-      "5677":{"dir":"southeast","door"="1"},
+      "5677":{"dir":"southeast","door":"1"},
          }
    },
    "5682" : {"area":"52","title":"Small workshop","environment":"5","exits": {      
@@ -25884,7 +25884,7 @@ nex.rooms = {
    },
    "5686" : {"area":"52","title":"Main path through Groshoul District","environment":"4","exits": {      
       "5685":{"dir":"northeast",},
-      "5688":{"dir":"southeast","door"="1"},
+      "5688":{"dir":"southeast","door":"1"},
       "5687":{"dir":"southwest",},
          }
    },
@@ -25895,7 +25895,7 @@ nex.rooms = {
          }
    },
    "5688" : {"area":"52","title":"A large Nabian home","environment":"5","exits": {      
-      "5686":{"dir":"northwest","door"="1"},
+      "5686":{"dir":"northwest","door":"1"},
          }
    },
    "5689" : {"area":"52","title":"Groshoul District transit station","environment":"5","exits": {      
@@ -25939,7 +25939,7 @@ nex.rooms = {
          }
    },
    "5714" : {"area":"95","title":"An auxiliary engine room","environment":"44","exits": {      
-      "5621":{"dir":"southwest","door"="1"},
+      "5621":{"dir":"southwest","door":"1"},
          }
    },
    "5721" : {"area":"106","title":"Near transparent lift tubes that lead elsewhere.","environment":"9","exits": {      
@@ -27162,7 +27162,7 @@ nex.rooms = {
    },
    "5885" : {"area":"121","title":"A blackened landing area in a wild mountain forest","environment":"8","exits": {      
       "5733":{"dir":"west",},
-      "5958" tgarea="55":{"dir":"down",},
+      "5958" :{"tgarea":"55","dir":"down",},
          }
    },
    "5947" : {"area":"55","title":"A rusty red road near a small colony","environment":"29","exits": {      
@@ -27222,7 +27222,7 @@ nex.rooms = {
    },
    "5958" : {"area":"55","title":"A rusty red road winding into the northern mountains","environment":"29","exits": {      
       "5957":{"dir":"southeast",},
-      "5885" tgarea="121":{"dir":"up",},
+      "5885" :{"tgarea":"121","dir":"up",},
          }
    },
    "3299" : {"area":"69","title":"A path through the forest","environment":"8","exits": {      
@@ -27236,20 +27236,20 @@ nex.rooms = {
          }
    },
    "3301" : {"area":"69","title":"A path through the forest","environment":"8","exits": {      
-      "3302" hidden="1":{"dir":"east","door"="1"},
+      "3302" :{"hidden":"1","dir":"east","door":"1"},
       "3300":{"dir":"south",},
          }
    },
    "3302" : {"area":"69","title":"A shack in the forest","environment":"8","exits": {      
-      "3301":{"dir":"west","door"="1"},
+      "3301":{"dir":"west","door":"1"},
          }
    },
    "5888" : {"area":"69","title":"A dark cell","environment":"59","exits": {      
-      "3265":{"dir":"west","door"="1"},
+      "3265":{"dir":"west","door":"1"},
          }
    },
    "5889" : {"area":"69","title":"A dark cell","environment":"59","exits": {      
-      "3264":{"dir":"west","door"="1"},
+      "3264":{"dir":"west","door":"1"},
          }
    },
    "3267" : {"area":"69","title":"Desolation Arena","environment":"31","exits": {      
@@ -27273,7 +27273,7 @@ nex.rooms = {
          }
    },
    "5974" : {"area":"58","title":"A secluded maintenance closet behind the shuttles","environment":"13","exits": {      
-      "3308":{"dir":"north","door"="1"},
+      "3308":{"dir":"north","door":"1"},
          }
    },
    "5938" : {"area":"69","title":"Slag road outside a secure facility","environment":"81","exits": {      
@@ -27893,7 +27893,7 @@ nex.rooms = {
          }
    },
    "6159" : {"area":"69","title":"A shuttle landing pad","environment":"39","exits": {      
-      "3756":{"dir":"southwest","door"="1"},
+      "3756":{"dir":"southwest","door":"1"},
          }
    },
    "6166" : {"area":"165","title":"Near transparent lift tubes that lead elsewhere.","environment":"9","exits": {      
@@ -28133,7 +28133,7 @@ nex.rooms = {
    "6207" : {"area":"167","title":"A hastily constructed military base","environment":"78","exits": {      
       "6206":{"dir":"southeast",},
       "6209":{"dir":"west",},
-      "6208":{"dir":"northwest","door"="1"},
+      "6208":{"dir":"northwest","door":"1"},
       "6213":{"dir":"up",},
          }
    },
@@ -28143,13 +28143,13 @@ nex.rooms = {
          }
    },
    "6208" : {"area":"167","title":"A cluttered command center","environment":"80","exits": {      
-      "6276" tgarea="168":{"dir":"north",},
-      "6207":{"dir":"southeast","door"="1"},
-      "6211":{"dir":"southwest","door"="1"},
+      "6276" :{"tgarea":"168","dir":"north",},
+      "6207":{"dir":"southeast","door":"1"},
+      "6211":{"dir":"southwest","door":"1"},
          }
    },
    "6211" : {"area":"167","title":"A small armory","environment":"82","exits": {      
-      "6208":{"dir":"northeast","door"="1"},
+      "6208":{"dir":"northeast","door":"1"},
       "6209":{"dir":"east",},
       "6212":{"dir":"up",},
          }
@@ -28545,7 +28545,7 @@ nex.rooms = {
    },
    "6276" : {"area":"168","title":"A clearing before a foggy marshland of dark trees","environment":"20","exits": {      
       "6277":{"dir":"north",},
-      "6208" tgarea="167":{"dir":"south",},
+      "6208" :{"tgarea":"167","dir":"south",},
          }
    },
    "6277" : {"area":"168","title":"Navigating between depthless pools of black fluid","environment":"20","exits": {      
@@ -29148,7 +29148,7 @@ nex.rooms = {
          }
    },
    "3204" : {"area":"48","title":"A seedy upstairs hallway in a run-down apartment complex","environment":"5","exits": {      
-      "3431":{"dir":"north","door"="1"},
+      "3431":{"dir":"north","door":"1"},
       "2985":{"dir":"down",},
          }
    },
@@ -29173,7 +29173,7 @@ nex.rooms = {
          }
    },
    "8250" : {"area":"184","title":"The Doldrums Cantina","environment":"62","exits": {      
-      "7880":{"dir":"northeast","door"="1"},
+      "7880":{"dir":"northeast","door":"1"},
       "8258":{"dir":"west",},
          }
    },
@@ -29182,18 +29182,18 @@ nex.rooms = {
          }
    },
    "7880" : {"area":"184","title":"An orderly office behind the cantina","environment":"62","exits": {      
-      "8250":{"dir":"southwest","door"="1"},
-      "7359":{"dir":"west","door"="1"},
+      "8250":{"dir":"southwest","door":"1"},
+      "7359":{"dir":"west","door":"1"},
          }
    },
    "8263" : {"area":"184","title":"A bootleg cloning facility","environment":"27","exits": {      
-      "8272":{"dir":"southeast","door"="1"},
+      "8272":{"dir":"southeast","door":"1"},
       "8274":{"dir":"southwest",},
       "8258":{"dir":"down",},
          }
    },
    "8272" : {"area":"184","title":"The cavernous ship terminus of Tranquility Deepness","environment":"9","exits": {      
-      "8263":{"dir":"northwest","door"="1"},
+      "8263":{"dir":"northwest","door":"1"},
          }
    },
    "8274" : {"area":"184","title":"A half-lit hangar filled with half-stripped ships","environment":"9","exits": {      
@@ -29554,7 +29554,7 @@ nex.rooms = {
    },
    "6521" : {"area":"11","title":"The Haven City Census Bureau's front lobby","environment":"15","exits": {      
       "6442":{"dir":"east",},
-      "597":{"dir":"out","door"="1"},
+      "597":{"dir":"out","door":"1"},
          }
    },
    "6527" : {"area":"11","title":"A humming server room","environment":"15","exits": {      
@@ -29562,7 +29562,7 @@ nex.rooms = {
          }
    },
    "6522" : {"area":"73","title":"Finesse","environment":"4","exits": {      
-      "22496":{"dir":"southeast","door"="1"},
+      "22496":{"dir":"southeast","door":"1"},
       "3839":{"dir":"south",},
          }
    },
@@ -29571,7 +29571,7 @@ nex.rooms = {
          }
    },
    "6531" : {"area":"95","title":"Spectrum Organic Renovations, Inc.","environment":"9","exits": {      
-      "5621":{"dir":"north","door"="1"},
+      "5621":{"dir":"north","door":"1"},
       "6532":{"dir":"east",},
       "6533":{"dir":"southeast",},
       "6536":{"dir":"south",},
@@ -29605,7 +29605,7 @@ nex.rooms = {
       "6685":{"dir":"east",},
       "6687":{"dir":"southeast",},
       "6688":{"dir":"south",},
-      "677":{"dir":"west","door"="1"},
+      "677":{"dir":"west","door":"1"},
          }
    },
    "6477" : {"area":"13","title":"A sparse clinic","environment":"4","exits": {      
@@ -29635,7 +29635,7 @@ nex.rooms = {
       "6694":{"dir":"southeast",},
       "6696":{"dir":"south",},
       "6697":{"dir":"southwest",},
-      "1480":{"dir":"west","door"="1"},
+      "1480":{"dir":"west","door":"1"},
       "6690":{"dir":"northwest",},
          }
    },
@@ -29668,7 +29668,7 @@ nex.rooms = {
          }
    },
    "6695" : {"area":"16","title":"Spectrum Organic Renovations, Inc.","environment":"4","exits": {      
-      "1354":{"dir":"north","door"="1"},
+      "1354":{"dir":"north","door":"1"},
       "6698":{"dir":"east",},
       "6704":{"dir":"southeast",},
       "6706":{"dir":"south",},
@@ -29727,7 +29727,7 @@ nex.rooms = {
    },
    "6776" : {"area":"34","title":"Spectrum Organic Renovations, Inc.","environment":"9","exits": {      
       "6777":{"dir":"north",},
-      "2174":{"dir":"south","door"="1"},
+      "2174":{"dir":"south","door":"1"},
       "6778":{"dir":"southwest",},
       "6779":{"dir":"west",},
          }
@@ -29762,7 +29762,7 @@ nex.rooms = {
    "6783" : {"area":"22","title":"Spectrum Organic Renovations, Inc.","environment":"4","exits": {      
       "6785":{"dir":"north",},
       "6784":{"dir":"northeast",},
-      "1640":{"dir":"southeast","door"="1"},
+      "1640":{"dir":"southeast","door":"1"},
       "6788":{"dir":"southwest",},
       "6787":{"dir":"west",},
       "6786":{"dir":"northwest",},
@@ -29793,12 +29793,12 @@ nex.rooms = {
       "6792":{"dir":"east",},
       "6793":{"dir":"southeast",},
       "6794":{"dir":"south",},
-      "878":{"dir":"west","door"="1"},
+      "878":{"dir":"west","door":"1"},
          }
    },
    "6790" : {"area":"4","title":"Spectrum Organic Renovations, Inc.","environment":"4","exits": {      
       "6796":{"dir":"north",},
-      "408":{"dir":"northeast","door"="1"},
+      "408":{"dir":"northeast","door":"1"},
       "6803":{"dir":"east",},
       "6804":{"dir":"southeast",},
       "6805":{"dir":"south",},
@@ -29824,7 +29824,7 @@ nex.rooms = {
    },
    "6795" : {"area":"20","title":"Spectrum Organic Renovations, Inc.","environment":"4","exits": {      
       "6797":{"dir":"north",},
-      "1381":{"dir":"southeast","door"="1"},
+      "1381":{"dir":"southeast","door":"1"},
       "6800":{"dir":"southwest",},
       "6799":{"dir":"west",},
       "6798":{"dir":"northwest",},
@@ -29875,7 +29875,7 @@ nex.rooms = {
       "6719":{"dir":"northeast",},
       "6720":{"dir":"east",},
       "6721":{"dir":"southeast",},
-      "2825":{"dir":"southwest","door"="1"},
+      "2825":{"dir":"southwest","door":"1"},
       "6716":{"dir":"northwest",},
          }
    },
@@ -29903,7 +29903,7 @@ nex.rooms = {
       "6725":{"dir":"north",},
       "6726":{"dir":"northeast",},
       "6732":{"dir":"east",},
-      "2973":{"dir":"south","door"="1"},
+      "2973":{"dir":"south","door":"1"},
       "6723":{"dir":"west",},
       "6724":{"dir":"northwest",},
          }
@@ -29974,7 +29974,7 @@ nex.rooms = {
          }
    },
    "6811" : {"area":"30","title":"A domed celebration hall","environment":"5","exits": {      
-      "1727":{"dir":"southwest","door"="1"},
+      "1727":{"dir":"southwest","door":"1"},
          }
    },
    "6812" : {"area":"73","title":"Tranquility Terrace","environment":"5","exits": {      
@@ -29994,7 +29994,7 @@ nex.rooms = {
          }
    },
    "6825" : {"area":"23","title":"Garden of Unity","environment":"12","exits": {      
-      "1758":{"dir":"south","door"="1"},
+      "1758":{"dir":"south","door":"1"},
          }
    },
    "6827" : {"area":"49","title":"A stately celebration hall","environment":"5","exits": {      
@@ -30021,13 +30021,13 @@ nex.rooms = {
          }
    },
    "8278" : {"area":"184","title":"A marketplace erected in the mouth of an ancient hallway","environment":"67","exits": {      
-      "8279":{"dir":"northeast","door"="1"},
+      "8279":{"dir":"northeast","door":"1"},
       "8274":{"dir":"southeast",},
          }
    },
    "8279" : {"area":"184","title":"An echoing, abandoned wing of Tranquility Deepness","environment":"9","exits": {      
       "8280":{"dir":"east",},
-      "8278":{"dir":"southwest","door"="1"},
+      "8278":{"dir":"southwest","door":"1"},
          }
    },
    "8280" : {"area":"184","title":"An echoing, abandoned hall of ancient design","environment":"9","exits": {      
@@ -30072,7 +30072,7 @@ nex.rooms = {
       "9207":{"dir":"northeast",},
       "9212":{"dir":"south",},
       "9562":{"dir":"northwest",},
-      "7683":{"dir":"up","door"="1"},
+      "7683":{"dir":"up","door":"1"},
          }
    },
    "9207" : {"area":"122","title":"Corridor lined with storage lockers","environment":"58","exits": {      
@@ -30086,7 +30086,7 @@ nex.rooms = {
          }
    },
    "9211" : {"area":"122","title":"Entry portal to Storage Facility Okhsh","environment":"58","exits": {      
-      "8816":{"dir":"southeast","door"="1"},
+      "8816":{"dir":"southeast","door":"1"},
       "9210":{"dir":"southwest",},
          }
    },
@@ -30116,25 +30116,25 @@ nex.rooms = {
          }
    },
    "22146" : {"area":"73","title":"Oracle Apparel","environment":"15","exits": {      
-      "22479":{"dir":"northeast","door"="1"},
+      "22479":{"dir":"northeast","door":"1"},
       "3886":{"dir":"south",},
          }
    },
    "22479" : {"area":"73","title":"The back room of Oracle Apparel","environment":"15","exits": {      
-      "22146":{"dir":"southwest","door"="1"},
+      "22146":{"dir":"southwest","door":"1"},
          }
    },
    "22480" : {"area":"73","title":"A server room on the ground floor of the Verge","environment":"15","exits": {      
-      "3853":{"dir":"east","door"="1"},
+      "3853":{"dir":"east","door":"1"},
          }
    },
    "22496" : {"area":"73","title":"The back room of Finesse","environment":"15","exits": {      
-      "6522":{"dir":"northwest","door"="1"},
+      "6522":{"dir":"northwest","door":"1"},
          }
    },
    "9233" : {"area":"122","title":"Entry portal to Storage Facility Yohz","environment":"58","exits": {      
       "9253":{"dir":"northeast",},
-      "9338":{"dir":"south","door"="1"},
+      "9338":{"dir":"south","door":"1"},
       "9276":{"dir":"northwest",},
          }
    },
@@ -30175,11 +30175,11 @@ nex.rooms = {
    },
    "9723" : {"area":"122","title":"Entry portal to Storage Facility Larr","environment":"58","exits": {      
       "9713":{"dir":"southeast",},
-      "9840":{"dir":"west","door"="1"},
+      "9840":{"dir":"west","door":"1"},
          }
    },
    "9338" : {"area":"122","title":"Storage Facility Yohz","environment":"89","exits": {      
-      "9233":{"dir":"north","door"="1"},
+      "9233":{"dir":"north","door":"1"},
       "8532":{"dir":"northeast",},
       "8804":{"dir":"northwest",},
          }
@@ -30215,7 +30215,7 @@ nex.rooms = {
          }
    },
    "22497" : {"area":"73","title":"The back room of the Quickmark Pawn","environment":"15","exits": {      
-      "3901":{"dir":"southeast","door"="1"},
+      "3901":{"dir":"southeast","door":"1"},
          }
    },
    "8932" : {"area":"90","title":"Deeper in the cliff caves.","environment":"37","exits": {      
@@ -30327,20 +30327,20 @@ nex.rooms = {
          }
    },
    "9009" : {"area":"16","title":"Ginegui Designs","environment":"5","exits": {      
-      "9261":{"dir":"east","door"="1"},
+      "9261":{"dir":"east","door":"1"},
       "1354":{"dir":"southwest",},
          }
    },
    "9261" : {"area":"16","title":"A busy workroom","environment":"5","exits": {      
-      "9009":{"dir":"west","door"="1"},
+      "9009":{"dir":"west","door":"1"},
          }
    },
    "9720" : {"area":"30","title":"Lobby of Evergreen Dynamics","environment":"5","exits": {      
-      "1845":{"dir":"north","door"="1"},
+      "1845":{"dir":"north","door":"1"},
          }
    },
    "3431" : {"area":"48","title":"A quiet, dust-covered apartment","environment":"5","exits": {      
-      "3204":{"dir":"south","door"="1"},
+      "3204":{"dir":"south","door":"1"},
          }
    },
    "8302" : {"area":"184","title":"A claustrophobic, pitch black crawlspace","environment":"9","exits": {      
@@ -30624,7 +30624,7 @@ nex.rooms = {
          }
    },
    "1496" : {"area":"15","title":"Secluded area at the back of the night club","environment":"5","exits": {      
-      "945":{"dir":"east","door"="1"},
+      "945":{"dir":"east","door":"1"},
       "1497":{"dir":"out",},
          }
    },
@@ -30634,12 +30634,12 @@ nex.rooms = {
          }
    },
    "9091" : {"area":"122","title":"Reception airlock of Wundishu Biotech","environment":"55","exits": {      
-      "9141":{"dir":"north","door"="1"},
+      "9141":{"dir":"north","door":"1"},
          }
    },
    "9141" : {"area":"122","title":"Hallway","environment":"58","exits": {      
       "7557":{"dir":"east",},
-      "9091":{"dir":"south","door"="1"},
+      "9091":{"dir":"south","door":"1"},
       "7589":{"dir":"west",},
          }
    },
@@ -30656,19 +30656,19 @@ nex.rooms = {
          }
    },
    "7683" : {"area":"122","title":"Hallway","environment":"58","exits": {      
-      "9841":{"dir":"northeast","door"="1"},
+      "9841":{"dir":"northeast","door":"1"},
       "7557":{"dir":"southeast",},
       "7589":{"dir":"southwest",},
-      "9844":{"dir":"northwest","door"="1"},
-      "9206":{"dir":"down","door"="1"},
+      "9844":{"dir":"northwest","door":"1"},
+      "9206":{"dir":"down","door":"1"},
          }
    },
    "9841" : {"area":"122","title":"Office of the Directors","environment":"5","exits": {      
-      "7683":{"dir":"southwest","door"="1"},
+      "7683":{"dir":"southwest","door":"1"},
          }
    },
    "9844" : {"area":"122","title":"Office of the Founder","environment":"5","exits": {      
-      "7683":{"dir":"southeast","door"="1"},
+      "7683":{"dir":"southeast","door":"1"},
          }
    },
    "8583" : {"area":"46","title":"A small garden","environment":"12","exits": {      
@@ -30869,7 +30869,7 @@ nex.rooms = {
    },
    "8816" : {"area":"122","title":"Storage Facility Okhsh","environment":"89","exits": {      
       "8821":{"dir":"northeast",},
-      "9211":{"dir":"northwest","door"="1"},
+      "9211":{"dir":"northwest","door":"1"},
          }
    },
    "8821" : {"area":"122","title":"Storage Facility Okhsh","environment":"89","exits": {      
@@ -30890,12 +30890,12 @@ nex.rooms = {
    },
    "8872" : {"area":"122","title":"Storage Facility Okhsh","environment":"89","exits": {      
       "8845":{"dir":"southeast",},
-      "8894":{"dir":"south","door"="1"},
+      "8894":{"dir":"south","door":"1"},
       "9131":{"dir":"west",},
          }
    },
    "8894" : {"area":"122","title":"Testing lab","environment":"89","exits": {      
-      "8872":{"dir":"north","door"="1"},
+      "8872":{"dir":"north","door":"1"},
       "8895":{"dir":"southwest",},
          }
    },
@@ -30964,7 +30964,7 @@ nex.rooms = {
          }
    },
    "9840" : {"area":"122","title":"Storage Facility Larr","environment":"89","exits": {      
-      "9723":{"dir":"east","door"="1"},
+      "9723":{"dir":"east","door":"1"},
       "9843":{"dir":"west",},
          }
    },
@@ -31049,13 +31049,13 @@ nex.rooms = {
    },
    "10018" : {"area":"122","title":"Entrance to the iceworks","environment":"58","exits": {      
       "9206":{"dir":"south",},
-      "9861":{"dir":"down","door"="1"},
+      "9861":{"dir":"down","door":"1"},
          }
    },
    "9861" : {"area":"122","title":"The frigid corridors of the Wundishu Iceworks","environment":"3","exits": {      
       "10022":{"dir":"northeast",},
       "9892":{"dir":"northwest",},
-      "10018":{"dir":"up","door"="1"},
+      "10018":{"dir":"up","door":"1"},
          }
    },
    "10022" : {"area":"122","title":"The frigid corridors of the Wundishu Iceworks","environment":"3","exits": {      
@@ -31673,7 +31673,7 @@ nex.rooms = {
          }
    },
    "9056" : {"area":"20","title":"Service entrance of Marle's waste collection system","environment":"40","exits": {      
-      "1422":{"dir":"up","door"="1"},
+      "1422":{"dir":"up","door":"1"},
          }
    },
    "6816" : {"area":"183","title":"Fontain Consignments","environment":"62","exits": {      
@@ -31695,35 +31695,35 @@ nex.rooms = {
       "6757":{"dir":"north",},
       "6813":{"dir":"east",},
       "6817":{"dir":"south",},
-      "6905":{"dir":"west","door"="1"},
+      "6905":{"dir":"west","door":"1"},
          }
    },
    "8718" : {"area":"40","title":"Service entrance to a maze of maintenance ducts.","environment":"46","exits": {      
-      "2538":{"dir":"southwest","door"="1"},
+      "2538":{"dir":"southwest","door":"1"},
          }
    },
    "6905" : {"area":"183","title":"Opulent lobby of the Grand Fontain Hotel","environment":"9","exits": {      
-      "6844":{"dir":"east","door"="1"},
+      "6844":{"dir":"east","door":"1"},
          }
    },
    "9252" : {"area":"38","title":"A narrow crawlspace","environment":"23","exits": {      
-      "2475":{"dir":"east","door"="1"},
+      "2475":{"dir":"east","door":"1"},
          }
    },
    "7144" : {"area":"105","title":"Switchbacking further up onto the rooftops","environment":"69","exits": {      
-      "5639":{"dir":"down","door"="1"},
+      "5639":{"dir":"down","door":"1"},
          }
    },
    "7625" : {"area":"30","title":"A repurposed warehouse dealing in dubious goods","environment":"89","exits": {      
-      "1852":{"dir":"southeast","door"="1"},
+      "1852":{"dir":"southeast","door":"1"},
          }
    },
    "8399" : {"area":"30","title":"The back alley behind the bakery","environment":"47","exits": {      
-      "1811":{"dir":"southwest","door"="1"},
+      "1811":{"dir":"southwest","door":"1"},
          }
    },
    "8601" : {"area":"30","title":"An access stairwell leading to some catwalks","environment":"23","exits": {      
-      "1786":{"dir":"west","door"="1"},
+      "1786":{"dir":"west","door":"1"},
          }
    },
    "8937" : {"area":"184","title":"Tangled halls of pitch black metal.","environment":"9","exits": {      
@@ -31776,15 +31776,15 @@ nex.rooms = {
          }
    },
    "7359" : {"area":"184","title":"The dimly lit private lounge of The Doldrums","environment":"62","exits": {      
-      "7880":{"dir":"east","door"="1"},
+      "7880":{"dir":"east","door":"1"},
          }
    },
    "4082" : {"area":"20","title":"The rooftop of Rhodium","environment":"4","exits": {      
-      "1347":{"dir":"down","door"="1"},
+      "1347":{"dir":"down","door":"1"},
          }
    },
    "8020" : {"area":"73","title":"On the rooftop of a small convenience shop","environment":"4","exits": {      
-      "3889":{"dir":"down","door"="1"},
+      "3889":{"dir":"down","door":"1"},
          }
    },
    "8792" : {"area":"65","title":"A cobbled, icy street","environment":"2","exits": {      
