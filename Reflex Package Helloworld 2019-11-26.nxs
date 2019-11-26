@@ -1,0 +1,1 @@
+{"name":"helloworld","enabled":true,"description":"","type":"group","id":1,"items":[{"type":"alias","name":"","enabled":true,"id":2,"matching":"exact","whole_words":true,"case_sensitive":true,"prefix_suffix":true,"actions":[{"action":"script","script":"display_notice('hello world!')"}],"text":"helloworld"}]}
